@@ -1,0 +1,22 @@
+#root {
+    background-image: url(../../assets/images/city-backdrop.JPG);
+}
+
+#home-container {
+    background-color: rgb(180, 74, 70);
+}
+
+#content1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+#content2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+#content3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
