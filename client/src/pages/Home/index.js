@@ -1,11 +1,17 @@
 import React, { Component } from "react";
-import { Grid, Image } from "semantic-ui-react";
+import { Grid, Image, Header } from "semantic-ui-react";
 import ProfilePic from "../../assets/images/james-profile.jpg";
 import "./style.css";
 
 class Home extends Component {
     render() {
         return (
+            <>
+            <Grid container>
+                <Grid.Row>
+                    <Header as="h1">James Geib</Header>
+                </Grid.Row>
+            </Grid>
             <Grid container id="home-container">
                 <Grid.Row>
                     <Grid.Column width={4}>
@@ -40,6 +46,7 @@ class Home extends Component {
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
+        </>
         );
     }
 }
