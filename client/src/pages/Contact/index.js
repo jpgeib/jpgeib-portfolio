@@ -1,14 +1,56 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import ContactForm from "../../components/ContactForm";
+import emailjs from "emailjs-com";
+import { connect } from "react-redux";
 
+import "./style.css";
+import { email } from "redux-form-validators";
 
 class Contact extends Component {
+
+    state = {
+        name: "",
+        email: "",
+        text: "",
+        success: ""
+    }
+
+    onSubmit = () => {
+        emailjs.sendForm("default_service", "template_8ThKxTDq", "#contact-form")
+            .then(() => {
+                this.setState({
+                    name: "",
+                    email: "",
+                    text: "",
+                    success: "Message Sent"
+                })
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
+    handleInputChange = (e) => {
+        let { name, value } = e.target;
+        this.setState({ [name]: value });
+    }
+
     render() {
         return (
-            <div>
-                
-            </div>
+            <Grid id="contact-container">
+                <Grid.Column width={16}>
+                    <Header id="contact-header" as="h1">Contact</Header>
+                </Grid.Column>
+                <Grid.Column width={16}>
+                    <Header id="contact-subheader" as="h3">Please enter the following information:</Header>
+                </Grid.Column>
+                <Grid.Column width={16}>
+                    <ContactForm 
+                        onSubmit={this.onSubmit}
+                        success={this.state.success}
+                    />
+                </Grid.Column>
+            </Grid>
         );
     }
 }
