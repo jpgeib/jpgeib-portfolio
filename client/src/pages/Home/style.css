@@ -1,22 +1,55 @@
-#home-page {
+body {
     background-image: url(../../assets/images/city-backdrop.JPG);
+}
+
+#home-page {
+    margin-top: 3%;
 }
 
 #home-container {
     background-color: rgb(180, 74, 70);
 }
 
+#home-header {
+    font-family: 'Dancing Script', cursive;
+}
+
+#social-container {
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+#social-header {
+    font-family: 'Dancing Script', cursive;
+}
+
+#profile-pic {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
 #content1 {
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
+    margin-bottom: 3%;
 }
 
 #content2 {
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
+    margin-bottom: 3%;
 }
 
 #content3 {
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
+    margin-bottom: 3%;
+}
+
+#github {
+    color: black;
+}
+
+#linkedin {
+    color: black;
 }
