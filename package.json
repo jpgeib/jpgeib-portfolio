@@ -28,6 +28,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
+    "emailjs-com": "^2.6.3",
     "express": "^4.17.1",
     "http-proxy": "^1.18.1",
     "if-env": "^1.0.4",
