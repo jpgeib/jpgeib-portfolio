@@ -1,11 +1,22 @@
 #contact-form {
     margin: 0 auto;
-    width: 80%;
+    background-color: rgb(180, 74, 70);
+    padding: 2%
 }
 
 #contact-submit-btn {
     max-width: 20%;
     margin: 0 auto;
+    background-color:  transparent;
+    color: white;
+    border: solid white 1px;
+    transition: 0.5s;
+}
+
+#contact-submit-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.8s;
 }
 
 #name-header {
