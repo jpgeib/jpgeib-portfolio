@@ -1,0 +1,21 @@
+#contact-form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#contact-submit-btn {
+    max-width: 20%;
+    margin: 0 auto;
+}
+
+#name-header {
+    margin-bottom: 1%;
+}
+
+#email-header {
+    margin-bottom: 1%;
+}
+
+#descrip-header {
+    margin-bottom: 1%;
+}
