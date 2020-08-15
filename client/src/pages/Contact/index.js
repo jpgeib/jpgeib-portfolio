@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import ContactForm from "../../components/ContactForm";
 import emailjs from "emailjs-com";
-import { connect } from "react-redux";
 
 import "./style.css";
-import { email } from "redux-form-validators";
+
 
 class Contact extends Component {
 

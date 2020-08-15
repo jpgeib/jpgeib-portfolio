@@ -33,7 +33,7 @@ class ContactForm extends Component {
         )
     }
 
-    renderDescription = () => {
+    renderDescription = ({ input, meta }) => {
         return(
             <Form.Input 
                 {...input}
