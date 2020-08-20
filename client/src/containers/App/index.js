@@ -3,6 +3,8 @@ import { Route } from "react-router-dom";
 import Home from "../../pages/Home";
 import Contact from "../../pages/Contact";
 import Portfolio from "../../pages/Portfolio";
+import AdobePortfolio from "../../pages/Portfolio/AdobePortfolio";
+import WebDevPortfolio from "../../pages/Portfolio/WebDevPortfolio";
 import Navbar from "../../components/Navbar";
 
 class App extends Component {
@@ -14,6 +16,8 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/adobe" component={AdobePortfolio} />
+        <Route exact path="/webdev" component={WebDevPortfolio} />
       </>
     );
   }
