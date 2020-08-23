@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
-import PhotoShop from "../../assets/images/PhotoShop_Icon.png";
-import InDesign from "../../assets/images/InDesign-icon.png";
-import PremierePro from "../../assets/images/Premiere-Pro-icon.png";
+import WebDevIcon from "../../assets/images/webdev-icon.png";
+import AdobeIcon from "../../assets/images/creative-cloud-icon.png"
+
 
 import "./style.css";
 
@@ -14,12 +14,11 @@ class Portfolio extends Component {
                     <Header as="h1">My Portfolio</Header>
                 </Grid.Column>
                 <Grid.Column width={16}>
-                    <Header as="h3">Click on an icon/link to view my work:</Header>
+                    <Header as="h3">Please select which portfolio you would like to view:</Header>
                 </Grid.Column>
                 <Grid.Column>
-                    <Image size="small" src={PhotoShop} />
-                    <Image size="small" src={InDesign} />
-                    <Image size="small" src={PremierePro} />
+                    <Image src={WebDevIcon} size="large" />
+                    <Image src={AdobeIcon} size="large" />
                 </Grid.Column>
             </Grid>
         );
