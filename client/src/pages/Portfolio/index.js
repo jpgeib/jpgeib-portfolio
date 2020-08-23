@@ -1,26 +1,34 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Grid, Image, Header } from "semantic-ui-react";
 import WebDevIcon from "../../assets/images/webdev-icon.png";
 import AdobeIcon from "../../assets/images/creative-cloud-icon.png"
-
 
 import "./style.css";
 
 class Portfolio extends Component {
     render() {
         return (
-            <Grid id="portfolio-container">
-                <Grid.Column width={16}>
-                    <Header as="h1">My Portfolio</Header>
-                </Grid.Column>
-                <Grid.Column width={16}>
-                    <Header as="h3">Please select which portfolio you would like to view:</Header>
-                </Grid.Column>
-                <Grid.Column>
-                    <Image src={WebDevIcon} size="large" />
-                    <Image src={AdobeIcon} size="large" />
-                </Grid.Column>
-            </Grid>
+            <div id="portfolio-page">
+                <Grid container>
+                    <Grid.Row>
+                        <Grid.Column width={16}>
+                            <Header id="portfolio-header" as="h1">My Portfolio</Header>
+                        </Grid.Column>
+                        <Grid.Column width={16}>
+                            <Header id="portfolio-subheader" as="h3">Please select which portfolio you would like to view:</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
+                <Grid container id="portfolio-container">
+                    <Grid.Column width={8}>
+                        <Image as={Link} to="/webdev" id="webdev-icon" src={WebDevIcon} size="medium" />
+                    </Grid.Column>
+                    <Grid.Column width={8}>
+                        <Image as={Link} to="/adobe" id="adobe-icon" src={AdobeIcon} size="medium" />
+                    </Grid.Column>
+                </Grid>
+            </div>
         );
     }
 }

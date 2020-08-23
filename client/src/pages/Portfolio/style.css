@@ -1,0 +1,27 @@
+#portfolio-page {
+    margin-top: 3%;
+}
+
+#portfolio-header {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 3%;
+}
+
+#portfolio-subheader {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 1%;
+}
+
+#portfolio-container {
+    background-color: rgb(180, 74, 70);
+    width: 80%;
+}
+
+#adobe-icon {
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#webdev-icon {
+    margin: 0 auto;
+}
