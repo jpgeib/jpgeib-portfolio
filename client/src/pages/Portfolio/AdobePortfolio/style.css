@@ -1,0 +1,42 @@
+#adobe-page {
+    margin-top: 3%;
+}
+
+#adobe-header {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 3%;
+}
+
+#headers-container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#adobe-subheader {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 1%;
+}
+
+#adobe-container {
+    background-color: rgb(180, 74, 70);
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#photoshop-icon {
+    margin-left: 2%;
+}
+
+#illustrator-icon {
+    margin-left: 6%;
+}
+
+#indesign-icon {
+    margin-left: 2%;
+}
+
+#premiere-icon {
+    margin-left: 6%;
+}

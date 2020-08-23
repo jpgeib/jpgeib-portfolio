@@ -13,7 +13,7 @@ class Portfolio extends Component {
                 <Grid container>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="portfolio-header" as="h1">My Portfolio</Header>
+                            <Header id="portfolio-header" as="h1">My Portfolios</Header>
                         </Grid.Column>
                         <Grid.Column width={16}>
                             <Header id="portfolio-subheader" as="h3">Please select which portfolio you would like to view:</Header>
