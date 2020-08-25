@@ -2,9 +2,13 @@
     margin-top: 3%;
 }
 
+#webdev-headers-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
 #webdev-header {
     font-family: 'Dancing Script', cursive;
-    margin-bottom: 3%;
 }
 
 #webdev-subheader {
@@ -16,4 +20,58 @@
     background-color: rgb(180, 74, 70);
     margin: 0 auto;
     width: 70%;
+    padding: 1%;
+}
+
+#allchat-container {
+    margin-top: 0;
+    border: solid white 2px;
+}
+
+#feast-fitness-container {
+    margin-top: 0;
+    border: solid white 2px;
+}
+
+#allchat-header {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#feast-fitness-header {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#github-header {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#heroku-header {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.webdev-list-item {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#allchat-github {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#allchat-heroku {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#feast-fitness-github {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

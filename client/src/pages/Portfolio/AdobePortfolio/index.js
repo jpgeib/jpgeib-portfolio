@@ -11,7 +11,7 @@ class AdobePortfolio extends Component {
     render() {
         return (
             <div id="adobe-page">
-                <Grid id="headers-container">
+                <Grid id="adobe-headers-container">
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <Header id="adobe-header" as="h1">Adobe Creative Cloud Portfolio</Header>

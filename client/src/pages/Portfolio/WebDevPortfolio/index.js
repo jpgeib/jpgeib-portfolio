@@ -9,7 +9,7 @@ class WebDevPortfolio extends Component {
     render() {
         return (
             <div id="webdev-page">
-                <Grid container>
+                <Grid id="webdev-headers-container">
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <Header id="webdev-header" as="h1">Full-Stack Web Development Portfolio</Header>
@@ -27,22 +27,22 @@ class WebDevPortfolio extends Component {
                             <Image src={AllChat} size="big" />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <Grid>
+                            <Grid id="allchat-container">
                                 <Grid.Row>
                                     <Grid.Column width={5}>
-                                        <Header as="h2">AllChat</Header>
+                                        <Header id="allchat-header" as="h2">AllChat</Header>
                                     </Grid.Column>
                                     <Grid.Column width={11}>
-                                        <Header as="h3">Github: <a href="https://github.com/paulmhan/AllChat-v2" target=":blank">https://github.com/paulmhan/AllChat-v2</a></Header>
-                                        <Header as="h3">Heroku: <a href="https://all-chat-v2.herokuapp.com" target=":blank">https://all-chat-v2.herokuapp.com</a></Header>
+                                        <Header id="github-header" as="h3">Github: <a id="allchat-github" href="https://github.com/paulmhan/AllChat-v2" target=":blank">https://github.com/paulmhan/AllChat-v2</a></Header>
+                                        <Header id="heroku-header" as="h3">Heroku: <a id="allchat-heroku" href="https://all-chat-v2.herokuapp.com" target=":blank">https://all-chat-v2.herokuapp.com</a></Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
                                         <List bulleted size="massive">
-                                            <List.Item>An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
-                                            <List.Item>Role/Responsibility: Front-End Development, Front-End Design</List.Item>
-                                            <List.Item>Technologies used: React/Redux, CSS, Adobe Photoshop</List.Item>
+                                            <List.Item className="webdev-list-item">An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
+                                            <List.Item className="webdev-list-item">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item className="webdev-list-item">Technologies used: React/Redux, CSS, Adobe Photoshop</List.Item>
                                         </List>
                                     </Grid.Column>
                                 </Grid.Row>
@@ -54,21 +54,21 @@ class WebDevPortfolio extends Component {
                             <Image src={FeastFitness} size="big" />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <Grid>
+                            <Grid id="feast-fitness-container">
                                 <Grid.Row>
                                     <Grid.Column width={5}>
-                                        <Header as="h2">Feast-Fitness</Header>
+                                        <Header id="feast-fitness-header" as="h2">Feast-Fitness</Header>
                                     </Grid.Column>
                                     <Grid.Column width={11}>
-                                        <Header as="h3">Github: <a href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
+                                        <Header id="github-header" as="h3">Github: <a id="feast-fitness-github" href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
                                         <List bulleted size="massive">
-                                            <List.Item>A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
-                                            <List.Item>Role/Responsibility: Front-End Development, Front-End Design</List.Item>
-                                            <List.Item>Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
+                                            <List.Item className="webdev-list-item">A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
+                                            <List.Item className="webdev-list-item">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item className="webdev-list-item">Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
                                         </List>
                                     </Grid.Column>
                                 </Grid.Row>
