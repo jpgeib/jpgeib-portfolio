@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
+import AllChat from "../../../assets/images/AllChatV2.png";
+import FeastFitness from "../../../assets/images/Feast-Fitness.png";
 
 import "./style.css";
 
@@ -14,34 +16,51 @@ class WebDevPortfolio extends Component {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column id="webdev-subheader" width={16}>
-                            <Header as="h3">Projects are listed in order of most recent with links provided:</Header>
+                        <Grid.Column width={16}>
+                            <Header id="webdev-subheader" as="h3">Projects are listed in order of most recent with links provided:</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                <Grid id="webdev-container" container>
+                <Grid id="webdev-container">
                     <Grid.Row>
                         <Grid.Column width={8}>
-
+                            <Image src={AllChat} size="big" />
                         </Grid.Column>
                         <Grid.Column width={8}>
+                            <Grid>
+                                <Grid.Row>
+                                    <Grid.Column width={5}>
+                                        <Header as="h2">AllChat</Header>
+                                    </Grid.Column>
+                                    <Grid.Column width={11}>
+                                        <Header as="h3">Github: <a href="https://github.com/paulmhan/AllChat-v2" target=":blank">https://github.com/paulmhan/AllChat-v2</a></Header>
+                                        <Header as="h3">Heroku: <a href="https://all-chat-v2.herokuapp.com" target=":blank">https://all-chat-v2.herokuapp.com</a></Header>
+                                    </Grid.Column>
+                                </Grid.Row>
+                                <Grid.Row>
 
+                                </Grid.Row>
+                            </Grid>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={8}>
-
+                            <Image src={FeastFitness} size="big" />
                         </Grid.Column>
                         <Grid.Column width={8}>
+                            <Grid>
+                                <Grid.Row>
+                                    <Grid.Column width={5}>
+                                        <Header as="h2">Feast-Fitness</Header>
+                                    </Grid.Column>
+                                    <Grid.Column width={11}>
+                                        <Header as="h3">Github: <a href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
+                                    </Grid.Column>
+                                </Grid.Row>
+                                <Grid.Row>
 
-                        </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                        <Grid.Column width={8}>
-
-                        </Grid.Column>
-                        <Grid.Column width={8}>
-
+                                </Grid.Row>
+                            </Grid>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

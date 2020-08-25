@@ -1,0 +1,19 @@
+#webdev-page {
+    margin-top: 3%;
+}
+
+#webdev-header {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 3%;
+}
+
+#webdev-subheader {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 1%;
+}
+
+#webdev-container {
+    background-color: rgb(180, 74, 70);
+    margin: 0 auto;
+    width: 70%;
+}
