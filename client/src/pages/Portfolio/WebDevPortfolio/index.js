@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Header, Image } from "semantic-ui-react";
+import { Grid, Header, Image, List } from "semantic-ui-react";
 import AllChat from "../../../assets/images/AllChatV2.png";
 import FeastFitness from "../../../assets/images/Feast-Fitness.png";
 
@@ -38,7 +38,13 @@ class WebDevPortfolio extends Component {
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
-
+                                    <Grid.Column width={16}>
+                                        <List bulleted size="massive">
+                                            <List.Item>An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
+                                            <List.Item>Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item>Technologies used: React/Redux, CSS, Adobe Photoshop</List.Item>
+                                        </List>
+                                    </Grid.Column>
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
@@ -58,7 +64,13 @@ class WebDevPortfolio extends Component {
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
-
+                                    <Grid.Column width={16}>
+                                        <List bulleted size="massive">
+                                            <List.Item>A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
+                                            <List.Item>Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item>Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
+                                        </List>
+                                    </Grid.Column>
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
