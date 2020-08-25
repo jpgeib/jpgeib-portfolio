@@ -39,7 +39,7 @@ class WebDevPortfolio extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <List bulleted size="massive">
+                                        <List bulleted size="big">
                                             <List.Item className="webdev-list-item">An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
                                             <List.Item className="webdev-list-item">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
                                             <List.Item className="webdev-list-item">Technologies used: React/Redux, CSS, Adobe Photoshop</List.Item>
@@ -65,7 +65,7 @@ class WebDevPortfolio extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <List bulleted size="massive">
+                                        <List bulleted size="big">
                                             <List.Item className="webdev-list-item">A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
                                             <List.Item className="webdev-list-item">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
                                             <List.Item className="webdev-list-item">Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>

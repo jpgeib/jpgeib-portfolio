@@ -10,7 +10,7 @@ class Home extends Component {
                 <div id="home-page">
                     <Grid container>
                         <Grid.Row>
-                            <Header id="home-header" as="h1">James Geib</Header>
+                            <Header id="home-header" as="h1">James Geib - Full-Stack Web Developer</Header>
                         </Grid.Row>
                     </Grid>
                     <Grid container id="home-container">

@@ -11,22 +11,30 @@
     color: white;
     border: solid white 1px;
     transition: 0.5s;
+    font-family: 'Dancing Script', cursive;
 }
 
 #contact-submit-btn:hover {
     background-color: white;
     color: black;
     transition: 0.8s;
+    font-family: 'Dancing Script', cursive;
 }
 
 #name-header {
     margin-bottom: 1%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
 }
 
 #email-header {
     margin-bottom: 1%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
 }
 
 #descrip-header {
     margin-bottom: 1%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
 }

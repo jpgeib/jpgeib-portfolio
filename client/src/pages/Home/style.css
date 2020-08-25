@@ -2,11 +2,16 @@ body {
     background-image: url(../../assets/images/city-backdrop.JPG);
 }
 
+p {
+    color: white;
+}
+
 #home-page {
     margin-top: 3%;
 }
 
 #home-container {
+    margin-top: 2%;
     background-color: rgb(180, 74, 70);
 }
 
@@ -21,6 +26,7 @@ body {
 
 #social-header {
     font-family: 'Dancing Script', cursive;
+    color: white;
 }
 
 #profile-pic {
@@ -47,9 +53,9 @@ body {
 }
 
 #github {
-    color: black;
+    color: white;
 }
 
 #linkedin {
-    color: black;
+    color: white;
 }
