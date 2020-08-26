@@ -7,12 +7,11 @@ import "./style.css";
 
 class ContactForm extends Component {
 
-    renderName = ({ input, meta, placeholder }) => {
+    renderName = ({ input, meta }) => {
         return (
             <Form.Input
                 {...input}
                 error={meta.touched && meta.error}
-                fluid
                 autoComplete="off"
                 placeholder="Enter your name..."
             />
@@ -24,9 +23,6 @@ class ContactForm extends Component {
             <Form.Input
                 {...input}
                 error={meta.touched && meta.error}
-                fluid
-                icon="user"
-                iconPosition="left"
                 autoComplete="off"
                 placeholder="Enter your email..."
             />
@@ -38,10 +34,8 @@ class ContactForm extends Component {
             <Form.Input
                 {...input}
                 error={meta.touched && meta.error}
-                fluid
                 icon="write"
                 control={TextArea}
-                iconPosition="left"
                 autoComplete="off"
                 placeholder="e.g. Business, Collaboration, etc."
             />

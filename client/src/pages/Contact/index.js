@@ -23,7 +23,7 @@ class Contact extends Component {
                     email: "",
                     text: "",
                     success: "Message Sent"
-                })
+                });
             }, (error) => {
                 console.log(error.text);
             });
@@ -31,6 +31,7 @@ class Contact extends Component {
 
     handleInputChange = (e) => {
         let { name, value } = e.target;
+        console.log(value);
         this.setState({ [name]: value });
     }
 
@@ -47,6 +48,7 @@ class Contact extends Component {
                     <ContactForm 
                         onSubmit={this.onSubmit}
                         success={this.state.success}
+                        handleInputChange={this.handleInputChange}
                     />
                 </Grid.Column>
             </Grid>
