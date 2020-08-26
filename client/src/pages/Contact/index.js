@@ -16,7 +16,7 @@ class Contact extends Component {
     }
 
     onSubmit = () => {
-        emailjs.sendForm("default_service", "template_8ThKxTDq", "#contact-form")
+        emailjs.sendForm("default_service", "template_0o77yYWu", "#contact-form", "user_3Qcpjg0QCzjUatTj31evA")
             .then(() => {
                 this.setState({
                     name: "",
