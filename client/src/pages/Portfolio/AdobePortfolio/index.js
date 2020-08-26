@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 import Photoshop from "../../../assets/images/PhotoShop_Icon.png";
 import InDesign from "../../../assets/images/InDesign-icon.png";
 import PremierePro from "../../../assets/images/Premiere-Pro-icon.png";
@@ -25,16 +26,16 @@ class AdobePortfolio extends Component {
                     <Grid.Row>
                         <Grid.Column width={4}></Grid.Column>
                         <Grid.Column width={4}>
-                            <Image id="photoshop-icon" src={Photoshop} size="small" />
+                            <Image as={Link} to="/files/photoshop-examples.zip" target=":blank" download id="photoshop-icon" src={Photoshop} size="small" />
                         </Grid.Column>
                         <Grid.Column width={4}>
-                            <Image id="illustrator-icon" src={Illustrator} size="small" />
+                            <Image as={Link} to="/files/illustrator-examples.zip" target=":blank" download id="illustrator-icon" src={Illustrator} size="small" />
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                     <Grid.Column width={4}></Grid.Column>
                         <Grid.Column width={4}>
-                            <Image id="indesign-icon" src={InDesign} size="small" />
+                            <Image as={Link} to="/files/indesign-examples.zip" target=":blank" download id="indesign-icon" src={InDesign} size="small" />
                         </Grid.Column>
                         <Grid.Column width={4}>
                             <Image id="premiere-icon" src={PremierePro} size="small" />
