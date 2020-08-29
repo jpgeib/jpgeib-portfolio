@@ -16,7 +16,7 @@ p {
 }
 
 #home-header {
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #social-container {
@@ -25,7 +25,7 @@ p {
 }
 
 #social-header {
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
 
@@ -35,19 +35,19 @@ p {
 }
 
 #content1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
     margin-bottom: 3%;
 }
 
 #content2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
     margin-bottom: 3%;
 }
 
 #content3 {
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
     margin-bottom: 3%;
 }

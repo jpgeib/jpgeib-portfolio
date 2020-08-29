@@ -8,11 +8,11 @@
 }
 
 #webdev-header {
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #webdev-subheader {
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 1%;
 }
 
@@ -35,27 +35,27 @@
 
 #allchat-header {
     color: white;
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #feast-fitness-header {
     color: white;
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #github-header {
     color: white;
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #heroku-header {
     color: white;
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .webdev-list-item {
     color: white;
-    font-family: 'Dancing Script', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #allchat-github {
