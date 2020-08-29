@@ -29,11 +29,9 @@ class Contact extends Component {
             });
     }
 
-    handleInputChange = (e) => {
-        let { name, value } = e.target;
-        console.log(value);
-        this.setState({ [name]: value });
-    }
+    // handleInputChange = (e) => {
+    //     console.log(e.target);
+    // }
 
     render() {
         return (
@@ -48,7 +46,6 @@ class Contact extends Component {
                     <ContactForm 
                         onSubmit={this.onSubmit}
                         success={this.state.success}
-                        handleInputChange={this.handleInputChange}
                     />
                 </Grid.Column>
             </Grid>

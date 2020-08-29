@@ -48,6 +48,12 @@ class ContactForm extends Component {
         reset("contact");
     }
 
+    handleInputChange = (e) => {
+        console.log(e.target.value);
+        let [name, value] = e.target.value;
+        this.setState({ [name]: value });
+    }
+
     render() {
         const { handleSubmit, invalid, submitting, submitFailed } = this.props;
         return (
@@ -65,6 +71,7 @@ class ContactForm extends Component {
                                     validate={
                                         required({ msg: "You must provide a name." })
                                     }
+                                    onChange={this.handleInputChange}
                                 />
                             </Grid.Column>
                         </Grid.Row>
@@ -82,6 +89,7 @@ class ContactForm extends Component {
                                             email({ msg: "You must provide a valid e-mail address." })
                                         ]
                                     }
+                                    onChange={this.handleInputChange}
                                 />
                             </Grid.Column>
                         </Grid.Row>
@@ -96,6 +104,7 @@ class ContactForm extends Component {
                                     validate={
                                         required({ msg: "You must provide a description." })
                                     }
+                                    onChange={this.handleInputChange}
                                 />
                             </Grid.Column>
 
