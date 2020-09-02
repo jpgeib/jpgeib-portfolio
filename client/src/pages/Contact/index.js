@@ -24,6 +24,7 @@ class Contact extends Component {
                     text: "",
                     success: "Message Sent"
                 });
+                console.log(this.state.success)
             }, (error) => {
                 console.log(error.text);
             });
