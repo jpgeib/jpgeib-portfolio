@@ -21,6 +21,16 @@ class Home extends Component {
                                         <Image id="profile-pic" src={ProfilePic} size="massive" />
                                     </Grid.Column>
                                 </Grid.Row>
+
+                                <Grid.Row>
+                                    <Grid.Column width={16}>
+                                        <div id="contact-container">
+                                            <Header id="contact-header" as="h2">Contact Info:</Header>
+                                            <Header id="phone" as="h3"><Icon size="huge" name="phone" />(203)-736-7540</Header>
+                                            <Header id="email" as="h3"><Icon size="huge" name="mail" />jpgeib2@gmail.com</Header>
+                                        </div>
+                                    </Grid.Column>
+                                </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
                                         <div id="social-container">
