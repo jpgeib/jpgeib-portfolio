@@ -18,6 +18,8 @@ class App extends Component {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/adobe" component={AdobePortfolio} />
         <Route exact path="/webdev" component={WebDevPortfolio} />
+        <Route exact path="/webdev/projects" component={WebDevPortfolio} />
+        <Route exact path="/webdev/skills" component={WebDevPortfolio} />
       </>
     );
   }
