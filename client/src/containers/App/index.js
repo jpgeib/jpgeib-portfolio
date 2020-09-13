@@ -7,6 +7,7 @@ import AdobePortfolio from "../../pages/Portfolio/AdobePortfolio";
 import WebDevPortfolio from "../../pages/Portfolio/WebDevPortfolio";
 import Navbar from "../../components/Navbar";
 import ProjectSection from "../../components/ProjectSection";
+import SkillSection from "../../components/SkillSection";
 
 class App extends Component {
   
@@ -20,7 +21,7 @@ class App extends Component {
         <Route exact path="/adobe" component={AdobePortfolio} />
         <Route exact path="/webdev" component={WebDevPortfolio} />
         <Route exact path="/webdev/projects" component={ProjectSection} />
-        <Route exact path="/webdev/skills" component={WebDevPortfolio} />
+        <Route exact path="/webdev/skills" component={SkillSection} />
       </>
     );
   }
