@@ -1,3 +1,21 @@
+#webdev-page {
+    margin-top: 3%;
+}
+
+#webdev-headers-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#webdev-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#webdev-subheader {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1%;
+}
+
 #webdev-container {
     background-color: rgb(180, 74, 70);
     margin: 0 auto;

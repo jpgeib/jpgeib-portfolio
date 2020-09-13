@@ -8,7 +8,20 @@ import "./style.css";
 class ProjectSection extends Component {
     render() {
         return (
-            <Grid id="webdev-container">
+            <div id="webdev-page">
+                <Grid id="webdev-headers-container">
+                    <Grid.Row>
+                        <Grid.Column width={16}>
+                            <Header id="webdev-header" as="h1">Full-Stack Web Development Projects</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={16}>
+                            <Header id="webdev-subheader" as="h3">Projects are listed in order of most recent with links provided:</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
+                <Grid id="webdev-container">
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image src={AllChat} size="big" />
@@ -63,6 +76,7 @@ class ProjectSection extends Component {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
+            </div>
         );
     }
 };
