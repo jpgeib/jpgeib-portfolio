@@ -1,4 +1,5 @@
 import React,  { Component } from "react";
+import { Link } from "react-router-dom";
 import { Menu } from "semantic-ui-react";
 
 export default class WebDevMenu extends Component {
@@ -13,11 +14,15 @@ export default class WebDevMenu extends Component {
         return(
             <Menu attached="top" tabular>
                 <Menu.Item 
+                    as={Link}
+                    to="/webdev/projects"
                     name="projects"
                     active={activeItem === "projects"}
                     onClick={this.handleItemClick}
                 />
-                <Menu.Item 
+                <Menu.Item
+                    as={Link}
+                    to="/webdev/skills"
                     name="skills"
                     active={activeItem === "skills"}
                     onClick={this.handleItemClick}
