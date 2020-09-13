@@ -6,8 +6,8 @@ import Portfolio from "../../pages/Portfolio";
 import AdobePortfolio from "../../pages/Portfolio/AdobePortfolio";
 import WebDevPortfolio from "../../pages/Portfolio/WebDevPortfolio";
 import Navbar from "../../components/Navbar";
-import ProjectSection from "../../components/ProjectSection";
-import SkillSection from "../../components/SkillSection";
+import ProjectSection from "../../pages/Portfolio/WebDevPortfolio/ProjectSection";
+import SkillSection from "../../pages/Portfolio/WebDevPortfolio/SkillSection";
 
 class App extends Component {
   

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, List } from "semantic-ui-react";
-import WebDevMenu from "../../../containers/WebDevMenu";
 import AllChat from "../../../assets/images/AllChatV2.png";
 import FeastFitness from "../../../assets/images/Feast-Fitness.png";
 

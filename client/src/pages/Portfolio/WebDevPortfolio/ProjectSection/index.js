@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, List } from "semantic-ui-react";
-import WebDevMenu from "../../containers/WebDevMenu";
-import AllChat from "../../assets/images/AllChatV2.png";
-import FeastFitness from "../../assets/images/Feast-Fitness.png";
+import AllChat from "../../../../assets/images/AllChatV2.png";
+import FeastFitness from "../../../../assets/images/Feast-Fitness.png";
 
 import "./style.css";
 
@@ -10,7 +9,6 @@ class ProjectSection extends Component {
     render() {
         return (
             <Grid id="webdev-container">
-                <WebDevMenu />
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image src={AllChat} size="big" />
