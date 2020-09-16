@@ -15,9 +15,7 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" component={Home} />
         {/* <Route exact path="/contact" component={Contact} /> */}
-        
         <Route exact path="/adobe" component={AdobePortfolio} />
-        
         <Route exact path="/webdev/projects" component={ProjectSection} />
         <Route exact path="/webdev/skills" component={SkillSection} />
       </>

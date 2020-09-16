@@ -45,26 +45,35 @@ class Home extends Component {
                                 <div id="paragraphs">
                                     <div id="content1">
                                         <p>
-                                            I am a graduate of Fordham University with two Bachelor's
-                                            degrees in Communications: Digital Technology and Emerging Media,
-                                    and Film/Television Studies. Currently living in Oakland, CA.</p>
+                                            I am a graduate of UC Berkeley Extension's Coding Boot Camp with a 
+                                            certificate in Full-Stack Web Development, and Fordham University 
+                                            with two Bachelor's degrees in Communications: Digital Technology and 
+                                            Emerging Media, and Film/Television Studies. Currently living in Milford, 
+                                            CT; willing to relocate if necessary.
+                                        </p>
                                     </div>
 
                                     <div id="content2">
                                         <p>
-                                            I am proficient in multiple Adobe Creative Cloud applications,
-                                            have many years of experience working in Microsoft Office, and a basic knowledge of
-                                    HTML5, CSS, Javascript, and SQL programming languages.</p>
+                                            I am proficient in HTML5, CSS/CSS Frameworks, Javascript/jQuery, and SQL coding languages, and have
+                                            experience working in MERN stack development. I specialize mostly in front-end development and design,
+                                            enhanced by knowledge in Adobe Creative Cloud applications, but I can also work in back-end development
+                                            when needed.
+                                        </p>
                                     </div>
 
                                     <div id="content3">
                                         <p>
                                             I am ideally looking for a position that will allow me
-                                            to utilize my pre-exisiting skills in Adobe, and improve
-                                            upon them as I use them throughout the job. Alternatively, I am
-                                            also looking for a web development or data engineering position to
-                                            utilize my current set of coding languages. If you would like to see
-                                    examples of my work, please consult my portfolio.</p>
+                                            to utilize my ability to create an eye-catching, yet simple 
+                                            user-friendly interface for websites, apps, and other digital 
+                                            media, in order to enhance the user experience with a visually 
+                                            optimized client-side service. Having been on the consumer side of 
+                                            various software, I understand the frustration users may have when navigating
+                                            through different pages/menus just to find one small piece of information. My mission
+                                            as a front-end developer is to create an intuitive, easy-to-follow format that minimizes
+                                            any confusion or difficulty in using.
+                                        </p>
                                     </div>
                                 </div>
                             </Grid.Column>
