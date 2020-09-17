@@ -6,7 +6,7 @@ import "./style.css";
 class SkillSection extends Component {
     render() {
         return (
-            <div>
+            <div id="skills-page">
                 <Header as="h1">Skills</Header>
             </div>
         );

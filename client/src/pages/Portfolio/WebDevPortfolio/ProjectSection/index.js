@@ -8,20 +8,20 @@ import "./style.css";
 class ProjectSection extends Component {
     render() {
         return (
-            <div id="webdev-page">
-                <Grid id="webdev-headers-container">
+            <div id="project-page">
+                <Grid id="project-headers-container">
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="webdev-header" as="h1">Full-Stack Web Development Projects</Header>
+                            <Header id="project-header" as="h1">Full-Stack Web Development Projects</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="webdev-subheader" as="h3">Projects are listed in order of most recent with links provided:</Header>
+                            <Header id="project-subheader" as="h3">Projects are listed in order of most recent with links provided:</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                <Grid id="webdev-container">
+                <Grid id="project-container">
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image src={AllChat} size="big" />
@@ -40,9 +40,9 @@ class ProjectSection extends Component {
                                 <Grid.Row>
                                     <Grid.Column width={16}>
                                         <List bulleted size="big">
-                                            <List.Item className="webdev-list-item">An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
-                                            <List.Item className="webdev-list-item">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
-                                            <List.Item className="webdev-list-item">Technologies used: React/Redux, CSS, Adobe Photoshop</List.Item>
+                                            <List.Item className="project-list-item">An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
+                                            <List.Item className="project-list-item">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item className="project-list-item">Technologies used: React/Redux, CSS, Adobe Photoshop</List.Item>
                                         </List>
                                     </Grid.Column>
                                 </Grid.Row>
@@ -66,9 +66,9 @@ class ProjectSection extends Component {
                                 <Grid.Row>
                                     <Grid.Column width={16}>
                                         <List bulleted size="big">
-                                            <List.Item className="webdev-list-item">A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
-                                            <List.Item className="webdev-list-item">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
-                                            <List.Item className="webdev-list-item">Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
+                                            <List.Item className="project-list-item">A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
+                                            <List.Item className="project-list-item">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item className="project-list-item">Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
                                         </List>
                                     </Grid.Column>
                                 </Grid.Row>

@@ -1,22 +1,22 @@
-#webdev-page {
+#project-page {
     margin-top: 3%;
 }
 
-#webdev-headers-container {
+#project-headers-container {
     margin: 0 auto;
     width: 70%;
 }
 
-#webdev-header {
+#project-header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#webdev-subheader {
+#project-subheader {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 1%;
 }
 
-#webdev-container {
+#project-container {
     background-color: rgb(180, 74, 70);
     margin: 0 auto;
     width: 70%;
@@ -53,7 +53,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.webdev-list-item {
+.project-list-item {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
