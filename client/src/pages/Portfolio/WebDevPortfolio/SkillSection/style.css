@@ -21,4 +21,7 @@
     margin: 0 auto;
     width: 70%;
     padding: 1%;
+    overflow-y: auto;
+    height: 700px;
+    /* max-height: 40%; */
 }
