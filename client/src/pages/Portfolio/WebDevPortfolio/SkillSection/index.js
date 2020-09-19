@@ -3,6 +3,11 @@ import { Grid, Header, Image, List } from "semantic-ui-react";
 import HTML5 from "../../../../assets/images/HTML-icon.png";
 import CSS from "../../../../assets/images/CSS-icon.png";
 import JavaScript from "../../../../assets/images/Javascript-icon.png";
+import jQuery from "../../../../assets/images/jquery-logo.png";
+import SQL from "../../../../assets/images/sql-logo.png";
+import MongoDB from "../../../../assets/images/mongodb-logo.png";
+import ReactLogo from "../../../../assets/images/classic-react-logo.png";
+import ReduxLogo from "../../../../assets/images/redux-logo.png";
 
 import "./style.css";
 
@@ -45,6 +50,46 @@ class SkillSection extends Component {
                         </Grid.Column>
                         <Grid.Column width={8}>
                             <Header id="javascript-header" as="h2">JavaScript</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image src={jQuery} size="small" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <Header id="jquery-header" as="h2">jQuery</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image src={SQL} size="small" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <Header id="sql-header" as="h2">SQL</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image src={MongoDB} size="small" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <Header id="mongo-header" as="h2">MongoDB</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image src={ReactLogo} size="small" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <Header id="react-header" as="h2">React.js</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image src={ReduxLogo} size="small" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <Header id="redux-header" as="h2">Redux.js</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
