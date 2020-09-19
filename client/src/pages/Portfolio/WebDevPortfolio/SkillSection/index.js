@@ -33,7 +33,7 @@ class SkillSection extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Image src={HTML5} size="small" />
+                                        <Image id="html5-logo" src={HTML5} size="small" />
                                     </Grid.Column>
                                     <Grid.Column width={16}>
                                         <Header id="html5-header" as="h2">HTML5</Header>
@@ -45,7 +45,7 @@ class SkillSection extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Image src={CSS} size="small" />
+                                        <Image id="css-logo" src={CSS} size="small" />
                                     </Grid.Column>
                                     <Grid.Column width={16}>
                                         <Header id="css-header" as="h2">CSS</Header>
@@ -59,7 +59,7 @@ class SkillSection extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Image src={JavaScript} size="small" />
+                                        <Image id="javascript-logo" src={JavaScript} size="small" />
                                     </Grid.Column>
                                     <Grid.Column width={16}>
                                         <Header id="javascript-header" as="h2">JavaScript</Header>
@@ -71,7 +71,7 @@ class SkillSection extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Image src={jQuery} size="small" />
+                                        <Image id="jquery-logo" src={jQuery} size="small" />
                                     </Grid.Column>
                                     <Grid.Column width={16}>
                                         <Header id="jquery-header" as="h2">jQuery</Header>
@@ -85,7 +85,7 @@ class SkillSection extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Image src={SQL} size="small" />
+                                        <Image id="sql-logo" src={SQL} size="small" />
                                     </Grid.Column>
                                     <Grid.Column width={16}>
                                         <Header id="sql-header" as="h2">SQL</Header>
@@ -111,7 +111,7 @@ class SkillSection extends Component {
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Image src={ReactLogo} size="small" />
+                                        <Image id="react-logo" src={ReactLogo} size="small" />
                                     </Grid.Column>
                                     <Grid.Column width={16}>
                                         <Header id="react-header" as="h2">React.js</Header>
