@@ -31,7 +31,7 @@ class SkillSection extends Component {
                 </Grid>
                 <Grid id="skills-container">
                     <Grid.Row>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -43,7 +43,7 @@ class SkillSection extends Component {
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -55,9 +55,7 @@ class SkillSection extends Component {
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -69,7 +67,7 @@ class SkillSection extends Component {
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -83,7 +81,7 @@ class SkillSection extends Component {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -95,7 +93,7 @@ class SkillSection extends Component {
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -107,9 +105,7 @@ class SkillSection extends Component {
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -121,7 +117,7 @@ class SkillSection extends Component {
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -135,7 +131,8 @@ class SkillSection extends Component {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}></Grid.Column>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
@@ -147,18 +144,19 @@ class SkillSection extends Component {
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
-                        <Grid.Column width={8}>
+                        <Grid.Column width={4}>
                             <Grid>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
                                         <Image id="canto-logo" src={Canto} size="small" />
                                     </Grid.Column>
                                     <Grid.Column width={16}>
-                                        <Header id="canto-header" as="h2">Canto Digital Asset Management</Header>
+                                        <Header id="canto-header" as="h2">Canto</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>
                         </Grid.Column>
+                        <Grid.Column width={4}></Grid.Column>
                     </Grid.Row>
                 </Grid>
             </div>
