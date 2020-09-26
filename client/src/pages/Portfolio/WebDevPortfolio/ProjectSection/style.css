@@ -21,6 +21,13 @@
     margin: 0 auto;
     width: 70%;
     padding: 1%;
+    overflow-y: auto;
+    height: 715px;
+}
+
+#portfolio-container {
+    margin-top: 0;
+    border: solid white 2px;
 }
 
 #allchat-container {
@@ -31,6 +38,11 @@
 #feast-fitness-container {
     margin-top: 0;
     border: solid white 2px;
+}
+
+#portfolio-header {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #allchat-header {
@@ -55,6 +67,18 @@
 
 .project-list-item {
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#portfolio-github {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#portfolio-heroku {
+    color: white;
+    text-decoration-line: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

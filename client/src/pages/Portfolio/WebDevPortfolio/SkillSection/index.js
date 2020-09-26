@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Header, Image, List } from "semantic-ui-react";
+import { Grid, Header, Image } from "semantic-ui-react";
 import HTML5 from "../../../../assets/images/HTML-icon.png";
 import CSS from "../../../../assets/images/CSS-icon.png";
 import JavaScript from "../../../../assets/images/Javascript-icon.png";
