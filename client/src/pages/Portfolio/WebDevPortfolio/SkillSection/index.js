@@ -8,6 +8,8 @@ import SQL from "../../../../assets/images/sql-logo.png";
 import MongoDB from "../../../../assets/images/mongodb-logo.png";
 import ReactLogo from "../../../../assets/images/classic-react-logo.png";
 import ReduxLogo from "../../../../assets/images/redux-logo.png";
+import ExpressLogo from "../../../../assets/images/expressjs.png";
+import Canto from "../../../../assets/images/canto-logo-orange.png";
 
 import "./style.css";
 
@@ -127,6 +129,32 @@ class SkillSection extends Component {
                                     </Grid.Column>
                                     <Grid.Column width={16}>
                                         <Header id="redux-header" as="h2">Redux.js</Header>
+                                    </Grid.Column>
+                                </Grid.Row>
+                            </Grid>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Grid>
+                                <Grid.Row>
+                                    <Grid.Column width={16}>
+                                        <Image id="express-logo" src={ExpressLogo} size="small" />
+                                    </Grid.Column>
+                                    <Grid.Column width={16}>
+                                        <Header id="express-header" as="h2">Express.js</Header>
+                                    </Grid.Column>
+                                </Grid.Row>
+                            </Grid>
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <Grid>
+                                <Grid.Row>
+                                    <Grid.Column width={16}>
+                                        <Image id="canto-logo" src={Canto} size="small" />
+                                    </Grid.Column>
+                                    <Grid.Column width={16}>
+                                        <Header id="canto-header" as="h2">Canto Digital Asset Management</Header>
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid>

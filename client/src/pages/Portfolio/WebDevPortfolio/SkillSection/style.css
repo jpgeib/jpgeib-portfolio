@@ -103,7 +103,7 @@
 }
 
 #redux-logo {
-    margin-top: 4%;
+    margin-top: 5%;
     margin-left: 42.5%;
 }
 
@@ -112,4 +112,30 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
     margin-left: 47.25%;
+}
+
+#express-logo {
+    margin-top: 7%;
+    margin-left: 38%;
+}
+
+#express-header {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 8%;
+    margin-left: 41.5%;
+}
+
+#canto-logo {
+    margin-top: 5%;
+    margin-left: 42.5%;
+}
+
+#canto-header {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+    margin-left: 37%;
+    max-width: 35%;
+    text-align: center;
 }

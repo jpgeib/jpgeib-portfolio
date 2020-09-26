@@ -35,7 +35,7 @@ class ProjectSection extends Component {
                                     </Grid.Column>
                                     <Grid.Column width={11}>
                                         <Header id="github-header" as="h3">Github: <a id="portfolio-github" href="https://github.com/jpgeib/jpgeib-portfolio" target=":blank">https://github.com/jpgeib/jpgeib-portfolio</a></Header>
-                                        <Header id="heroku-header" as="h3">Heroku: <a id="portfolio-heroku" href="https://jpgeib-portfolio.herokuapp.com/">https://jpgeib-portfolio.herokuapp.com/</a></Header>
+                                        <Header id="heroku-header" as="h3">Heroku: <a id="portfolio-heroku" href="https://jpgeib-portfolio.herokuapp.com/" target=":blank">https://jpgeib-portfolio.herokuapp.com/</a></Header>
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
