@@ -25,67 +25,91 @@
     height: 700px;
 }
 
+#html5-logo {
+    margin: 0 auto;
+}
+
 #html5-header {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 5.5%;
+    margin-left: 43.5%;
+}
+
+#css-logo {
+    margin: 0 auto;
 }
 
 #css-header {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 2%;
-    margin-left: 9%;
+    margin-top: 3%;
+    margin-left: 47%;
+}
+
+#javascript-logo {
+    margin: 0 auto;
 }
 
 #javascript-header {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 3.5%;
+    margin-left: 41%;
+}
+
+#jquery-logo {
+    margin: 0 auto;
 }
 
 #jquery-header {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 8%;
+    margin-left: 46%;
+}
+
+#sql-logo {
+    margin: 0 auto;
 }
 
 #sql-header {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 9%;
+    margin-left: 46.5%;
 }
 
 #mongo-logo {
-    margin-left: 2%;
+    margin-left: 41%;
 }
 
 #mongo-header {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 1.5%;
-    margin-left: 6%;
+    margin-left: 45%;
+}
+
+#react-logo {
+    margin: 0 auto;
 }
 
 #react-header {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 43%;
 }
 
 #redux-logo {
     margin-top: 4%;
-    margin-left: 3%;
+    margin-left: 42.5%;
 }
 
 #redux-header {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 8%;
+    margin-left: 47.25%;
 }
