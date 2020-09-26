@@ -22,7 +22,7 @@ p {
 #contact-header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 25%;
 }
 
@@ -67,6 +67,7 @@ p {
 #email {
     color: white;
     margin-left: 15%;
+    margin-bottom: 30%;
 }
 
 #github {
