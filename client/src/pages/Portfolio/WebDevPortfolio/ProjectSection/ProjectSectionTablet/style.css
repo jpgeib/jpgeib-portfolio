@@ -1,0 +1,101 @@
+#project-page-tablet {
+    margin-top: 3%;
+}
+
+#project-headers-container-tablet {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#project-header-tablet {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#project-subheader-tablet {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1%;
+}
+
+#project-container-tablet {
+    background-color: rgb(180, 74, 70);
+    margin: 0 auto;
+    width: 70%;
+    padding: 1%;
+    overflow-y: auto;
+    height: 715px;
+}
+
+#portfolio-container-tablet {
+    margin-top: 0;
+    border: solid white 2px;
+}
+
+#allchat-container-tablet {
+    margin-top: 0;
+    border: solid white 2px;
+}
+
+#feast-fitness-container-tablet {
+    margin-top: 0;
+    border: solid white 2px;
+}
+
+#portfolio-header-tablet {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#allchat-header-tablet {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#feast-fitness-header-tablet {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#github-header-tablet {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#heroku-header-tablet {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project-list-item-tablet {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#portfolio-github-tablet {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#portfolio-heroku-tablet {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#allchat-github-tablet {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#allchat-heroku-tablet {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#feast-fitness-github-tablet {
+    color: white;
+    text-decoration-line: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
