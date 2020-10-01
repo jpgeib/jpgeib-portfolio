@@ -1,0 +1,139 @@
+#skills-page-mobile {
+    margin-top: 3%;
+}
+
+#skills-headers-container-mobile {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#skills-header-mobile {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#skills-subheader-mobile {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1%;
+}
+
+#skills-container-mobile {
+    background-color: rgb(180, 74, 70);
+    margin: 0 auto;
+    width: 70%;
+    padding: 1%;
+    overflow-y: auto;
+    height: 700px;
+}
+
+#html5-logo-mobile {
+    margin: 0 auto;
+}
+
+#html5-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+    margin-left: 37%;
+}
+
+#css-logo-mobile {
+    margin: 0 auto;
+}
+
+#css-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2.5%;
+    margin-left: 43.5%;
+}
+
+#javascript-logo-mobile {
+    margin: 0 auto;
+}
+
+#javascript-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+    margin-left: 32%;
+}
+
+#jquery-logo-mobile {
+    margin: 0 auto;
+}
+
+#jquery-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+    margin-left: 42%;
+}
+
+#sql-logo-mobile {
+    margin: 0 auto;
+}
+
+#sql-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+    margin-left: 43%;
+}
+
+#mongo-logo-mobile {
+    margin-left: 26%;
+}
+
+#mongo-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1.5%;
+    margin-left: 34%;
+}
+
+#react-logo-mobile {
+    margin: 0 auto;
+}
+
+#react-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+    margin-left: 37%;
+}
+
+#redux-logo-mobile {
+    margin-top: 11.75%;
+    margin-left: 32%;
+}
+
+#redux-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+    margin-left: 42%;
+}
+
+#express-logo-mobile {
+    margin-top: 7%;
+    margin-left: 27%;
+}
+
+#express-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15%;
+    margin-left: 34%;
+}
+
+#canto-logo-mobile {
+    margin-top: 5%;
+    margin-left: 26%;
+}
+
+#canto-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 7%;
+    margin-left: 41%;
+}

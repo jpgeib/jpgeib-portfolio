@@ -13,150 +13,150 @@ import Canto from "../../../../../assets/images/canto-logo-orange.png";
 
 import "./style.css";
 
-class SkillSectionComputer extends Component {
+class SkillSectionMobile extends Component {
     render() {
         return (
-            <div id="skills-page-computer">
-                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid} id="skills-headers-container-computer">
-                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                            <Header id="skills-header-computer" as="h1">Full-Stack Web Development Technical Skills</Header>
+            <div id="skills-page-mobile">
+                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="skills-headers-container-mobile">
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                            <Header id="skills-header-mobile" as="h1">Full-Stack Web Development Technical Skills</Header>
                         </Responsive>
                     </Responsive>
-                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                            <Header id="skills-subheader-computer" as="h3">I am proficient in the following technologies:</Header>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                            <Header id="skills-subheader-mobile" as="h3">I am proficient in the following technologies:</Header>
                         </Responsive>
                     </Responsive>
                 </Responsive>
-                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid} id="skills-container-computer">
-                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="html5-logo-computer" src={HTML5} size="small" />
+                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="skills-container-mobile">
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="html5-logo-mobile" src={HTML5} size="small" />
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="html5-header-computer" as="h2">HTML5</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="css-logo-computer" src={CSS} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="css-header-computer" as="h2">CSS</Header>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="html5-header-mobile" as="h2">HTML5</Header>
                                     </Responsive>
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="javascript-logo-computer" src={JavaScript} size="small" />
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="css-logo-mobile" src={CSS} size="small" />
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="javascript-header-computer" as="h2">JavaScript</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="jquery-logo-computer" src={jQuery} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="jquery-header-computer" as="h2">jQuery</Header>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="css-header-mobile" as="h2">CSS</Header>
                                     </Responsive>
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                    </Responsive>
-                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="sql-logo-computer" src={SQL} size="small" />
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="javascript-logo-mobile" src={JavaScript} size="small" />
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="sql-header-computer" as="h2">SQL</Header>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="javascript-header-mobile" as="h2">JavaScript</Header>
                                     </Responsive>
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="mongo-logo-computer" src={MongoDB} size="small" />
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="jquery-logo-mobile" src={jQuery} size="small" />
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="mongo-header-computer" as="h2">MongoDB</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="react-logo-computer" src={ReactLogo} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="react-header-computer" as="h2">React.js</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="redux-logo-computer" src={ReduxLogo} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="redux-header-computer" as="h2">Redux.js</Header>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="jquery-header-mobile" as="h2">jQuery</Header>
                                     </Responsive>
                                 </Responsive>
                             </Responsive>
                         </Responsive>
                     </Responsive>
-                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}></Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="express-logo-computer" src={ExpressLogo} size="small" />
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="sql-logo-mobile" src={SQL} size="small" />
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="express-header-computer" as="h2">Express.js</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="canto-logo-computer" src={Canto} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="canto-header-computer" as="h2">Canto</Header>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="sql-header-mobile" as="h2">SQL</Header>
                                     </Responsive>
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}></Responsive>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="mongo-logo-mobile" src={MongoDB} size="small" />
+                                    </Responsive>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="mongo-header-mobile" as="h2">MongoDB</Header>
+                                    </Responsive>
+                                </Responsive>
+                            </Responsive>
+                        </Responsive>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="react-logo-mobile" src={ReactLogo} size="small" />
+                                    </Responsive>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="react-header-mobile" as="h2">React.js</Header>
+                                    </Responsive>
+                                </Responsive>
+                            </Responsive>
+                        </Responsive>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="redux-logo-mobile" src={ReduxLogo} size="small" />
+                                    </Responsive>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="redux-header-mobile" as="h2">Redux.js</Header>
+                                    </Responsive>
+                                </Responsive>
+                            </Responsive>
+                        </Responsive>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}></Responsive>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="express-logo-mobile" src={ExpressLogo} size="small" />
+                                    </Responsive>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="express-header-mobile" as="h2">Express.js</Header>
+                                    </Responsive>
+                                </Responsive>
+                            </Responsive>
+                        </Responsive>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Image id="canto-logo-mobile" src={Canto} size="small" />
+                                    </Responsive>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="canto-header-mobile" as="h2">Canto</Header>
+                                    </Responsive>
+                                </Responsive>
+                            </Responsive>
+                        </Responsive>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}></Responsive>
                     </Responsive>
                 </Responsive>
             </div>
@@ -164,4 +164,4 @@ class SkillSectionComputer extends Component {
     }
 }
 
-export default SkillSectionComputer;
+export default SkillSectionMobile;
