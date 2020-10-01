@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SkillSectionComputer from "./SkillSectionComputer";
+import SkillSectionWide from "./SkillSectionWide";
 
 import "./style.css";
 
@@ -8,6 +9,7 @@ class SkillSection extends Component {
         return (
             <>
                 <SkillSectionComputer />
+                <SkillSectionWide />            
             </>
             // <div id="skills-page">
             //     <Grid id="skills-headers-container">
