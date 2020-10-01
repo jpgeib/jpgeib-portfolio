@@ -33,7 +33,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 37%;
+    margin-left: 33.75%;
 }
 
 #css-logo-computer {
@@ -44,7 +44,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2.5%;
-    margin-left: 43.5%;
+    margin-left: 41.75%;
 }
 
 #javascript-logo-computer {
@@ -55,7 +55,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 32%;
+    margin-left: 28%;
 }
 
 #jquery-logo-computer {
@@ -66,7 +66,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 42%;
+    margin-left: 37%;
 }
 
 #sql-logo-computer {
@@ -77,18 +77,18 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 43%;
+    margin-left: 41%;
 }
 
 #mongo-logo-computer {
-    margin-left: 26%;
+    margin-left: 20%;
 }
 
 #mongo-header-computer {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 1.5%;
-    margin-left: 34%;
+    margin-left: 30%;
 }
 
 #react-logo-computer {
@@ -99,41 +99,41 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 37%;
+    margin-left: 32.5%;
 }
 
 #redux-logo-computer {
-    margin-top: 11.75%;
-    margin-left: 32%;
+    margin-top: 12%;
+    margin-left: 23%;
 }
 
 #redux-header-computer {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 2%;
-    margin-left: 42%;
+    margin-top: 5%;
+    margin-left: 35.5%;
 }
 
 #express-logo-computer {
     margin-top: 7%;
-    margin-left: 27%;
+    margin-left: 22%;
 }
 
 #express-header-computer {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 15%;
-    margin-left: 34%;
+    margin-left: 30%;
 }
 
 #canto-logo-computer {
-    margin-top: 5%;
-    margin-left: 26%;
+    margin-top: 2%;
+    margin-left: 20%;
 }
 
 #canto-header-computer {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 7%;
-    margin-left: 41%;
+    margin-left: 38%;
 }
