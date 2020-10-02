@@ -31,7 +31,7 @@ class SkillSectionTablet extends Component {
                 </Responsive>
                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="skills-container-tablet">
                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -43,7 +43,7 @@ class SkillSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -55,7 +55,9 @@ class SkillSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -67,7 +69,7 @@ class SkillSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -81,7 +83,7 @@ class SkillSectionTablet extends Component {
                         </Responsive>
                     </Responsive>
                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -93,7 +95,7 @@ class SkillSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -105,7 +107,9 @@ class SkillSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -117,7 +121,7 @@ class SkillSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -131,8 +135,7 @@ class SkillSectionTablet extends Component {
                         </Responsive>
                     </Responsive>
                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}></Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -144,7 +147,7 @@ class SkillSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
@@ -156,7 +159,6 @@ class SkillSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={4}></Responsive>
                     </Responsive>
                 </Responsive>
             </div>
