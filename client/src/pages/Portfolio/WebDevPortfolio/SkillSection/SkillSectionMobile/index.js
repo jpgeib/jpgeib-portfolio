@@ -31,7 +31,7 @@ class SkillSectionMobile extends Component {
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="skills-container-mobile">
                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -43,7 +43,9 @@ class SkillSectionMobile extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -55,7 +57,9 @@ class SkillSectionMobile extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -67,7 +71,9 @@ class SkillSectionMobile extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -81,7 +87,7 @@ class SkillSectionMobile extends Component {
                         </Responsive>
                     </Responsive>
                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -93,7 +99,9 @@ class SkillSectionMobile extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -105,7 +113,9 @@ class SkillSectionMobile extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -117,7 +127,9 @@ class SkillSectionMobile extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -131,8 +143,7 @@ class SkillSectionMobile extends Component {
                         </Responsive>
                     </Responsive>
                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}></Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -144,7 +155,9 @@ class SkillSectionMobile extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}>
+                    </Responsive>
+                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid}>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
                                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
@@ -156,7 +169,6 @@ class SkillSectionMobile extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={4}></Responsive>
                     </Responsive>
                 </Responsive>
             </div>
