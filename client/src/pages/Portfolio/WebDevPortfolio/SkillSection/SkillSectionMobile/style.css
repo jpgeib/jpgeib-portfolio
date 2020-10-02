@@ -33,7 +33,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 37%;
+    margin-left: 33.5%;
 }
 
 #css-logo-mobile {
@@ -44,7 +44,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2.5%;
-    margin-left: 43.5%;
+    margin-left: 42%;
 }
 
 #javascript-logo-mobile {
@@ -55,7 +55,7 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 32%;
+    margin-left: 28%;
 }
 
 #jquery-logo-mobile {
@@ -66,7 +66,8 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 42%;
+    margin-left: 36%;
+    margin-bottom: 4%;
 }
 
 #sql-logo-mobile {
@@ -76,19 +77,19 @@
 #sql-header-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 2%;
-    margin-left: 43%;
+    margin-top: 4%;
+    margin-left: 42%;
 }
 
 #mongo-logo-mobile {
-    margin-left: 26%;
+    margin-left: 20%;
 }
 
 #mongo-header-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 1.5%;
-    margin-left: 34%;
+    margin-left: 30%;
 }
 
 #react-logo-mobile {
@@ -99,41 +100,41 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 37%;
+    margin-left: 33%;
 }
 
 #redux-logo-mobile {
     margin-top: 11.75%;
-    margin-left: 32%;
+    margin-left: 20%;
 }
 
 #redux-header-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
-    margin-left: 42%;
+    margin-left: 32%;
 }
 
 #express-logo-mobile {
-    margin-top: 7%;
-    margin-left: 27%;
+    margin-top: 17%;
+    margin-left: 20%;
 }
 
 #express-header-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 15%;
-    margin-left: 34%;
+    margin-left: 29%;
 }
 
 #canto-logo-mobile {
-    margin-top: 5%;
-    margin-left: 26%;
+    margin-top: 15%;
+    margin-left: 22%;
 }
 
 #canto-header-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 7%;
-    margin-left: 41%;
+    margin-left: 40%;
 }
