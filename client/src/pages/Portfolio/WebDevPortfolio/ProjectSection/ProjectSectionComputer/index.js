@@ -30,10 +30,10 @@ class ProjectSectionComputer extends Component {
                         <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid} id="portfolio-container-computer">
                                 <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
                                         <Header id="portfolio-header-computer" as="h2">Online Portfolio</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={11}>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
                                         <Header id="github-header-computer" as="h3">Github: <a id="portfolio-github-computer" href="https://github.com/jpgeib/jpgeib-portfolio" target=":blank">https://github.com/jpgeib/jpgeib-portfolio</a></Header>
                                         <Header id="heroku-header-computer" as="h3">Heroku: <a id="portfolio-heroku-computer" href="https://jpgeib-portfolio.herokuapp.com/" target=":blank">https://jpgeib-portfolio.herokuapp.com/</a></Header>
                                     </Responsive>
@@ -57,10 +57,10 @@ class ProjectSectionComputer extends Component {
                         <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid} id="allchat-container-computer">
                                 <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
                                         <Header id="allchat-header-computer" as="h2">AllChat</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={11}>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
                                         <Header id="github-header-computer" as="h3">Github: <a id="allchat-github-computer" href="https://github.com/paulmhan/AllChat-v2" target=":blank">https://github.com/paulmhan/AllChat-v2</a></Header>
                                         <Header id="heroku-header-computer" as="h3">Heroku: <a id="allchat-heroku-computer" href="https://all-chat-v2.herokuapp.com" target=":blank">https://all-chat-v2.herokuapp.com</a></Header>
                                     </Responsive>
@@ -84,10 +84,10 @@ class ProjectSectionComputer extends Component {
                         <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={8}>
                             <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid} id="feast-fitness-container-computer">
                                 <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
                                         <Header id="feast-fitness-header-computer" as="h2">Feast-Fitness</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={11}>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
                                         <Header id="github-header-computer" as="h3">Github: <a id="feast-fitness-github-computer" href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
                                     </Responsive>
                                 </Responsive>
