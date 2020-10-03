@@ -25,34 +25,48 @@
     height: 715px;
 }
 
+#allchat-image-tablet {
+    margin-top: 2.5%;
+}
+
+#feast-fitness-image-tablet {
+    margin-top: 2.5%;
+}
+
 #portfolio-container-tablet {
     margin-top: 0;
     border: solid white 2px;
+    margin-top: 5%;
 }
 
 #allchat-container-tablet {
     margin-top: 0;
     border: solid white 2px;
+    margin-top: 5%;
 }
 
 #feast-fitness-container-tablet {
     margin-top: 0;
     border: solid white 2px;
+    margin-top: 5%;
 }
 
 #portfolio-header-tablet {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5%;
 }
 
 #allchat-header-tablet {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5%;
 }
 
 #feast-fitness-header-tablet {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5%;
 }
 
 #github-header-tablet {

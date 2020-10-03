@@ -24,16 +24,16 @@ class ProjectSectionTablet extends Component {
                 </Responsive>
                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="project-container-tablet">
                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                             <Image src={OnlinePortfolio} size="big" />
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="portfolio-container-tablet">
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                                         <Header id="portfolio-header-tablet" as="h2">Online Portfolio</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={11}>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                                         <Header id="github-header-tablet" as="h3">Github: <a id="portfolio-github-tablet" href="https://github.com/jpgeib/jpgeib-portfolio" target=":blank">https://github.com/jpgeib/jpgeib-portfolio</a></Header>
                                         <Header id="heroku-header-tablet" as="h3">Heroku: <a id="portfolio-heroku-tablet" href="https://jpgeib-portfolio.herokuapp.com/" target=":blank">https://jpgeib-portfolio.herokuapp.com/</a></Header>
                                     </Responsive>
@@ -51,16 +51,16 @@ class ProjectSectionTablet extends Component {
                         </Responsive>
                     </Responsive>
                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
-                            <Image src={AllChat} size="big" />
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                            <Image id="allchat-image-tablet" src={AllChat} size="big" />
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="allchat-container-tablet">
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                                         <Header id="allchat-header-tablet" as="h2">AllChat</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={11}>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                                         <Header id="github-header-tablet" as="h3">Github: <a id="allchat-github-tablet" href="https://github.com/paulmhan/AllChat-v2" target=":blank">https://github.com/paulmhan/AllChat-v2</a></Header>
                                         <Header id="heroku-header-tablet" as="h3">Heroku: <a id="allchat-heroku-tablet" href="https://all-chat-v2.herokuapp.com" target=":blank">https://all-chat-v2.herokuapp.com</a></Header>
                                     </Responsive>
@@ -78,16 +78,16 @@ class ProjectSectionTablet extends Component {
                         </Responsive>
                     </Responsive>
                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
-                            <Image src={FeastFitness} size="big" />
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                            <Image id="feast-fitness-image-tablet" src={FeastFitness} size="big" />
                         </Responsive>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="feast-fitness-container-tablet">
                                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                                         <Header id="feast-fitness-header-tablet" as="h2">Feast-Fitness</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={11}>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                                         <Header id="github-header-tablet" as="h3">Github: <a id="feast-fitness-github-tablet" href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
                                     </Responsive>
                                 </Responsive>
