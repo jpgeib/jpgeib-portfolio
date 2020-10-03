@@ -40,6 +40,30 @@
     border: solid white 2px;
 }
 
+#portfolio-image-mobile {
+    margin-bottom: 5%;
+}
+
+#allchat-image-mobile {
+    margin-bottom: 5%;
+}
+
+#feast-fitness-image-mobile {
+    margin-bottom: 5%;
+}
+
+#portfolio-links-container-mobile {
+    margin-top: 5%;
+}
+
+#allchat-links-container-mobile {
+    margin-top: 5%;
+}
+
+#feast-fitness-links-container-mobile {
+    margin-top: 5%;
+}
+
 #portfolio-header-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -72,30 +96,25 @@
 
 #portfolio-github-mobile {
     color: white;
-    text-decoration-line: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #portfolio-heroku-mobile {
     color: white;
-    text-decoration-line: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #allchat-github-mobile {
     color: white;
-    text-decoration-line: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #allchat-heroku-mobile {
     color: white;
-    text-decoration-line: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #feast-fitness-github-mobile {
     color: white;
-    text-decoration-line: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

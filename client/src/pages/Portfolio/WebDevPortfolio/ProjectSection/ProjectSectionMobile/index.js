@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Grid, Header, Image, List, Responsive } from "semantic-ui-react";
+import { Grid, Header, Image, List, Responsive, Icon } from "semantic-ui-react";
 import AllChat from "../../../../../assets/images/AllChatV2.png";
 import FeastFitness from "../../../../../assets/images/Feast-Fitness.png";
 import OnlinePortfolio from "../../../../../assets/images/jpgeib-portfolio.png";
+import HerokuIcon from "../../../../../assets/images/heroku-icon.png";
 
 import "./style.css";
 
@@ -24,18 +25,26 @@ class ProjectSectionMobile extends Component {
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="project-container-mobile">
                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
-                            <Image src={OnlinePortfolio} size="big" />
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                            <Image id="portfolio-image-mobile" src={OnlinePortfolio} size="big" />
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="portfolio-container-mobile">
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                                         <Header id="portfolio-header-mobile" as="h2">Online Portfolio</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={11}>
-                                        <Header id="github-header-mobile" as="h3">Github: <a id="portfolio-github-mobile" href="https://github.com/jpgeib/jpgeib-portfolio" target=":blank">https://github.com/jpgeib/jpgeib-portfolio</a></Header>
-                                        <Header id="heroku-header-mobile" as="h3">Heroku: <a id="portfolio-heroku-mobile" href="https://jpgeib-portfolio.herokuapp.com/" target=":blank">https://jpgeib-portfolio.herokuapp.com/</a></Header>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="portfolio-links-container-mobile">
+                                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
+                                                    <Header id="github-header-mobile" as="h3"><a id="portfolio-github-mobile" href="https://github.com/jpgeib/jpgeib-portfolio" target=":blank"><Icon id="github" size="huge" name="github" /></a></Header>
+                                                </Responsive>
+                                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
+                                                    <Header id="heroku-header-mobile" as="h3"><a id="portfolio-heroku-mobile" href="https://jpgeib-portfolio.herokuapp.com/" target=":blank"><Image src={HerokuIcon} size="tiny" /></a></Header>
+                                                </Responsive>
+                                            </Responsive>
+                                        </Responsive>
                                     </Responsive>
                                 </Responsive>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
@@ -51,18 +60,26 @@ class ProjectSectionMobile extends Component {
                         </Responsive>
                     </Responsive>
                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
-                            <Image src={AllChat} size="big" />
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                            <Image id="allchat-image-mobile" src={AllChat} size="big" />
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="allchat-container-mobile">
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                                         <Header id="allchat-header-mobile" as="h2">AllChat</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={11}>
-                                        <Header id="github-header-mobile" as="h3">Github: <a id="allchat-github-mobile" href="https://github.com/paulmhan/AllChat-v2" target=":blank">https://github.com/paulmhan/AllChat-v2</a></Header>
-                                        <Header id="heroku-header-mobile" as="h3">Heroku: <a id="allchat-heroku-mobile" href="https://all-chat-v2.herokuapp.com" target=":blank">https://all-chat-v2.herokuapp.com</a></Header>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="allchat-links-container-mobile">
+                                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
+                                                    <Header id="github-header-mobile" as="h3"><a id="allchat-github-mobile" href="https://github.com/paulmhan/AllChat-v2" target=":blank"><Icon id="github" size="huge" name="github" /></a></Header>
+                                                </Responsive>
+                                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
+                                                    <Header id="heroku-header-mobile" as="h3"><a id="allchat-heroku-mobile" href="https://all-chat-v2.herokuapp.com" target=":blank"><Image src={HerokuIcon} size="tiny" /></a></Header>
+                                                </Responsive>
+                                            </Responsive>
+                                        </Responsive>
                                     </Responsive>
                                 </Responsive>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
@@ -78,17 +95,23 @@ class ProjectSectionMobile extends Component {
                         </Responsive>
                     </Responsive>
                     <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
-                            <Image src={FeastFitness} size="big" />
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                            <Image id="feast-fitness-image-mobile" src={FeastFitness} size="big" />
                         </Responsive>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={8}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                             <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="feast-fitness-container-mobile">
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={5}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
                                         <Header id="feast-fitness-header-mobile" as="h2">Feast-Fitness</Header>
                                     </Responsive>
-                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={11}>
-                                        <Header id="github-header-mobile" as="h3">Github: <a id="feast-fitness-github-mobile" href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="feast-fitness-links-container-mobile">
+                                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                                    <Header id="github-header-mobile" as="h3"><a id="feast-fitness-github-mobile" href="https://github.com/paulmhan/feast-fitness" target=":blank"><Icon id="github" size="huge" name="github" /></a></Header>
+                                                </Responsive>
+                                            </Responsive>
+                                        </Responsive>
                                     </Responsive>
                                 </Responsive>
                                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
