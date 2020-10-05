@@ -33,7 +33,7 @@ Given my credentials, I believed the best way to attest for my technical knowled
 
 ![](client/src/assets/images/webdev-tech-skills.png)
 
-* The Adobe Creative Cloud section will also be actively updated over time. Clients/employers can click on an icon to download a zip file containing all examples of my work for the corresponding application.
+* The Adobe Creative Cloud section will also be actively updated over time. Clients/employers can click on an icon to download a zip file containing all examples of my work for each corresponding application.
 
 ![](client/src/assets/images/adobe-portfolio.png)
 
