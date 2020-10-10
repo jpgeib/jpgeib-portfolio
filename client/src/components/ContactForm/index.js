@@ -61,10 +61,10 @@ class ContactForm extends Component {
                 <Form id="contact-form" onSubmit={handleSubmit(this.onSubmit)} method="POST" >
                     <Grid>
                         <Grid.Row>
-                            <Grid.Column width="16">
+                            <Grid.Column width={16}>
                                 <Header id="name-header" as="h3">Name:</Header>
                             </Grid.Column>
-                            <Grid.Column width="16">
+                            <Grid.Column width={16}>
                                 <Field
                                     name="name"
                                     component={this.renderName}
