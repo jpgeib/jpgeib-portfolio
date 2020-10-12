@@ -30,7 +30,12 @@
     border: solid white 2px;
 }
 
-#allchat-container-mobile {
+#allchatv2-container-mobile {
+    margin-top: 0;
+    border: solid white 2px;
+}
+
+#allchatv1-container-mobile {
     margin-top: 0;
     border: solid white 2px;
 }
@@ -44,7 +49,11 @@
     margin-bottom: 5%;
 }
 
-#allchat-image-mobile {
+#allchatv2-image-mobile {
+    margin-bottom: 5%;
+}
+
+#allchatv1-image-mobile {
     margin-bottom: 5%;
 }
 
@@ -56,7 +65,11 @@
     margin-top: 5%;
 }
 
-#allchat-links-container-mobile {
+#allchatv2-links-container-mobile {
+    margin-top: 5%;
+}
+
+#allchatv1-links-container-mobile {
     margin-top: 5%;
 }
 
@@ -69,7 +82,12 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#allchat-header-mobile {
+#allchatv2-header-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#allchatv1-header-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -104,12 +122,22 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#allchat-github-mobile {
+#allchatv2-github-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#allchat-heroku-mobile {
+#allchatv1-github-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#allchatv2-heroku-mobile {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#allchatv1-heroku-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
