@@ -110,30 +110,3 @@ class ProjectSectionWide extends Component {
 };
 
 export default ProjectSectionWide;
-
-{/* <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={8}>
-                            <Image src={FeastFitness} size="big" />
-                        </Responsive>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={8}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid} id="feast-fitness-container-wide">
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={5}>
-                                        <Header id="feast-fitness-header-wide" as="h2">Feast-Fitness</Header>
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={11}>
-                                        <Header id="github-header-wide" as="h3">Github: <a id="feast-fitness-github-wide" href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
-                                    </Responsive>
-                                </Responsive>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <List bulleted size="big">
-                                            <List.Item className="project-list-item-wide">A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
-                                            <List.Item className="project-list-item-wide">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
-                                            <List.Item className="project-list-item-wide">Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
-                                        </List>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                    </Responsive> */}
