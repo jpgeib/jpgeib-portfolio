@@ -110,3 +110,30 @@ class ProjectSectionTablet extends Component {
 };
 
 export default ProjectSectionTablet;
+
+{/* <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                            <Image id="feast-fitness-image-tablet" src={FeastFitness} size="big" />
+                        </Responsive>
+                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                            <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="feast-fitness-container-tablet">
+                                <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                                        <Header id="feast-fitness-header-tablet" as="h2">Feast-Fitness</Header>
+                                    </Responsive>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                                        <Header id="github-header-tablet" as="h3">Github: <a id="feast-fitness-github-tablet" href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
+                                    </Responsive>
+                                </Responsive>
+                                <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                                        <List bulleted size="big">
+                                            <List.Item className="project-list-item-tablet">A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
+                                            <List.Item className="project-list-item-tablet">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item className="project-list-item-tablet">Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
+                                        </List>
+                                    </Responsive>
+                                </Responsive>
+                            </Responsive>
+                        </Responsive>
+                    </Responsive> */}

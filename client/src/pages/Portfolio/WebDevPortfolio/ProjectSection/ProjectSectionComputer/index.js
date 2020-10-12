@@ -110,3 +110,30 @@ class ProjectSectionComputer extends Component {
 };
 
 export default ProjectSectionComputer;
+
+{/* <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={8}>
+                            <Image src={FeastFitness} size="big" />
+                        </Responsive>
+                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={8}>
+                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid} id="feast-fitness-container-computer">
+                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
+                                        <Header id="feast-fitness-header-computer" as="h2">Feast-Fitness</Header>
+                                    </Responsive>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
+                                        <Header id="github-header-computer" as="h3">Github: <a id="feast-fitness-github-computer" href="https://github.com/paulmhan/feast-fitness" target=":blank">https://github.com/paulmhan/feast-fitness</a></Header>
+                                    </Responsive>
+                                </Responsive>
+                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
+                                        <List bulleted size="big">
+                                            <List.Item className="project-list-item-computer">A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
+                                            <List.Item className="project-list-item-computer">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item className="project-list-item-computer">Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
+                                        </List>
+                                    </Responsive>
+                                </Responsive>
+                            </Responsive>
+                        </Responsive>
+                    </Responsive> */}

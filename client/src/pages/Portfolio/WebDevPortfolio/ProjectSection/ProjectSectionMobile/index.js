@@ -133,3 +133,36 @@ class ProjectSectionMobile extends Component {
 };
 
 export default ProjectSectionMobile;
+
+{/* <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                            <Image id="feast-fitness-image-mobile" src={FeastFitness} size="big" />
+                        </Responsive>
+                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="feast-fitness-container-mobile">
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Header id="feast-fitness-header-mobile" as="h2">Feast-Fitness</Header>
+                                    </Responsive>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="feast-fitness-links-container-mobile">
+                                            <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                                    <Header id="github-header-mobile" as="h3"><a id="feast-fitness-github-mobile" href="https://github.com/paulmhan/feast-fitness" target=":blank"><Icon id="github" size="huge" name="github" /></a></Header>
+                                                </Responsive>
+                                            </Responsive>
+                                        </Responsive>
+                                    </Responsive>
+                                </Responsive>
+                                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
+                                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                                        <List bulleted size="big">
+                                            <List.Item className="project-list-item-mobile">A BMI tracker that helps users log their meals and caloric intake in order to reach their fitness goals.</List.Item>
+                                            <List.Item className="project-list-item-mobile">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                            <List.Item className="project-list-item-mobile">Technologies used: HTML5, CSS, Materialize CSS Framework, Adobe Photoshop</List.Item>
+                                        </List>
+                                    </Responsive>
+                                </Responsive>
+                            </Responsive>
+                        </Responsive>
+                    </Responsive> */}
