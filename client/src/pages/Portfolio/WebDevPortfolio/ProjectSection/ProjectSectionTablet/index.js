@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image, List, Responsive } from "semantic-ui-react";
 import AllChatV2 from "../../../../../assets/images/AllChatV2.png";
 import AllChatV1 from "../../../../../assets/images/AllChatV1.png";
-import FeastFitness from "../../../../../assets/images/Feast-Fitness.png";
+// import FeastFitness from "../../../../../assets/images/Feast-Fitness.png";
 import OnlinePortfolio from "../../../../../assets/images/jpgeib-portfolio.png";
 
 import "./style.css";
@@ -105,7 +105,7 @@ class ProjectSectionTablet extends Component {
                             </Responsive>
                         </Responsive>
                     </Responsive>
-                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                    {/* <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                         <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
                             <Image id="feast-fitness-image-tablet" src={FeastFitness} size="big" />
                         </Responsive>
@@ -130,7 +130,7 @@ class ProjectSectionTablet extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                    </Responsive>
+                    </Responsive> */}
                 </Responsive>
             </div>
         );

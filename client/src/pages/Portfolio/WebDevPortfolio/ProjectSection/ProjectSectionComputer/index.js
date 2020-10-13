@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, List, Responsive } from "semantic-ui-react";
 import AllChatV2 from "../../../../../assets/images/AllChatV2.png";
-import FeastFitness from "../../../../../assets/images/Feast-Fitness.png";
+// import FeastFitness from "../../../../../assets/images/Feast-Fitness.png";
 import OnlinePortfolio from "../../../../../assets/images/jpgeib-portfolio.png";
 import AllChatV1 from "../../../../../assets/images/AllChatV1.png";
 
@@ -105,7 +105,7 @@ class ProjectSectionComputer extends Component {
                             </Responsive>
                         </Responsive>
                     </Responsive>
-                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
+                    {/* <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
                         <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={8}>
                             <Image src={FeastFitness} size="big" />
                         </Responsive>
@@ -130,7 +130,7 @@ class ProjectSectionComputer extends Component {
                                 </Responsive>
                             </Responsive>
                         </Responsive>
-                    </Responsive>
+                    </Responsive> */}
                 </Responsive>
             </div>
         );
