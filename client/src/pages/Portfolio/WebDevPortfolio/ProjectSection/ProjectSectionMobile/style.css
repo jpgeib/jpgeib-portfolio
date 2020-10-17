@@ -1,3 +1,5 @@
+/* ProjectSectionMobile General Styling */
+
 #project-page-mobile {
     margin-top: 3%;
 }
@@ -25,124 +27,31 @@
     height: 715px;
 }
 
-#portfolio-container-mobile {
+/* Subsections Styling */
+
+#portfolio-container-mobile, #allchatv2-container-mobile,
+#allchatv1-container-mobile, #feast-fitness-container-mobile {
     margin-top: 0;
     border: solid white 2px;
 }
 
-#allchatv2-container-mobile {
-    margin-top: 0;
-    border: solid white 2px;
-}
-
-#allchatv1-container-mobile {
-    margin-top: 0;
-    border: solid white 2px;
-}
-
-#feast-fitness-container-mobile {
-    margin-top: 0;
-    border: solid white 2px;
-}
-
-#portfolio-image-mobile {
+#portfolio-image-mobile, #allchatv2-image-mobile, 
+#allchatv1-image-mobile, #feast-fitness-image-mobile {
     margin-bottom: 5%;
 }
 
-#allchatv2-image-mobile {
-    margin-bottom: 5%;
-}
-
-#allchatv1-image-mobile {
-    margin-bottom: 5%;
-}
-
-#feast-fitness-image-mobile {
-    margin-bottom: 5%;
-}
-
-#portfolio-links-container-mobile {
+#portfolio-links-container-mobile, #allchatv2-links-container-mobile,
+#allchatv1-links-container-mobile, #feast-fitness-links-container-mobile {
     margin-top: 5%;
 }
 
-#allchatv2-links-container-mobile {
-    margin-top: 5%;
-}
-
-#allchatv1-links-container-mobile {
-    margin-top: 5%;
-}
-
-#feast-fitness-links-container-mobile {
-    margin-top: 5%;
-}
-
-#portfolio-header-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#allchatv2-header-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#allchatv1-header-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#feast-fitness-header-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#github-header-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#heroku-header-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.project-list-item-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#portfolio-github-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#portfolio-heroku-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#allchatv2-github-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#allchatv1-github-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#allchatv2-heroku-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#allchatv1-heroku-mobile {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#feast-fitness-github-mobile {
+#portfolio-header-mobile, #allchatv2-header-mobile, 
+#allchatv1-header-mobile, #feast-fitness-header-mobile,
+#github-header-mobile, #heroku-header-mobile, 
+.project-list-item-mobile, #portfolio-github-mobile, 
+#portfolio-heroku-mobile, #allchatv2-github-mobile, 
+#allchatv1-github-mobile, #allchatv2-heroku-mobile,
+#allchatv1-heroku-mobile, #feast-fitness-github-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
