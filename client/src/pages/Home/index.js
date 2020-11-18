@@ -52,7 +52,6 @@ class Home extends Component {
                                             CT; willing to relocate if necessary.
                                         </p>
                                     </div>
-
                                     <div id="content2">
                                         <p>
                                             I am proficient in HTML5, CSS/CSS Frameworks, Javascript/jQuery, and SQL coding languages, and have
@@ -61,7 +60,6 @@ class Home extends Component {
                                             when needed.
                                         </p>
                                     </div>
-
                                     <div id="content3">
                                         <p>
                                             I am ideally looking for a position that will allow me
