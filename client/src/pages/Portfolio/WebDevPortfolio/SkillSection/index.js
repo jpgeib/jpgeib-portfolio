@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import SkillSectionMobile from "./SkillSectionMobile";
-import SkillSectionTablet from "./SkillSectionTablet";
-import SkillSectionComputer from "./SkillSectionComputer";
-import SkillSectionLarge from "./SkillSectionLarge";
-import SkillSectionWide from "./SkillSectionWide";
+import SkillSectionMobile from "../../../../components/SkillSectionMobile";
+import SkillSectionTablet from "../../../../components/SkillSectionTablet";
+import SkillSectionComputer from "../../../../components/SkillSectionComputer";
+import SkillSectionLarge from "../../../../components/SkillSectionLarge";
+import SkillSectionWide from "../../../../components/SkillSectionWide";
 
 import "./style.css";
 
