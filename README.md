@@ -40,7 +40,7 @@ Given my credentials, I believed the best way to attest for my technical knowled
 ## Technologies Used
 
 - [React.js](https://reactjs.org/)
-- [Semantic-UI-React] (https://react.semantic-ui.com/)
+- Semantic-UI-React: https://react.semantic-ui.com/
 - [Express.js](https://expressjs.com)
 - [Node.js](https://nodejs.org/en/)
 
