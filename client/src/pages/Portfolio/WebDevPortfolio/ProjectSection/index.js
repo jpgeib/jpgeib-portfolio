@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import ProjectSectionMobile from "./ProjectSectionMobile";
-import ProjectSectionTablet from "./ProjectSectionTablet";
-import ProjectSectionComputer from "./ProjectSectionComputer";
-import ProjectSectionLarge from "./ProjectSectionLarge";
-import ProjectSectionWide from "./ProjectSectionWide";
+import ProjectSectionMobile from "../../../../components/ProjectSectionMobile";
+import ProjectSectionTablet from "../../../../components/ProjectSectionTablet";
+import ProjectSectionComputer from "../../../../components/ProjectSectionComputer";
+import ProjectSectionLarge from "../../../../components/ProjectSectionLarge";
+import ProjectSectionWide from "../../../../components/ProjectSectionWide";
 
 import "./style.css";
 
