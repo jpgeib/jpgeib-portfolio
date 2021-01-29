@@ -39,7 +39,8 @@ Given my credentials, I believed the best way to attest for my technical knowled
 
 ## Technologies Used
 
-- [React](https://reactjs.org/)
+- [React.js](https://reactjs.org/)
+- [Semantic UI React] (https://react.semantic-ui.com/)
 - [Express.js](https://expressjs.com)
 - [Node.js](https://nodejs.org/en/)
 
@@ -50,3 +51,4 @@ Given my credentials, I believed the best way to attest for my technical knowled
     - Front-end Design
     - Back-end Server
     - GitHub: https://github.com/jpgeib
+    - LinkedIn: https://www.linkedin.com/in/james-geib-0b6493160
