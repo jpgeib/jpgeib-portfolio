@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import { Grid, Image, Header, Icon } from "semantic-ui-react";
+import { Grid, Image, Header } from "semantic-ui-react";
 import ProfilePic from "../../assets/images/james-profile.jpg";
 import HomeBio from "../../components/HomeBio";
+import ContactInfo from "../../components/ContactInfo";
 import SocialLinks from "../../components/SocialLinks";
+
 
 import "./style.css";
 
@@ -26,11 +28,7 @@ class Home extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <div id="contact-container">
-                                            <Header id="contact-header" as="h2">Contact Info:</Header>
-                                            <Header id="phone" as="h3"><Icon size="huge" name="phone" />(203)-736-7540</Header>
-                                            <Header id="email" as="h3"><Icon size="huge" name="mail" />jpgeib2@gmail.com</Header>
-                                        </div>
+                                        <ContactInfo />
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
