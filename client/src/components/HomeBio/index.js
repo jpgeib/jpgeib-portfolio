@@ -1,6 +1,8 @@
 import React from "react";
 import { homeText } from "../../text";
 
+import "./style.css";
+
 const HomeBio = () => {
     return (
         <div id="paragraphs">

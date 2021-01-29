@@ -1,0 +1,13 @@
+#social-container {
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+#social-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+#github, #linkedin {
+    color: white;
+}

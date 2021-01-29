@@ -1,6 +1,8 @@
 import React from "react";
 import { Header, Icon } from "semantic-ui-react";
 
+import "./style.css";
+
 const ContactInfo = () => {
     return (
         <div id="contact-container">
