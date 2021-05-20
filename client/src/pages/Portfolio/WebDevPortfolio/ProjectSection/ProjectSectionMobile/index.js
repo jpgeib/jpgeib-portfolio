@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Header, Image, List, Responsive, Icon } from "semantic-ui-react";
 import AllChatV2 from "../../../../../assets/images/AllChatV2.png";
 import AllChatV1 from "../../../../../assets/images/AllChatV1.png";
-import OnlinePortfolio from "../../../../../assets/images/jpgeib-portfolio.png";
+import OnlinePortfolio from "../../../../../assets/screenshots/jpgeib-portfolio.png";
 import HerokuIcon from "../../../../../assets/images/heroku-icon.png";
 
 import "./style.css";
