@@ -5,9 +5,8 @@ import { Menu, Dropdown } from "semantic-ui-react";
 import "./style.css";
 
 export default (props) => (
-    <Menu id="navbar" pointing secondary>
+    <Menu id="navbar" secondary>
         <Menu.Item as={Link} content="Home" to="/" />
-        {/* <Menu.Item as={Link} content="Contact" to="/contact" /> */}
         <Dropdown item text="Portfolio">
             <Dropdown.Menu>
                 <Dropdown.Item>

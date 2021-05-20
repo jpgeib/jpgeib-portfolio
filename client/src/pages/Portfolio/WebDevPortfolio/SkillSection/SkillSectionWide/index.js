@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, Responsive } from "semantic-ui-react";
-import HTML5 from "../../assets/images/HTML-icon.png";
-import CSS from "../../assets/images/CSS-icon.png";
-import JavaScript from "../../assets/images/Javascript-icon.png";
-import jQuery from "../../assets/images/jquery-logo.png";
-import SQL from "../../assets/images/sql-logo.png";
-import MongoDB from "../../assets/images/mongodb-logo.png";
-import ReactLogo from "../../assets/images/classic-react-logo.png";
-import ReduxLogo from "../../assets/images/redux-logo.png";
-import ExpressLogo from "../../assets/images/expressjs.png";
-import Canto from "../../assets/images/canto-logo-orange.png";
+import HTML5 from "../../../../../assets/images/HTML-icon.png";
+import CSS from "../../../../../assets/images/CSS-icon.png";
+import JavaScript from "../../../../../assets/images/Javascript-icon.png";
+import jQuery from "../../../../../assets/images/jquery-logo.png";
+import SQL from "../../../../../assets/images/sql-logo.png";
+import MongoDB from "../../../../../assets/images/mongodb-logo.png";
+import ReactLogo from "../../../../../assets/images/classic-react-logo.png";
+import ReduxLogo from "../../../../../assets/images/redux-logo.png";
+import ExpressLogo from "../../../../../assets/images/expressjs.png";
+import Canto from "../../../../../assets/images/canto-logo-orange.png";
 
 import "./style.css";
 
