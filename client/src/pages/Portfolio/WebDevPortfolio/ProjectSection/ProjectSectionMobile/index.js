@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, List, Responsive, Icon } from "semantic-ui-react";
 import OnlinePortfolioMobile from "../../../../../components/OnlinePortfolio/Mobile";
-import AllChatV2 from "../../../../../assets/images/AllChatV2.png";
-import AllChatV1 from "../../../../../assets/images/AllChatV1.png";
+import AllChatV2 from "../../../../../assets/screenshots/AllChatV2.png";
+import AllChatV1 from "../../../../../assets/screenshots/AllChatV1.png";
 import HerokuIcon from "../../../../../assets/images/heroku-icon.png";
 
 import "./style.css";
