@@ -10,6 +10,9 @@ import "./style.css";
 
 class Home extends Component {
     render() {
+        
+        const { bio } = this.props;
+        
         return (
             <>
                 <div id="home-page">
@@ -38,7 +41,7 @@ class Home extends Component {
                                 </Grid.Row>
                             </Grid.Column>
                             <Grid.Column width={12}>
-                                <HomeBio />
+                                <HomeBio bio={bio} />
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

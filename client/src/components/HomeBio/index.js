@@ -1,19 +1,20 @@
 import React from "react";
-import { homeText } from "../../text";
 
 import "./style.css";
 
-const HomeBio = () => {
+const HomeBio = (props) => {
+
+    const {paragraph1, paragraph2, paragraph3 } = props.bio;
     return (
         <div id="paragraphs">
             <div id="content1">
-                <p>{homeText.paragraph1}</p>
+                <p>{paragraph1}</p>
             </div>
             <div id="content2">
-                <p>{homeText.paragraph2}</p>
+                <p>{paragraph2}</p>
             </div>
             <div id="content3">
-                <p>{homeText.paragraph3}</p>
+                <p>{paragraph3}</p>
             </div>
         </div>
     );
