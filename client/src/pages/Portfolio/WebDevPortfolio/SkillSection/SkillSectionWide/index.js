@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, Responsive } from "semantic-ui-react";
-import HTML5 from "../../../../../assets/images/HTML-icon.png";
+import HTML5 from "../../../../../components/HTML5/WideScreen";
 import CSS from "../../../../../assets/images/CSS-icon.png";
 import JavaScript from "../../../../../assets/images/Javascript-icon.png";
 import jQuery from "../../../../../assets/images/jquery-logo.png";
@@ -31,18 +31,7 @@ class SkillSectionWide extends Component {
                 </Responsive>
                 <Responsive {...Responsive.onlyWidescreen} as={Grid} id="skills-container-wide">
                     <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="html5-logo-wide" src={HTML5} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="html5-header-wide" as="h2">HTML5</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
+                        <HTML5 />
                         <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
                             <Responsive {...Responsive.onlyWidescreen} as={Grid}>
                                 <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
