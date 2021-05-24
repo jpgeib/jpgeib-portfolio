@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, Responsive } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/LargeScreen";
-import CSS from "../../../../../assets/images/CSS-icon.png";
+import CSS from "../../../../../components/CSS/LargeScreen";
 import JavaScript from "../../../../../assets/images/Javascript-icon.png";
 import jQuery from "../../../../../assets/images/jquery-logo.png";
 import SQL from "../../../../../assets/images/sql-logo.png";
@@ -32,18 +32,7 @@ class SkillSectionLarge extends Component {
                 <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid} id="skills-container-large">
                     <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid.Row}>
                         <HTML5 />
-                        <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid}>
-                                <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid.Column} width={16}>
-                                        <Image id="css-logo-large" src={CSS} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid.Column} width={16}>
-                                        <Header id="css-header-large" as="h2">CSS</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
+                        <CSS />
                         <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid.Column} width={4}>
                             <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid}>
                                 <Responsive {...Responsive.onlyLargeScreen} minWidth={1572} maxWidth={1919} as={Grid.Row}>

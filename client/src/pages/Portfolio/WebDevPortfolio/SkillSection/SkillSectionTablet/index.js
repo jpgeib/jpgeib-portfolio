@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, Responsive } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/Tablet";
-import CSS from "../../../../../assets/images/CSS-icon.png";
+import CSS from "../../../../../components/CSS/Tablet";
 import JavaScript from "../../../../../assets/images/Javascript-icon.png";
 import jQuery from "../../../../../assets/images/jquery-logo.png";
 import SQL from "../../../../../assets/images/sql-logo.png";
@@ -32,18 +32,7 @@ class SkillSectionTablet extends Component {
                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="skills-container-tablet">
                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                         <HTML5 />
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>
-                            <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid}>
-                                <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
-                                        <Image id="css-logo-tablet" src={CSS} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
-                                        <Header id="css-header-tablet" as="h2">CSS</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
+                        <CSS />
                     </Responsive>
                     <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
                         <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={8}>

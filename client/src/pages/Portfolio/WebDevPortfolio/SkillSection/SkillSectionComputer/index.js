@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header, Image, Responsive } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/Computer";
-import CSS from "../../../../../assets/images/CSS-icon.png";
+import CSS from "../../../../../components/CSS/Computer";
 import JavaScript from "../../../../../assets/images/Javascript-icon.png";
 import jQuery from "../../../../../assets/images/jquery-logo.png";
 import SQL from "../../../../../assets/images/sql-logo.png";
@@ -32,18 +32,7 @@ class SkillSectionComputer extends Component {
                 <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid} id="skills-container-computer">
                     <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
                         <HTML5 />
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
-                                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Image id="css-logo-computer" src={CSS} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
-                                        <Header id="css-header-computer" as="h2">CSS</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
+                        <CSS />
                         <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={4}>
                             <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid}>
                                 <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
