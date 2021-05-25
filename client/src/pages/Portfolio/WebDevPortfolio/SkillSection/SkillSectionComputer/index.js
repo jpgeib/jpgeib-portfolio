@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Header, Image, Responsive } from "semantic-ui-react";
+import { Grid, Header, Responsive } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/Computer";
 import CSS from "../../../../../components/CSS/Computer";
 import JavaScript from "../../../../../components/JavaScript/Computer";
