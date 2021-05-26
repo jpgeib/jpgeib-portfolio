@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import { Grid, Header, Image, Responsive } from "semantic-ui-react";
+import { Grid, Header, Responsive } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/WideScreen";
 import CSS from "../../../../../components/CSS/WideScreen";
-import JavaScript from "../../../../../assets/images/Javascript-icon.png";
-import jQuery from "../../../../../assets/images/jquery-logo.png";
-import SQL from "../../../../../assets/images/sql-logo.png";
-import MongoDB from "../../../../../assets/images/mongodb-logo.png";
-import ReactLogo from "../../../../../assets/images/classic-react-logo.png";
-import ReduxLogo from "../../../../../assets/images/redux-logo.png";
-import ExpressLogo from "../../../../../assets/images/expressjs.png";
-import Canto from "../../../../../assets/images/canto-logo-orange.png";
+import JavaScript from "../../../../../components/JavaScript/WideScreen";
+import JQuery from "../../../../../components/JQuery/WideScreen";
+import SQL from "../../../../../components/SQL/WideScreen";
+import MongoDB from "../../../../../components/MongoDB/WideScreen";
+import ReactLogo from "../../../../../components/React/WideScreen";
+import ReduxLogo from "../../../../../components/Redux/WideScreen";
+import ExpressLogo from "../../../../../components/Express/WideScreen";
+import Canto from "../../../../../components/Canto/WideScreen";
 
 import "./style.css";
 
@@ -33,107 +33,19 @@ class SkillSectionWide extends Component {
                     <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
                         <HTML5 />
                         <CSS />
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="javascript-logo-wide" src={JavaScript} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="javascript-header-wide" as="h2">JavaScript</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="jquery-logo-wide" src={jQuery} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="jquery-header-wide" as="h2">jQuery</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
+                        <JavaScript />
+                        <JQuery />
                     </Responsive>
                     <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="sql-logo-wide" src={SQL} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="sql-header-wide" as="h2">SQL</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="mongo-logo-wide" src={MongoDB} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="mongo-header-wide" as="h2">MongoDB</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="react-logo-wide" src={ReactLogo} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="react-header-wide" as="h2">React.js</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="redux-logo-wide" src={ReduxLogo} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="redux-header-wide" as="h2">Redux.js</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
+                        <SQL />
+                        <MongoDB />
+                        <ReactLogo />
+                        <ReduxLogo />
                     </Responsive>
                     <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
                         <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}></Responsive>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="express-logo-wide" src={ExpressLogo} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="express-header-wide" as="h2">Express.js</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
-                        <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}>
-                            <Responsive {...Responsive.onlyWidescreen} as={Grid}>
-                                <Responsive {...Responsive.onlyWidescreen} as={Grid.Row}>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Image id="canto-logo-wide" src={Canto} size="small" />
-                                    </Responsive>
-                                    <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={16}>
-                                        <Header id="canto-header-wide" as="h2">Canto</Header>
-                                    </Responsive>
-                                </Responsive>
-                            </Responsive>
-                        </Responsive>
+                        <ExpressLogo />
+                        <Canto />
                         <Responsive {...Responsive.onlyWidescreen} as={Grid.Column} width={4}></Responsive>
                     </Responsive>
                 </Responsive>
