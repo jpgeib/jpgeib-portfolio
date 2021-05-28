@@ -10,19 +10,19 @@ class ProjectSectionComputer extends Component {
     render() {
         return (
             <div id="project-page-computer">
-                <Responsive {...Responsive.onlyComputer} minWidth={800} maxwidth={1571} as={Grid} id="project-headers-container-computer">
-                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
+                <Responsive {...Responsive.onlyComputer} minWidth={800} as={Grid} id="project-headers-container-computer">
+                    <Responsive {...Responsive.onlyComputer} minWidth={800} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyComputer} minWidth={800} as={Grid.Column} width={16}>
                             <Header id="project-header-computer" as="h1">Full-Stack Web Development Projects</Header>
                         </Responsive>
                     </Responsive>
-                    <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid.Column} width={16}>
+                    <Responsive {...Responsive.onlyComputer} minWidth={800} as={Grid.Row}>
+                        <Responsive {...Responsive.onlyComputer} minWidth={800} as={Grid.Column} width={16}>
                             <Header id="project-subheader-computer" as="h3">Projects are listed in order of most recent with links provided:</Header>
                         </Responsive>
                     </Responsive>
                 </Responsive>
-                <Responsive {...Responsive.onlyComputer} minWidth={800} maxWidth={1571} as={Grid} id="project-container-computer">
+                <Responsive {...Responsive.onlyComputer} minWidth={800} as={Grid} id="project-container-computer">
                     <OnlinePortfolioComputer />
                     <AllChatV2Computer />
                     <AllChatV1Computer />
