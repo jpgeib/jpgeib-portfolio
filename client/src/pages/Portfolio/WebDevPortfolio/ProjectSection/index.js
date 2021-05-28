@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import ProjectSectionMobile from "./ProjectSectionMobile";
 import ProjectSectionTablet from "./ProjectSectionTablet";
 import ProjectSectionComputer from "./ProjectSectionComputer";
-import ProjectSectionLarge from "./ProjectSectionLarge";
-import ProjectSectionWide from "./ProjectSectionWide";
 
 class ProjectSection extends Component {
     render() {
@@ -12,8 +10,6 @@ class ProjectSection extends Component {
                 <ProjectSectionMobile />
                 <ProjectSectionTablet />
                 <ProjectSectionComputer />
-                <ProjectSectionLarge />
-                <ProjectSectionWide />
             </>
         );
     }
