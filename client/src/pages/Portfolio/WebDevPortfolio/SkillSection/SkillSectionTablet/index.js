@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Header, Responsive } from "semantic-ui-react";
+import { Grid, Header } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/Tablet";
 import CSS from "../../../../../components/CSS/Tablet";
 import JavaScript from "../../../../../components/JavaScript/Tablet";
@@ -17,40 +17,40 @@ class SkillSectionTablet extends Component {
     render() {
         return (
             <div id="skills-page-tablet">
-                <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="skills-headers-container-tablet">
-                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                <Grid id="skills-headers-container-tablet">
+                    <Grid.Row>
+                        <Grid.Column width={16}>
                             <Header id="skills-header-tablet" as="h1">Full-Stack Web Development Technical Skills</Header>
-                        </Responsive>
-                    </Responsive>
-                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Column} width={16}>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={16}>
                             <Header id="skills-subheader-tablet" as="h3">I am proficient in the following technologies:</Header>
-                        </Responsive>
-                    </Responsive>
-                </Responsive>
-                <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="skills-container-tablet">
-                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
+                <Grid id="skills-container-tablet">
+                    <Grid.Row>
                         <HTML5 />
                         <CSS />
-                    </Responsive>
-                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                    </Grid.Row>
+                    <Grid.Row>
                         <JavaScript />
                         <JQuery />
-                    </Responsive>
-                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                    </Grid.Row>
+                    <Grid.Row>
                         <SQL />
                         <MongoDB />
-                    </Responsive>
-                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                    </Grid.Row>
+                    <Grid.Row>
                         <ReactLogo />
                         <ReduxLogo />
-                    </Responsive>
-                    <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid.Row}>
+                    </Grid.Row>
+                    <Grid.Row>
                         <ExpressLogo />
                         <Canto />
-                    </Responsive>
-                </Responsive>
+                    </Grid.Row>
+                </Grid>
             </div>
         );
     }
