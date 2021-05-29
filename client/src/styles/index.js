@@ -5,6 +5,8 @@ const generalStyle = {
     color: "white"
 };
 
+//Home Page Styling
+
 const homeStyle = {
     bio: {
         fontSize: "24px",
