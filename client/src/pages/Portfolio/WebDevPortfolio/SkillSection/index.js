@@ -3,8 +3,6 @@ import SkillSectionMobile from "./SkillSectionMobile";
 import SkillSectionTablet from "./SkillSectionTablet";
 import SkillSectionComputer from "./SkillSectionComputer";
 
-import "./style.css";
-
 class SkillSection extends Component {
 
     state = {
