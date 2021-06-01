@@ -1,32 +1,46 @@
-//General Styling
-
-const generalStyle = {
-    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
-    color: "white"
-};
-
 //Home Page Styling
 
 const homeStyle = {
     bio: {
-        fontSize: "24px",
-        marginBottom: "3%"
+        container: {
+            marginBottom: "3%"
+        },
+        text: {
+            fontSize: "24px",
+            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+            color: "white"
+        }
     },
     social: {
-        marginTop: "15%",
-        marginLeft: "25%"
+        container: {
+            marginTop: "15%",
+            marginLeft: "25%"
+        },
+        text: {
+            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+            color: "white"
+        },
+        icon: {
+            color: "white"
+        }
     },
     contact: {
         header: {
             marginTop: "20%",
-            marginLeft: "25%"
+            marginLeft: "25%",
+            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+            color: "white"
         },
         phone: {
-            marginLeft: "15%"
+            marginLeft: "15%",
+            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+            color: "white"
         },
         email: {
             marginLeft: "15%",
-            marginBottom: "30%"
+            marginBottom: "30%",
+            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+            color: "white"
         }
     }
 };
@@ -34,6 +48,5 @@ const homeStyle = {
 //Aggregate Styling
 
 export const webStyle = {
-    generalStyle,
     homeStyle
 };

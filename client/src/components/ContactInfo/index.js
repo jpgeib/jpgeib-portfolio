@@ -1,15 +1,16 @@
 import React from "react";
 import { Header, Icon } from "semantic-ui-react";
 
-import "./style.css";
+const ContactInfo = (props) => {
 
-const ContactInfo = () => {
+    const { header, phone, email } = props.contact;
+
     return (
-        <div id="contact-container">
-            <Header id="contact-header" as="h2">Contact Info:</Header>
-            <Header id="phone" as="h3"><Icon size="huge" name="phone" />(203)-736-7540</Header>
-            <Header id="email" as="h3"><Icon size="huge" name="mail" />jpgeib2@gmail.com</Header>
-        </div>
+        <>
+            <Header style={header} as="h2">Contact Info:</Header>
+            <Header style={phone} as="h3"><Icon size="huge" name="phone" />(203)-736-7540</Header>
+            <Header style={email} as="h3"><Icon size="huge" name="mail" />jpgeib2@gmail.com</Header>
+        </>
     );
 };
 

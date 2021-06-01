@@ -11,7 +11,7 @@ import "./style.css";
 class Home extends Component {
     render() {
         
-        const { bio, general, home } = this.props;
+        const { bio, home } = this.props;
         
         return (
             <>
@@ -31,17 +31,17 @@ class Home extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <ContactInfo general={general} contact={home.contact}  />
+                                        <ContactInfo contact={home.contact}  />
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <SocialLinks general={general} social={home.social} />
+                                        <SocialLinks social={home.social} />
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid.Column>
                             <Grid.Column width={12}>
-                                <HomeBio text={bio} general={general} bio={home.bio} />
+                                <HomeBio text={bio} bio={home.bio} />
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
