@@ -11,18 +11,18 @@ export default () => {
         <>
             <Grid.Row centered>
                 <Grid.Column width={4}>
-                    <Image as={Link} to="/files/photoshop-examples.zip" target=":blank" download id="photoshop-icon" src={Photoshop} size="small" />
+                    <Image as={Link} to="/files/photoshop-examples.zip" target=":blank" download src={Photoshop} size="small" />
                 </Grid.Column>
                 <Grid.Column width={4}>
-                    <Image as={Link} to="/files/illustrator-examples.zip" target=":blank" download id="illustrator-icon" src={Illustrator} size="small" />
+                    <Image as={Link} to="/files/illustrator-examples.zip" target=":blank" download src={Illustrator} size="small" />
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row centered>
                 <Grid.Column width={4}>
-                    <Image as={Link} to="/files/indesign-examples.zip" target=":blank" download id="indesign-icon" src={InDesign} size="small" />
+                    <Image as={Link} to="/files/indesign-examples.zip" target=":blank" download src={InDesign} size="small" />
                 </Grid.Column>
                 <Grid.Column width={4}>
-                    <Image id="premiere-icon" src={PremierePro} size="small" />
+                    <Image src={PremierePro} size="small" />
                 </Grid.Column>
             </Grid.Row>
         </>
