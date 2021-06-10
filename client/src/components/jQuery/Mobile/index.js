@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Image } from "semantic-ui-react";
-import JQuery from "../../../assets/images/jquery-logo.png";
+import Jquery from "../../../assets/images/jquery-logo.png";
 
 class Mobile extends Component {
     render() {
@@ -11,7 +11,7 @@ class Mobile extends Component {
                         <Grid>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Image id="jquery-logo-mobile" src={JQuery} size="small" />
+                                    <Image id="jquery-logo-mobile" src={Jquery} size="small" />
                                 </Grid.Column>
                                 <Grid.Column width={16}>
                                     <Header id="jquery-header-mobile" as="h2">jQuery</Header>

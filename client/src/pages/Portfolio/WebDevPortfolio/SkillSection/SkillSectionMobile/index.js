@@ -3,7 +3,7 @@ import { Grid, Header } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/Mobile";
 import CSS from "../../../../../components/CSS/Mobile";
 import JavaScript from "../../../../../components/JavaScript/Mobile";
-import JQuery from "../../../../../components/JQuery/Mobile";
+import Jquery from "../../../../../components/Jquery/Mobile";
 import SQL from "../../../../../components/SQL/Mobile";
 import MongoDB from "../../../../../components/MongoDB/Mobile";
 import ReactLogo from "../../../../../components/React/Mobile";
@@ -33,7 +33,7 @@ class SkillSectionMobile extends Component {
                     <HTML5 />
                     <CSS />
                     <JavaScript />
-                    <JQuery />
+                    <Jquery />
                     <SQL />
                     <MongoDB />
                     <ReactLogo />

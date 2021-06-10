@@ -3,7 +3,7 @@ import { Grid, Header } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/Tablet";
 import CSS from "../../../../../components/CSS/Tablet";
 import JavaScript from "../../../../../components/JavaScript/Tablet";
-import JQuery from "../../../../../components/JQuery/Tablet";
+import Jquery from "../../../../../components/Jquery/Tablet";
 import SQL from "../../../../../components/SQL/Tablet";
 import MongoDB from "../../../../../components/MongoDB/Tablet";
 import ReactLogo from "../../../../../components/React/Tablet";
@@ -36,7 +36,7 @@ class SkillSectionTablet extends Component {
                     </Grid.Row>
                     <Grid.Row>
                         <JavaScript />
-                        <JQuery />
+                        <Jquery />
                     </Grid.Row>
                     <Grid.Row>
                         <SQL />
