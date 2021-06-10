@@ -3,7 +3,7 @@ import { Grid, Header } from "semantic-ui-react";
 import HTML5 from "../../../../../components/HTML5/Computer";
 import CSS from "../../../../../components/CSS/Computer";
 import JavaScript from "../../../../../components/JavaScript/Computer";
-// import Jquery from "../../../../../components/Jquery/Computer";
+
 import SQL from "../../../../../components/SQL/Computer";
 import MongoDB from "../../../../../components/MongoDB/Computer";
 import ReactLogo from "../../../../../components/React/Computer";
@@ -34,7 +34,7 @@ class SkillSectionComputer extends Component {
                         <HTML5 />
                         <CSS />
                         <JavaScript />
-                        {/* <Jquery /> */}
+                        
                     </Grid.Row>
                     <Grid.Row>
                         <SQL />
