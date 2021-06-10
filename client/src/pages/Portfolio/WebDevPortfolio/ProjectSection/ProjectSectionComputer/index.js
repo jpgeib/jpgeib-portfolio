@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Responsive } from "semantic-ui-react";
+import GnormMusicComputer from "../../../../../components/GnormMusic/Computer";
 import OnlinePortfolioComputer from "../../../../../components/OnlinePortfolio/Computer";
 import AllChatV2Computer from "../../../../../components/AllChatV2/Computer";
 import AllChatV1Computer from "../../../../../components/AllChat/Computer";
@@ -23,6 +24,7 @@ class ProjectSectionComputer extends Component {
                     </Responsive>
                 </Responsive>
                 <Responsive {...Responsive.onlyComputer} minWidth={800} as={Grid} id="project-container-computer">
+                    <GnormMusicComputer />
                     <OnlinePortfolioComputer />
                     <AllChatV2Computer />
                     <AllChatV1Computer />

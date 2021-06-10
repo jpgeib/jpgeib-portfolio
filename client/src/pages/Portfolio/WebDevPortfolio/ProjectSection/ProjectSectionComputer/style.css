@@ -35,13 +35,13 @@
 /*Subsections Styling*/
 
 #portfolio-container-computer, #allchatv2-container-computer, 
-#allchatv1-container-computer, #feast-fitness-container-computer {
+#allchatv1-container-computer, #gnorm-container-computer {
     margin-top: 0;
     border: solid white 2px;
 }
 
 #portfolio-header-computer, #allchatv2-header-computer, 
-#allchatv1-header-computer, #feast-fitness-header-computer {
+#allchatv1-header-computer, #gnorm-header-computer {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 5%;
@@ -50,7 +50,7 @@
 #portfolio-github-computer, #portfolio-heroku-computer, 
 #allchatv2-github-computer, #allchatv1-github-computer, 
 #allchatv2-heroku-computer, #allchatv1-heroku-computer,
-#feast-fitness-github-computer {
+#gnorm-heroku-computer, #gnorm-github-computer {
     color: white;
     text-decoration-line: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
