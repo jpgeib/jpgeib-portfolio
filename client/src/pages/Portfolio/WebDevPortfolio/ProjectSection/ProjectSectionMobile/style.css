@@ -30,28 +30,28 @@
 /* Subsections Styling */
 
 #portfolio-container-mobile, #allchatv2-container-mobile,
-#allchatv1-container-mobile, #feast-fitness-container-mobile {
+#allchatv1-container-mobile, #gnorm-container-mobile {
     margin-top: 0;
     border: solid white 2px;
 }
 
 #portfolio-image-mobile, #allchatv2-image-mobile, 
-#allchatv1-image-mobile, #feast-fitness-image-mobile {
+#allchatv1-image-mobile, #gnorm-image-mobile {
     margin-bottom: 5%;
 }
 
 #portfolio-links-container-mobile, #allchatv2-links-container-mobile,
-#allchatv1-links-container-mobile, #feast-fitness-links-container-mobile {
+#allchatv1-links-container-mobile, #gnorm-links-container-mobile {
     margin-top: 5%;
 }
 
 #portfolio-header-mobile, #allchatv2-header-mobile, 
-#allchatv1-header-mobile, #feast-fitness-header-mobile,
+#allchatv1-header-mobile, #gnorm-header-mobile,
 #github-header-mobile, #heroku-header-mobile, 
 .project-list-item-mobile, #portfolio-github-mobile, 
 #portfolio-heroku-mobile, #allchatv2-github-mobile, 
 #allchatv1-github-mobile, #allchatv2-heroku-mobile,
-#allchatv1-heroku-mobile, #feast-fitness-github-mobile {
+#allchatv1-heroku-mobile, #gnorm-github-mobile {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

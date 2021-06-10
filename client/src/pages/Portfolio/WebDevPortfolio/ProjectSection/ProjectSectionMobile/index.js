@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Responsive } from "semantic-ui-react";
+import GnormMusicMobile from "../../../../../components/GnormMusic/Mobile";
 import OnlinePortfolioMobile from "../../../../../components/OnlinePortfolio/Mobile";
 import AllChatV2Mobile from "../../../../../components/AllChatV2/Mobile";
 import AllChatV1Mobile from "../../../../../components/AllChat/Mobile";
@@ -23,6 +24,7 @@ class ProjectSectionMobile extends Component {
                     </Responsive>
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="project-container-mobile">
+                    <GnormMusicMobile />
                     <OnlinePortfolioMobile />
                     <AllChatV2Mobile />
                     <AllChatV1Mobile />
