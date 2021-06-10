@@ -30,19 +30,19 @@
 /* Subsections Styling */
 
 #allchatv2-image-tablet, #allchatv1-image-tablet, 
-#feast-fitness-image-tablet {
+#gnorm-image-tablet {
     margin-top: 2.5%;
 }
 
 #portfolio-container-tablet, #allchatv2-container-tablet, 
-#allchatv1-container-tablet, #feast-fitness-container-tablet {
+#allchatv1-container-tablet, #gnorm-container-tablet {
     margin-top: 0;
     border: solid white 2px;
     margin-top: 5%;
 }
 
 #portfolio-header-tablet, #allchatv2-header-tablet, 
-#allchatv1-header-tablet, #feast-fitness-header-tablet {
+#allchatv1-header-tablet, #gnorm-header-tablet {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 5%;
@@ -57,7 +57,7 @@
 #portfolio-github-tablet, #portfolio-heroku-tablet, 
 #allchatv2-github-tablet, #allchatv1-github-tablet, 
 #allchatv2-heroku-tablet, #allchatv1-heroku-tablet, 
-#feast-fitness-github-tablet {
+#gnorm-heroku-tablet, #gnorm-github-tablet {
     color: white;
     text-decoration-line: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

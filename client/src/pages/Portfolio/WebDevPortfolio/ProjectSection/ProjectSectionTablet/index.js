@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Header, Responsive } from "semantic-ui-react";
+import GnormMusicTablet from "../../../../../components/GnormMusic/Tablet";
 import OnlinePortfolioTablet from "../../../../../components/OnlinePortfolio/Tablet";
 import AllChatV2Tablet from "../../../../../components/AllChatV2/Tablet";
 import AllChatV1Tablet from "../../../../../components/AllChat/Tablet";
@@ -23,6 +24,7 @@ class ProjectSectionTablet extends Component {
                     </Responsive>
                 </Responsive>
                 <Responsive {...Responsive.onlyTablet} minWidth={415} maxWidth={799} as={Grid} id="project-container-tablet">
+                    <GnormMusicTablet />
                     <OnlinePortfolioTablet />
                     <AllChatV2Tablet />
                     <AllChatV1Tablet />
