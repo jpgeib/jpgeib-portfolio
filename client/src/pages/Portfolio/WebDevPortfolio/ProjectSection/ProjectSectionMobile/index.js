@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Header, Responsive } from "semantic-ui-react";
+import { Grid, Header } from "semantic-ui-react";
 import GnormMusicMobile from "../../../../../components/GnormMusic/Mobile";
 import OnlinePortfolioMobile from "../../../../../components/OnlinePortfolio/Mobile";
 import AllChatV2Mobile from "../../../../../components/AllChatV2/Mobile";
@@ -11,24 +11,24 @@ class ProjectSectionMobile extends Component {
     render() {
         return (
             <div id="project-page-mobile">
-                <Responsive {...Responsive.onlyMobile} maxwidth={414} as={Grid} id="project-headers-container-mobile">
-                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                <Grid id="project-headers-container-mobile">
+                    <Grid.Row>
+                        <Grid.Column width={16}>
                             <Header id="project-header-mobile" as="h1">Full-Stack Web Development Projects</Header>
-                        </Responsive>
-                    </Responsive>
-                    <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Row}>
-                        <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid.Column} width={16}>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={16}>
                             <Header id="project-subheader-mobile" as="h3">Projects are listed in order of most recent with links provided:</Header>
-                        </Responsive>
-                    </Responsive>
-                </Responsive>
-                <Responsive {...Responsive.onlyMobile} maxWidth={414} as={Grid} id="project-container-mobile">
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
+                <Grid id="project-container-mobile">
                     <GnormMusicMobile />
                     <OnlinePortfolioMobile />
                     <AllChatV2Mobile />
                     <AllChatV1Mobile />
-                </Responsive>
+                </Grid>
             </div>
         );
     }
