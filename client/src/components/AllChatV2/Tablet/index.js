@@ -26,7 +26,7 @@ class Tablet extends Component {
                                     <List bulleted size="big">
                                         <List.Item className="project-list-item-tablet">An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
                                         <List.Item className="project-list-item-tablet">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
-                                        <List.Item className="project-list-item-tablet">Technologies used: React/Redux, Semantic UI React Framework, CSS, Adobe Photoshop</List.Item>
+                                        <List.Item className="project-list-item-tablet">Technologies used: React/Redux.js, Semantic UI React Framework, CSS, Adobe Photoshop</List.Item>
                                     </List>
                                 </Grid.Column>
                             </Grid.Row>

@@ -26,7 +26,7 @@ class Tablet extends Component {
                                     <List bulleted size="big">
                                         <List.Item className="project-list-item-tablet">An online portfolio created to list and show off my achievements/works in full-stack web development and digital media production.</List.Item>
                                         <List.Item className="project-list-item-tablet">Role/Responsibility: Front-End Development, Front-End Design, Back-End Development</List.Item>
-                                        <List.Item className="project-list-item-tablet">Technologies used: React/Redux, CSS, Semantic UI React Framework, Express.js, Adobe Photoshop</List.Item>
+                                        <List.Item className="project-list-item-tablet">Technologies used: React.js, CSS, Semantic UI React Framework, Express.js, Adobe Photoshop</List.Item>
                                     </List>
                                 </Grid.Column>
                             </Grid.Row>

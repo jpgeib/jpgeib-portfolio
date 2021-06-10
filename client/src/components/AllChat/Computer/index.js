@@ -26,7 +26,7 @@ class Computer extends Component {
                                     <List bulleted size="big">
                                         <List.Item className="project-list-item-computer">A basic online chatroom app that serves as the foundational stepping stone for an even more ambitious project.</List.Item>
                                         <List.Item className="project-list-item-computer">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
-                                        <List.Item className="project-list-item-computer">Technologies used: React, Semantic UI React Framework, CSS</List.Item>
+                                        <List.Item className="project-list-item-computer">Technologies used: React.js, Semantic UI React Framework, CSS</List.Item>
                                     </List>
                                 </Grid.Column>
                             </Grid.Row>
