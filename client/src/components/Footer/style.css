@@ -1,3 +1,13 @@
 #footer {
-    margin-top: 3%;
+    margin-top: 5%;
+    background-color: rgb(180, 74, 70);
+}
+
+#footer-header {
+    color: white;
+    margin-left: 1%;
+}
+
+#footer-react-image, #footer-semantic-image {
+    margin-left: 15%;
 }
