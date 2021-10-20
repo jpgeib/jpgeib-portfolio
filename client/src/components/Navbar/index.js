@@ -20,5 +20,6 @@ export default (props) => (
                 <Dropdown.Item as={Link} to="/adobe" text="Adobe Creative Cloud" />
             </Dropdown.Menu>
         </Dropdown>
+        <Menu.Item as={Link} content="Blog" to="/blog" />
     </Menu>
 );
