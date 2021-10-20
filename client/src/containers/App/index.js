@@ -5,6 +5,7 @@ import AdobePortfolio from "../../pages/Portfolio/AdobePortfolio";
 import Navbar from "../../components/Navbar";
 import ProjectSection from "../../pages/Portfolio/WebDevPortfolio/ProjectSection";
 import SkillSection from "../../pages/Portfolio/WebDevPortfolio/SkillSection";
+import Footer from "../../components/Footer";
 import { webText } from "../../text";
 import { webStyle } from "../../styles";
 
@@ -22,6 +23,7 @@ class App extends Component {
         <Route exact path="/adobe" component={AdobePortfolio} />
         <Route exact path="/webdev/projects" component={ProjectSection} />
         <Route exact path="/webdev/skills" component={SkillSection} />
+        <Footer />
       </>
     );
   }
