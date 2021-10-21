@@ -45,8 +45,29 @@ const homeStyle = {
     }
 };
 
+//Webdev Portfolio Project Section Styling
+
+const projectStyle = {
+
+};
+
+//Webdev Portfolio Skills Section Styling
+
+const skillStyle = {
+
+};
+
+//Blog Styling
+
+const blogStyle = {
+
+};
+
 //Aggregate Styling
 
 export const webStyle = {
-    homeStyle
+    homeStyle,
+    projectStyle,
+    skillStyle,
+    blogStyle
 };
