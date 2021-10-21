@@ -13,20 +13,20 @@ class ProjectSectionComputer extends Component {
         const { general, subSection } = this.props.computer;
         
         return (
-            <div style={general.page} id="project-page-computer">
-                <Grid style={general.headerContainer} id="project-headers-container-computer">
+            <div style={general.page}>
+                <Grid style={general.headerContainer}>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={general.header} id="project-header-computer" as="h1">Full-Stack Web Development Projects</Header>
+                            <Header style={general.header} as="h1">Full-Stack Web Development Projects</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={general.subheader} id="project-subheader-computer" as="h3">Projects are listed in order of most recent with links provided:</Header>
+                            <Header style={general.subheader} as="h3">Projects are listed in order of most recent with links provided:</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                <Grid style={general.container} id="project-container-computer">
+                <Grid style={general.container}>
                     <GnormMusicComputer subSection={subSection} />
                     <OnlinePortfolioComputer subSection={subSection} />
                     <AllChatV2Computer subSection={subSection} />
