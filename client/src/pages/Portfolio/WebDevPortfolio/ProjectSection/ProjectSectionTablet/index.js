@@ -5,29 +5,29 @@ import OnlinePortfolioTablet from "../../../../../components/OnlinePortfolio/Tab
 import AllChatV2Tablet from "../../../../../components/AllChatV2/Tablet";
 import AllChatV1Tablet from "../../../../../components/AllChat/Tablet";
 
-import "./style.css";
-
 class ProjectSectionTablet extends Component {
     render() {
+
+        const { general, subSection } = this.props.tablet;
         return (
-            <div id="project-page-tablet">
-                <Grid id="project-headers-container-tablet">
+            <div style={general.page}>
+                <Grid style={general.headerContainer}>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="project-header-tablet" as="h1">Full-Stack Web Development Projects</Header>
+                            <Header style={general.header} as="h1">Full-Stack Web Development Projects</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="project-subheader-tablet" as="h3">Projects are listed in order of most recent with links provided:</Header>
+                            <Header style={general.subheader} as="h3">Projects are listed in order of most recent with links provided:</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                <Grid id="project-container-tablet">
-                    <GnormMusicTablet />
-                    <OnlinePortfolioTablet />
-                    <AllChatV2Tablet />
-                    <AllChatV1Tablet />
+                <Grid style={general.container}>
+                    <GnormMusicTablet subSection={subSection} />
+                    <OnlinePortfolioTablet subSection={subSection} />
+                    <AllChatV2Tablet subSection={subSection} />
+                    <AllChatV1Tablet subSection={subSection} />
                 </Grid>
             </div>
         );

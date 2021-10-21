@@ -5,8 +5,6 @@ import OnlinePortfolioComputer from "../../../../../components/OnlinePortfolio/C
 import AllChatV2Computer from "../../../../../components/AllChatV2/Computer";
 import AllChatV1Computer from "../../../../../components/AllChat/Computer";
 
-// import "./style.css";
-
 class ProjectSectionComputer extends Component {
     render() {
         

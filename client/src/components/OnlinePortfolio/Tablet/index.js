@@ -4,29 +4,32 @@ import OnlinePortfolioImage from "../../../assets/screenshots/jpgeib-portfolio.p
 
 class Tablet extends Component {
     render() {
+
+        const { image, linkHeader, listItem, header, link, container } = this.props.subSection;
+
         return (
             <>
                 <Grid.Row>
                     <Grid.Column width={16}>
-                        <Image src={OnlinePortfolioImage} size="big" />
+                        <Image style={image} src={OnlinePortfolioImage} size="big" />
                     </Grid.Column>
                     <Grid.Column width={16}>
-                        <Grid id="portfolio-container-tablet">
+                        <Grid style={container}>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Header id="portfolio-header-tablet" as="h2">Online Portfolio</Header>
+                                    <Header style={header} as="h2">Online Portfolio</Header>
                                 </Grid.Column>
                                 <Grid.Column width={16}>
-                                    <Header id="github-header-tablet" as="h3">Github: <a id="portfolio-github-tablet" href="https://github.com/jpgeib/jpgeib-portfolio" target=":blank">https://github.com/jpgeib/jpgeib-portfolio</a></Header>
-                                    <Header id="heroku-header-tablet" as="h3">Heroku: <a id="portfolio-heroku-tablet" href="https://jpgeib-portfolio.herokuapp.com/" target=":blank">https://jpgeib-portfolio.herokuapp.com/</a></Header>
+                                    <Header style={linkHeader} as="h3">Github: <a style={link} href="https://github.com/jpgeib/jpgeib-portfolio" target=":blank">https://github.com/jpgeib/jpgeib-portfolio</a></Header>
+                                    <Header style={linkHeader} as="h3">Heroku: <a style={link} href="https://jpgeib-portfolio.herokuapp.com/" target=":blank">https://jpgeib-portfolio.herokuapp.com/</a></Header>
                                 </Grid.Column>
                             </Grid.Row>
                             <Grid.Row>
                                 <Grid.Column width={16}>
                                     <List bulleted size="big">
-                                        <List.Item className="project-list-item-tablet">An online portfolio created to list and show off my achievements/works in full-stack web development and digital media production.</List.Item>
-                                        <List.Item className="project-list-item-tablet">Role/Responsibility: Front-End Development, Front-End Design, Back-End Development</List.Item>
-                                        <List.Item className="project-list-item-tablet">Technologies used: React.js, CSS, Semantic UI React Framework, Express.js, Adobe Photoshop</List.Item>
+                                        <List.Item style={listItem}>An online portfolio created to list and show off my achievements/works in full-stack web development and digital media production.</List.Item>
+                                        <List.Item style={listItem}>Role/Responsibility: Front-End Development, Front-End Design, Back-End Development</List.Item>
+                                        <List.Item style={listItem}>Technologies used: React.js, CSS, Semantic UI React Framework, Express.js, Adobe Photoshop</List.Item>
                                     </List>
                                 </Grid.Column>
                             </Grid.Row>
