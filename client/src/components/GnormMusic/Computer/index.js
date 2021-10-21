@@ -17,11 +17,11 @@ class Computer extends Component {
                         <Grid style={container} id="gnorm-container-computer">
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Header style={linkHeader} id="gnorm-header-computer" as="h2">Gnorm Music LLC Company Site</Header>
+                                    <Header style={header} id="gnorm-header-computer" as="h2">Gnorm Music LLC Company Site</Header>
                                 </Grid.Column>
                                 <Grid.Column width={16}>
-                                    <Header style={header} id="github-header-computer" as="h3">Github: <a style={link} id="gnorm-github-computer" href="https://github.com/jpgeib/gnorm-music-company-site" target=":blank">https://github.com/jpgeib/gnorm-music-company-site</a></Header>
-                                    <Header style={header} id="heroku-header-computer" as="h3">Heroku: <a style={link} id="gnorm-heroku-computer" href="https://gnorm-music.herokuapp.com/" target=":blank">https://gnorm-music.herokuapp.com/</a></Header>
+                                    <Header style={linkHeader} id="github-header-computer" as="h3">Github: <a style={link} id="gnorm-github-computer" href="https://github.com/jpgeib/gnorm-music-company-site" target=":blank">https://github.com/jpgeib/gnorm-music-company-site</a></Header>
+                                    <Header style={linkHeader} id="heroku-header-computer" as="h3">Heroku: <a style={link} id="gnorm-heroku-computer" href="https://gnorm-music.herokuapp.com/" target=":blank">https://gnorm-music.herokuapp.com/</a></Header>
                                 </Grid.Column>
                             </Grid.Row>
                             <Grid.Row>

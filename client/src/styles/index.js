@@ -99,7 +99,7 @@ const projectStyle = {
         }
     },
     tablet: {
-        
+
     },
     mobile: {
 
