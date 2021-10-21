@@ -15,10 +15,14 @@ const Footer = (props) => {
             </Grid.Row>
             <Grid.Row>
                 <Grid.Column width={1}>
-                    <Image id="footer-react-image" size="tiny" src={ReactLogoWhite} />
+                    <a href="https://reactjs.org/" target=":blank">
+                        <Image id="footer-react-image" size="tiny" src={ReactLogoWhite} />
+                    </a>
                 </Grid.Column>
                 <Grid.Column width={1}>
-                    <Image id="footer-semantic-image" size="tiny" src={SemanticLogoWhite} />
+                    <a href="https://react.semantic-ui.com/" target=":blank">
+                        <Image id="footer-semantic-image" size="tiny" src={SemanticLogoWhite} />
+                    </a>
                 </Grid.Column>
             </Grid.Row>
         </Grid>
