@@ -17,6 +17,11 @@
     max-height: 715px;
 }
 
+#blog-header, #blog-subheader {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #entry-header, #entry-text {
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }

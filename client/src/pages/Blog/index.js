@@ -9,7 +9,16 @@ class Blog extends Component {
         return (
             <div id="blog-page">
                 <Grid id="blog-header-container">
-                    <Header as="h1">Here is where the blog will be.</Header>
+                    <Grid.Row>
+                        <Grid.Column>
+                            <Header id="blog-header" as="h1">Web Developer Blog</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column>
+                            <Header id="blog-subheader" as="h3">This is where I post updates on what I'm currently working on, what I'm learning, or interesting discoveries I've found.</Header>
+                        </Grid.Column>
+                    </Grid.Row>   
                 </Grid>
                 <Grid id="blog-container">
                     <Grid.Row>
