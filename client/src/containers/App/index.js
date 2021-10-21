@@ -15,14 +15,14 @@ class App extends Component {
   render() {
 
     const { homeText } = webText;
-    const { homeStyle } = webStyle;
+    const { homeStyle, projectStyle } = webStyle;
 
     return (
       <>
         <Navbar />
         <Route exact path="/" render={() => <Home bio={homeText} home={homeStyle} />} />
         <Route exact path="/adobe" component={AdobePortfolio} />
-        <Route exact path="/webdev/projects" component={ProjectSection} />
+        <Route exact path="/webdev/projects" render={() => <ProjectSection project={projectStyle} />}  />
         <Route exact path="/webdev/skills" component={SkillSection} />
         <Route exact path="/blog" component={Blog} />
         <Footer />

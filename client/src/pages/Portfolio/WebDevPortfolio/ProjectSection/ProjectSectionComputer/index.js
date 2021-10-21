@@ -5,29 +5,32 @@ import OnlinePortfolioComputer from "../../../../../components/OnlinePortfolio/C
 import AllChatV2Computer from "../../../../../components/AllChatV2/Computer";
 import AllChatV1Computer from "../../../../../components/AllChat/Computer";
 
-import "./style.css";
+// import "./style.css";
 
 class ProjectSectionComputer extends Component {
     render() {
+        
+        const { general, subSection } = this.props.computer;
+        
         return (
-            <div id="project-page-computer">
-                <Grid id="project-headers-container-computer">
+            <div style={general.page} id="project-page-computer">
+                <Grid style={general.headerContainer} id="project-headers-container-computer">
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="project-header-computer" as="h1">Full-Stack Web Development Projects</Header>
+                            <Header style={general.header} id="project-header-computer" as="h1">Full-Stack Web Development Projects</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="project-subheader-computer" as="h3">Projects are listed in order of most recent with links provided:</Header>
+                            <Header style={general.subheader} id="project-subheader-computer" as="h3">Projects are listed in order of most recent with links provided:</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                <Grid id="project-container-computer">
-                    <GnormMusicComputer />
-                    <OnlinePortfolioComputer />
-                    <AllChatV2Computer />
-                    <AllChatV1Computer />
+                <Grid style={general.container} id="project-container-computer">
+                    <GnormMusicComputer subSection={subSection} />
+                    <OnlinePortfolioComputer subSection={subSection} />
+                    <AllChatV2Computer subSection={subSection} />
+                    <AllChatV1Computer subSection={subSection} />
                 </Grid>
             </div>
         );
