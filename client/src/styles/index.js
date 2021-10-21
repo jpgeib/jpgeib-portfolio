@@ -45,19 +45,82 @@ const homeStyle = {
     }
 };
 
-//Webdev Portfolio Project Section Styling
+//Webdev Portfolio Page Project Section Styling
 
 const projectStyle = {
+    computer: {
+        general: {
+            page: {
+                marginTop: "3%"
+            },
+            headerContainer: {
+                margin: "0 auto",
+                width: "70%"
+            },
+            header: {
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+            },
+            subheader: {
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                marginBottom: "1%"
+            },
+            container: {
+                backgroundColor: "rgb(180, 74, 70)",
+                margin: "0 auto",
+                width: "70%",
+                padding: "1%",
+                overflowY: "auto",
+                height: "715px"
+            }
+        },
+        subSection: {
+            linkHeader: {
+                color: "white",
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+            },
+            listItem: {
+                color: "white",
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+            },
+            container: {
+                marginTop: "0",
+                border: "solid white 2px"
+            },
+            header: {
+                color: "white",
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                marginBottom: "5%"
+            },
+            link: {
+                color: "white",
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                textDecorationLine: "underline"
+            }
+        }
+    },
+    tablet: {
 
+    },
+    mobile: {
+
+    }
 };
 
-//Webdev Portfolio Skills Section Styling
+//Webdev Portfolio Page Skills Section Styling
 
 const skillStyle = {
+    computer: {
 
+    },
+    tablet: {
+
+    },
+    mobile: {
+
+    }
 };
 
-//Blog Styling
+//Blog Page Styling
 
 const blogStyle = {
 

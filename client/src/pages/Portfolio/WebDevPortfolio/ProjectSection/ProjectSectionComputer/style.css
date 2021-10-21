@@ -27,12 +27,12 @@
     height: 715px;
 }
 
+/*Subsections Styling*/
+
 #github-header-computer, #heroku-header-computer, .project-list-item-computer {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-/*Subsections Styling*/
 
 #portfolio-container-computer, #allchatv2-container-computer, 
 #allchatv1-container-computer, #gnorm-container-computer {
