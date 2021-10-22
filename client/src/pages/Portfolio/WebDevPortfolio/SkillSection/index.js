@@ -24,12 +24,13 @@ class SkillSection extends Component {
     render() {
 
         const { windowWidth } = this.state;
+        const { computer, tablet, mobile } = this.props.skills;
 
         return (
             <>
-                {windowWidth <= 414 && <SkillSectionMobile />}
-                {(windowWidth >= 415 && windowWidth <= 799) && <SkillSectionTablet />}
-                {windowWidth >= 800 && <SkillSectionComputer />}            
+                {windowWidth <= 414 && <SkillSectionMobile mobile={mobile} />}
+                {(windowWidth >= 415 && windowWidth <= 799) && <SkillSectionTablet tablet={tablet} />}
+                {windowWidth >= 800 && <SkillSectionComputer computer={computer} />}            
             </>
         );
     }
