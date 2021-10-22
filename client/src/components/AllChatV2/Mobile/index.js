@@ -5,26 +5,37 @@ import HerokuIcon from "../../../assets/images/heroku-icon.png";
 
 class Mobile extends Component {
     render() {
+
+        const { image, container, linkContainer, header, icon, listItem } = this.props.subSection;
+
         return (
             <>
                 <Grid.Row>
                     <Grid.Column width={16}>
-                        <Image id="allchatv2-image-mobile" src={AllChatV2} size="big" />
+                        <Image style={image} src={AllChatV2} size="big" />
                     </Grid.Column>
                     <Grid.Column width={16}>
-                        <Grid id="allchatv2-container-mobile">
+                        <Grid style={container}>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Header id="allchatv2-header-mobile" as="h2">AllChat V2</Header>
+                                    <Header style={header} as="h2">AllChat V2</Header>
                                 </Grid.Column>
                                 <Grid.Column width={16}>
-                                    <Grid id="allchatv2-links-container-mobile">
+                                    <Grid style={linkContainer}>
                                         <Grid.Row>
                                             <Grid.Column width={8}>
-                                                <Header id="github-header-mobile" as="h3"><a id="allchatv2-github-mobile" href="https://github.com/paulmhan/AllChat-v2" target=":blank"><Icon id="github" size="huge" name="github" /></a></Header>
+                                                <Header as="h3">
+                                                    <a style={icon} href="https://github.com/paulmhan/AllChat-v2" target=":blank">
+                                                        <Icon id="github" size="huge" name="github" />
+                                                    </a>
+                                                </Header>
                                             </Grid.Column>
                                             <Grid.Column width={8}>
-                                                <Header id="heroku-header-mobile" as="h3"><a id="allchatv2-heroku-mobile" href="https://all-chat-v2.herokuapp.com" target=":blank"><Image src={HerokuIcon} size="tiny" /></a></Header>
+                                                <Header as="h3">
+                                                    <a style={icon} href="https://all-chat-v2.herokuapp.com" target=":blank">
+                                                        <Image src={HerokuIcon} size="tiny" />
+                                                    </a>
+                                                </Header>
                                             </Grid.Column>
                                         </Grid.Row>
                                     </Grid>
@@ -33,9 +44,9 @@ class Mobile extends Component {
                             <Grid.Row>
                                 <Grid.Column width={16}>
                                     <List bulleted size="big">
-                                        <List.Item className="project-list-item-mobile">An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
-                                        <List.Item className="project-list-item-mobile">Role/Responsibility: Front-End Development, Front-End Design</List.Item>
-                                        <List.Item className="project-list-item-mobile">Technologies used: React/Redux.js, Semantic UI React Framework, CSS, Adobe Photoshop</List.Item>
+                                        <List.Item style={listItem}>An online chatroom app capable of translating messages from one language to another, broadening the scope of communication.</List.Item>
+                                        <List.Item style={listItem}>Role/Responsibility: Front-End Development, Front-End Design</List.Item>
+                                        <List.Item style={listItem}>Technologies used: React/Redux.js, Semantic UI React Framework, CSS, Adobe Photoshop</List.Item>
                                     </List>
                                 </Grid.Column>
                             </Grid.Row>
