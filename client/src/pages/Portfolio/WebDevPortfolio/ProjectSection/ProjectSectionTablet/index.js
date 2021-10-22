@@ -9,6 +9,7 @@ class ProjectSectionTablet extends Component {
     render() {
 
         const { general, subSection } = this.props.tablet;
+        
         return (
             <div style={general.page}>
                 <Grid style={general.headerContainer}>
