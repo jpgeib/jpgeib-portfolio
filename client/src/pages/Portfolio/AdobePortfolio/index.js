@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import AdobeApps from "../../../components/AdobeApps";
 
-// import "./style.css";
-
 class AdobePortfolio extends Component {
     render() {
 
