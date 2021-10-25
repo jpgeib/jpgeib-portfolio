@@ -347,10 +347,240 @@ const skillStyle = {
         }
     },
     tablet: {
+        general: {
+            page: {
+                marginTop: "3%"
+            },
+            headerContainer: {
+                margin: "0 auto",
+                width: "70%"
+            },
+            header: {
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+            },
+            subheader: {
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                marginBottom: "1%"
+            },
+            container: {
+                backgroundColor: "rgb(180, 74, 70)",
+                margin: "0 auto",
+                width: "70%",
+                padding: "1%",
+                overflowY: "auto",
+                height: "700px"
+            }
+        },
+        entries: {
+            html5: {
+                icon: {
 
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            css3: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            javascript: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            jQuery: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            sql: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            mongodb: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            react: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            redux: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            express: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            canto: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            }
+        }
     },
     mobile: {
+        general: {
+            page: {
+                marginTop: "3%"
+            },
+            headerContainer: {
+                margin: "0 auto",
+                width: "70%"
+            },
+            header: {
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+            },
+            subheader: {
+                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                marginBottom: "1%"
+            },
+            container: {
+                backgroundColor: "rgb(180, 74, 70)",
+                margin: "0 auto",
+                width: "70%",
+                padding: "1%",
+                overflowY: "auto",
+                height: "700px"
+            }
+        },
+        entries: {
+            html5: {
+                icon: {
 
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            css3: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            javascript: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            jQuery: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            sql: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            mongodb: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            react: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            redux: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            express: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            },
+            canto: {
+                icon: {
+
+                },
+                header: {
+                    color: "white",
+                    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                }
+            }
+        }
     }
 };
 
