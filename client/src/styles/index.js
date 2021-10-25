@@ -311,7 +311,7 @@ const skillStyle = {
             redux: {
                 icon: {
                     marginTop: "12%",
-                    marginLeft: "32%"
+                    marginLeft: "25%"
                 },
                 header: {
                     color: "white",
