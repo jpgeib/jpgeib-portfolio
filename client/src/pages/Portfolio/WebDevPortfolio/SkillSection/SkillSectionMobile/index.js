@@ -11,35 +11,39 @@ import ReduxLogo from "../../../../../components/Redux/Mobile";
 import ExpressLogo from "../../../../../components/Express/Mobile";
 import Canto from "../../../../../components/Canto/Mobile";
 
-import "./style.css";
+// import "./style.css";
 
 class SkillSectionMobile extends Component {
     render() {
+
+        const { general } = this.props.mobile;
+        const { html5, css3, javascript, jQuery, sql, mongodb, react, redux, express, canto } = this.props.mobile.entries;
+
         return (
-            <div id="skills-page-mobile">
-                <Grid id="skills-headers-container-mobile">
+            <div style={general.page}>
+                <Grid style={general.headerContainer}>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="skills-header-mobile" as="h1">Full-Stack Web Development Technical Skills</Header>
+                            <Header style={general.header} as="h1">Full-Stack Web Development Technical Skills</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="skills-subheader-mobile" as="h3">I am proficient in the following technologies:</Header>
+                            <Header style={general.subheader} as="h3">I am proficient in the following technologies:</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                <Grid id="skills-container-mobile">
-                    <HTML5 />
-                    <CSS />
-                    <JavaScript />
-                    <Jquery />
-                    <SQL />
-                    <MongoDB />
-                    <ReactLogo />
-                    <ReduxLogo />
-                    <ExpressLogo />
-                    <Canto />
+                <Grid style={general.container}>
+                    <HTML5 html5={html5} />
+                    <CSS css3={css3} />
+                    <JavaScript javascript={javascript} />
+                    <Jquery jQuery={jQuery} />
+                    <SQL sql={sql} />
+                    <MongoDB mongodb={mongodb} />
+                    <ReactLogo react={react} />
+                    <ReduxLogo redux={redux} />
+                    <ExpressLogo express={express} />
+                    <Canto canto={canto} />
                 </Grid>
             </div>
         );

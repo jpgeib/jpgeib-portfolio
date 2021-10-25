@@ -4,6 +4,9 @@ import JavaScript from "../../../assets/images/Javascript-icon.png";
 
 class Mobile extends Component {
     render() {
+
+        const { icon, header } = this.props.javascript;
+
         return (
             <>
                 <Grid.Row>
@@ -11,10 +14,10 @@ class Mobile extends Component {
                         <Grid>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Image id="javascript-logo-mobile" src={JavaScript} size="small" />
+                                    <Image style={icon} src={JavaScript} size="small" />
                                 </Grid.Column>
                                 <Grid.Column width={16}>
-                                    <Header id="javascript-header-mobile" as="h2">JavaScript</Header>
+                                    <Header style={header} as="h2">JavaScript</Header>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>

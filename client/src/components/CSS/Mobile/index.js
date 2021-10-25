@@ -4,6 +4,9 @@ import CSS from "../../../assets/images/CSS-icon.png";
 
 class Mobile extends Component {
     render() {
+
+        const { icon, header } = this.props.css3;
+
         return (
             <>
                 <Grid.Row>
@@ -11,10 +14,10 @@ class Mobile extends Component {
                         <Grid>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Image id="css-logo-mobile" src={CSS} size="small" />
+                                    <Image style={icon} src={CSS} size="small" />
                                 </Grid.Column>
                                 <Grid.Column width={16}>
-                                    <Header id="css-header-mobile" as="h2">CSS</Header>
+                                    <Header style={header} as="h2">CSS</Header>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>

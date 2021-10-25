@@ -4,6 +4,9 @@ import Canto from "../../../assets/images/canto-logo-orange.png";
 
 class Mobile extends Component {
     render() {
+
+        const { icon, header } = this.props.canto;
+
         return (
             <>
                 <Grid.Row>
@@ -11,10 +14,10 @@ class Mobile extends Component {
                         <Grid>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Image id="canto-logo-mobile" src={Canto} size="small" />
+                                    <Image style={icon} src={Canto} size="small" />
                                 </Grid.Column>
                                 <Grid.Column width={16}>
-                                    <Header id="canto-header-mobile" as="h2">Canto</Header>
+                                    <Header style={header} id="canto-header-mobile" as="h2">Canto</Header>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>

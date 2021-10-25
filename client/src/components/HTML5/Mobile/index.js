@@ -4,6 +4,9 @@ import HTML5 from "../../../assets/images/HTML-icon.png";
 
 class Mobile extends Component {
     render() {
+
+        const { icon, header } = this.props.html5;
+
         return (
             <>
                 <Grid.Row>
@@ -11,10 +14,10 @@ class Mobile extends Component {
                         <Grid>
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Image id="html5-logo-mobile" src={HTML5} size="small" />
+                                    <Image style={icon} src={HTML5} size="small" />
                                 </Grid.Column>
                                 <Grid.Column width={16}>
-                                    <Header id="html5-header-mobile" as="h2">HTML5</Header>
+                                    <Header style={header} as="h2">HTML5</Header>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>
