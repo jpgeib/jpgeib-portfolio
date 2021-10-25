@@ -4,16 +4,19 @@ import ReactLogo from "../../../assets/images/classic-react-logo.png";
 
 class Computer extends Component {
     render() {
+
+        const { icon, header } = this.props.react;
+
         return (
             <>
                 <Grid.Column width={4}>
                     <Grid>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Image id="react-logo-computer" src={ReactLogo} size="small" />
+                                <Image style={icon} src={ReactLogo} size="small" />
                             </Grid.Column>
                             <Grid.Column width={16}>
-                                <Header id="react-header-computer" as="h2">React.js</Header>
+                                <Header style={header} as="h2">React.js</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

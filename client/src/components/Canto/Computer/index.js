@@ -4,16 +4,19 @@ import Canto from "../../../assets/images/canto-logo-orange.png";
 
 class Computer extends Component {
     render() {
+
+        const { icon, header } = this.props.canto;
+
         return (
             <>
                 <Grid.Column width={4}>
                     <Grid>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Image id="canto-logo-computer" src={Canto} size="small" />
+                                <Image style={icon} src={Canto} size="small" />
                             </Grid.Column>
                             <Grid.Column width={16}>
-                                <Header id="canto-header-computer" as="h2">Canto</Header>
+                                <Header style={header} as="h2">Canto</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

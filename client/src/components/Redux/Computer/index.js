@@ -4,16 +4,19 @@ import ReduxLogo from "../../../assets/images/redux-logo.png";
 
 class Computer extends Component {
     render() {
+
+        const { icon, header } = this.props.redux;
+        
         return (
             <>
                 <Grid.Column width={4}>
                     <Grid>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Image id="redux-logo-computer" src={ReduxLogo} size="small" />
+                                <Image style={icon} src={ReduxLogo} size="small" />
                             </Grid.Column>
                             <Grid.Column width={16}>
-                                <Header id="redux-header-computer" as="h2">Redux.js</Header>
+                                <Header style={header} as="h2">Redux.js</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

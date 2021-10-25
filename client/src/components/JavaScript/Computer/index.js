@@ -4,16 +4,19 @@ import JavaScript from "../../../assets/images/Javascript-icon.png";
 
 class Computer extends Component {
     render() {
+
+        const { icon, header } = this.props.javascript;
+
         return (
             <>
                 <Grid.Column width={4}>
                     <Grid>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Image id="javascript-logo-computer" src={JavaScript} size="small" />
+                                <Image style={icon} src={JavaScript} size="small" />
                             </Grid.Column>
                             <Grid.Column width={16}>
-                                <Header id="javascript-header-computer" as="h2">JavaScript</Header>
+                                <Header style={header} as="h2">JavaScript</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
