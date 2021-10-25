@@ -470,7 +470,7 @@ const skillStyle = {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                     marginTop: "15%",
-                    marginLefT: "28%"
+                    marginLeft: "28%"
                 }
             },
             canto: {

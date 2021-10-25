@@ -11,44 +11,48 @@ import ReduxLogo from "../../../../../components/Redux/Tablet";
 import ExpressLogo from "../../../../../components/Express/Tablet";
 import Canto from "../../../../../components/Canto/Tablet";
 
-import "./style.css";
+// import "./style.css";
 
 class SkillSectionTablet extends Component {
     render() {
+
+        const { general } =this.props.tablet;
+        const { html5, css3, javascript, jQuery, sql, mongodb, react, redux, express, canto } = this.props.tablet.entries;
+
         return (
-            <div id="skills-page-tablet">
-                <Grid id="skills-headers-container-tablet">
+            <div style={general.page}>
+                <Grid style={general.headerContainer}>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="skills-header-tablet" as="h1">Full-Stack Web Development Technical Skills</Header>
+                            <Header style={general.header} as="h1">Full-Stack Web Development Technical Skills</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header id="skills-subheader-tablet" as="h3">I am proficient in the following technologies:</Header>
+                            <Header style={general.subheader} as="h3">I am proficient in the following technologies:</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                <Grid id="skills-container-tablet">
+                <Grid style={general.container}>
                     <Grid.Row>
-                        <HTML5 />
-                        <CSS />
+                        <HTML5 html5={html5} />
+                        <CSS css3={css3} />
                     </Grid.Row>
                     <Grid.Row>
-                        <JavaScript />
-                        <Jquery />
+                        <JavaScript javascript={javascript} />
+                        <Jquery jQuery={jQuery} />
                     </Grid.Row>
                     <Grid.Row>
-                        <SQL />
-                        <MongoDB />
+                        <SQL sql={sql} />
+                        <MongoDB mongodb={mongodb} />
                     </Grid.Row>
                     <Grid.Row>
-                        <ReactLogo />
-                        <ReduxLogo />
+                        <ReactLogo react={react} />
+                        <ReduxLogo redux={redux} />
                     </Grid.Row>
                     <Grid.Row>
-                        <ExpressLogo />
-                        <Canto />
+                        <ExpressLogo express={express} />
+                        <Canto canto={canto} />
                     </Grid.Row>
                 </Grid>
             </div>
