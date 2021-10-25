@@ -374,92 +374,115 @@ const skillStyle = {
         entries: {
             html5: {
                 icon: {
-
+                    margin: "0 auto"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "2%",
+                    marginLeft: "33%"
                 }
             },
             css3: {
                 icon: {
-
+                    margin: "0 auto"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "2.5%",
+                    marginLeft: "42%"
                 }
             },
             javascript: {
                 icon: {
-
+                    margin: "0 auto"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "2%",
+                    marginLeft: "27.5%"
                 }
             },
             jQuery: {
                 icon: {
-
+                    margin: "0 auto"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "2%",
+                    marginLeft: "38%"                
                 }
             },
             sql: {
                 icon: {
-
+                    margin: "0 auto"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "2%",
+                    marginLeft: "42%"
                 }
             },
             mongodb: {
                 icon: {
-
+                    marginLeft: "22%"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "1.5%",
+                    marginLeft: "33%"
                 }
             },
             react: {
                 icon: {
-
+                    margin: "0 auto"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "2%",
+                    marginLeft: "32%"
                 }
             },
             redux: {
                 icon: {
-
+                    marginTop: "13.5%",
+                    marginLeft: "24%"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "2%",
+                    marginLeft: "36.5%"
                 }
             },
             express: {
                 icon: {
-
+                    marginTop: "10.5%",
+                    marginLeft: "20%"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "15%",
+                    marginLefT: "28%"
                 }
             },
             canto: {
                 icon: {
-
+                    marginTop: "5%",
+                    marginLeft: "25%"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                    marginTop: "7%",
+                    marginLeft: "43.75%"
                 }
             }
         }
