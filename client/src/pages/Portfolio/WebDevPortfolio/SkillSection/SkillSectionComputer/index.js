@@ -11,8 +11,6 @@ import ReduxLogo from "../../../../../components/Redux/Computer";
 import ExpressLogo from "../../../../../components/Express/Computer";
 import Canto from "../../../../../components/Canto/Computer";
 
-// import "./style.css";
-
 class SkillSectionComputer extends Component {
     render() {
         

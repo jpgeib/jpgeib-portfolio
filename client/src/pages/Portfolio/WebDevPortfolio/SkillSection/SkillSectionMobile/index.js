@@ -11,8 +11,6 @@ import ReduxLogo from "../../../../../components/Redux/Mobile";
 import ExpressLogo from "../../../../../components/Express/Mobile";
 import Canto from "../../../../../components/Canto/Mobile";
 
-// import "./style.css";
-
 class SkillSectionMobile extends Component {
     render() {
 

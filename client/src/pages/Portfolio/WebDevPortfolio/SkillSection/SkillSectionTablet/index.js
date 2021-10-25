@@ -11,8 +11,6 @@ import ReduxLogo from "../../../../../components/Redux/Tablet";
 import ExpressLogo from "../../../../../components/Express/Tablet";
 import Canto from "../../../../../components/Canto/Tablet";
 
-// import "./style.css";
-
 class SkillSectionTablet extends Component {
     render() {
 
