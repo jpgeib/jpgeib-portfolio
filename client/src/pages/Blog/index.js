@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import Placeholder from "../../assets/screenshots/jpgeib-portfolio.png";
 
-// import "./style.css";
-
 class Blog extends Component {
     render() {
 
