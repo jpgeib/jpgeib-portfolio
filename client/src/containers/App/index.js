@@ -10,6 +10,8 @@ import Footer from "../../components/Footer";
 import { webText } from "../../text";
 import { webStyle } from "../../styles";
 
+import "./style.css";
+
 class App extends Component {
   
   render() {

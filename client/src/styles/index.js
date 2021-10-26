@@ -1,6 +1,22 @@
 //Home Page Styling
 
 const homeStyle = {
+    general: {
+        page: {
+            marginTop: "3%"
+        },
+        container: {
+            marginTop: "2%",
+            backgroundColor: "rgb(180, 74, 70)"
+        },
+        header: {
+            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+        },
+        profile: {
+            marginTop: "2%",
+            marginLeft: "2%"
+        }
+    },
     bio: {
         container: {
             marginBottom: "3%"
