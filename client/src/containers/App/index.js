@@ -15,7 +15,7 @@ class App extends Component {
   render() {
 
     const { homeText } = webText;
-    const { homeStyle, projectStyle, skillStyle, adobeStyle } = webStyle;
+    const { homeStyle, projectStyle, skillStyle, adobeStyle, blogStyle } = webStyle;
 
     return (
       <>
@@ -24,7 +24,7 @@ class App extends Component {
         <Route exact path="/adobe" render={() => <AdobePortfolio adobe={adobeStyle} />} />
         <Route exact path="/webdev/projects" render={() => <ProjectSection project={projectStyle} />} />
         <Route exact path="/webdev/skills" render={() => <SkillSection skills={skillStyle} />} />
-        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/blog" render={() => <Blog blog={blogStyle} />} />
         <Footer />
       </>
     );
