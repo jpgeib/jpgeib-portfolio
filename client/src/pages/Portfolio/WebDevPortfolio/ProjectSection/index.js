@@ -4,33 +4,16 @@ import ProjectSectionTablet from "./ProjectSectionTablet";
 import ProjectSectionComputer from "./ProjectSectionComputer";
 
 class ProjectSection extends Component {
-
-    state = {
-        windowWidth: window.innerWidth
-    }
-
-    handleResize = (e) => {
-        this.setState({ windowWidth: window.innerWidth });
-    }
-
-    componentDidMount() {
-        window.addEventListener("resize", this.handleResize);
-    }
-
-    componentWillUnmount() {
-        window.addEventListener("resize", this.handleResize);
-    }
-
     render() {
 
-        const { windowWidth } = this.state;
+        const { width } = this.props;
         const { computer, tablet, mobile } = this.props.project;
 
         return (
             <>
-                {windowWidth <= 414 && <ProjectSectionMobile mobile={mobile} />}
-                {(windowWidth >= 415 && windowWidth <= 799) && <ProjectSectionTablet tablet={tablet} />}
-                {windowWidth >= 800 && <ProjectSectionComputer computer={computer} />}
+                {width <= 414 && <ProjectSectionMobile mobile={mobile} />}
+                {(width >= 415 && width <= 799) && <ProjectSectionTablet tablet={tablet} />}
+                {width >= 800 && <ProjectSectionComputer computer={computer} />}
             </>
         );
     }

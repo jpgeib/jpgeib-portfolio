@@ -13,7 +13,23 @@ import { webStyle } from "../../styles";
 import "./style.css";
 
 class App extends Component {
-  
+
+  state = {
+    windowWidth: window.innerWidth
+  }
+
+  handleResize = (e) => {
+    this.setState({ windowWidth: window.innerWidth });
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.handleResize);
+  }
+
+  componentWillUnmount() {
+    window.addEventListener("resize", this.handleResize);
+  }
+
   render() {
 
     const { homeText } = webText;
@@ -24,8 +40,8 @@ class App extends Component {
         <Navbar />
         <Route exact path="/" render={() => <Home bio={homeText} home={homeStyle} />} />
         <Route exact path="/adobe" render={() => <AdobePortfolio adobe={adobeStyle} />} />
-        <Route exact path="/webdev/projects" render={() => <ProjectSection project={projectStyle} />} />
-        <Route exact path="/webdev/skills" render={() => <SkillSection skills={skillStyle} />} />
+        <Route exact path="/webdev/projects" render={() => <ProjectSection width={this.state.windowWidth} project={projectStyle} />} />
+        <Route exact path="/webdev/skills" render={() => <SkillSection width={this.state.windowWidth} skills={skillStyle} />} />
         <Route exact path="/blog" render={() => <Blog blog={blogStyle} />} />
         <Footer />
       </>
