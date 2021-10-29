@@ -11,9 +11,9 @@ class SkillSection extends Component {
 
         return (
             <>
-                {width <= 414 && <SkillSectionMobile mobile={mobile} />}
-                {(width >= 415 && width <= 799) && <SkillSectionTablet tablet={tablet} />}
-                {width >= 800 && <SkillSectionComputer computer={computer} />}            
+                {width <= 425 && <SkillSectionMobile mobile={mobile} />}
+                {(width >= 426 && width <= 1023) && <SkillSectionTablet tablet={tablet} />}
+                {width >= 1024 && <SkillSectionComputer computer={computer} />}            
             </>
         );
     }
