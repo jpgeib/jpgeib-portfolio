@@ -10,18 +10,22 @@ export default () => {
     return (
         <>
             <Grid.Row centered>
-                <Grid.Column width={4}>
+                <Grid.Column width={16}>
                     <Image as={Link} to="/files/photoshop-examples.zip" target=":blank" download src={Photoshop} size="small" />
                 </Grid.Column>
-                <Grid.Column width={4}>
+            </Grid.Row>
+            <Grid.Row centered>
+                <Grid.Column width={16}>
                     <Image as={Link} to="/files/illustrator-examples.zip" target=":blank" download src={Illustrator} size="small" />
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row centered>
-                <Grid.Column width={4}>
+                <Grid.Column width={16}>
                     <Image as={Link} to="/files/indesign-examples.zip" target=":blank" download src={InDesign} size="small" />
                 </Grid.Column>
-                <Grid.Column width={4}>
+            </Grid.Row>
+            <Grid.Row centered>
+                <Grid.Column width={16}>
                     <Image src={PremierePro} size="small" />
                 </Grid.Column>
             </Grid.Row>

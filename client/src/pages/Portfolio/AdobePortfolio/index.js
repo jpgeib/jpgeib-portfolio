@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import AdobeComputer from "./AdobeComputer";
+import AdobeMobile from "./AdobeMobile";
+import AdobeTablet from "./AdobeTablet";
 
 class AdobePortfolio extends Component {
     render() {
 
-        const { adobe } = this.props;
+        const { adobe, width } = this.props;
 
         return (
             <>
-                <AdobeComputer adobe={adobe} />
+                {width <= 425 && <AdobeMobile adobe={adobe} />}
+                {(width >= 426 && width <= 1023) && <AdobeTablet adobe={adobe} />}
+                {width >= 1024 && <AdobeComputer adobe={adobe} />}
             </>
         )
     }
