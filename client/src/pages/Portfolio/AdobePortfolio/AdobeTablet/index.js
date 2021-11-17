@@ -5,7 +5,7 @@ import AdobeAppsTablet from "../../../../components/AdobeApps/Tablet";
 class AdobeTablet extends Component {
     render() {
 
-        const { page, headerContainer, header, subheader, container } = this.props.adobe;
+        const { page, headerContainer, header, subheader, container, photoshop, illustrator, indesign, premiere } = this.props.adobe.tablet;
 
         return (
             <div style={page}>
@@ -20,7 +20,12 @@ class AdobeTablet extends Component {
                     </Grid.Row>
                 </Grid>
                 <Grid style={container}>
-                    <AdobeAppsTablet />
+                    <AdobeAppsTablet 
+                        photoshop={photoshop}
+                        illustrator={illustrator}
+                        indesign={indesign}
+                        premiere={premiere} 
+                    />
                 </Grid>
             </div>
         )

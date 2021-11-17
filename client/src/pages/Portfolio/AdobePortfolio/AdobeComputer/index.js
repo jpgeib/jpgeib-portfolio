@@ -5,7 +5,7 @@ import AdobeAppsComputer from "../../../../components/AdobeApps/Computer";
 class AdobeComputer extends Component {
     render() {
 
-        const { page, headerContainer, header, subheader, container } = this.props.adobe;
+        const { page, headerContainer, header, subheader, container } = this.props.adobe.computer;
 
         return (
             <div style={page}>
