@@ -11,8 +11,8 @@ class ProjectSection extends Component {
 
         return (
             <>
-                {width <= 425 && <ProjectSectionMobile mobile={mobile} />}
-                {(width >= 426 && width <= 1023) && <ProjectSectionTablet tablet={tablet} />}
+                {width <= 426 && <ProjectSectionMobile mobile={mobile} />}
+                {(width >= 427 && width <= 1023) && <ProjectSectionTablet tablet={tablet} />}
                 {width >= 1024 && <ProjectSectionComputer computer={computer} />}
             </>
         );
