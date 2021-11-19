@@ -10,8 +10,8 @@ class AdobePortfolio extends Component {
 
         return (
             <>
-                {width <= 425 && <AdobeMobile adobe={adobe} />}
-                {(width >= 426 && width <= 1023) && <AdobeTablet adobe={adobe} />}
+                {width <= 426 && <AdobeMobile adobe={adobe} />}
+                {(width >= 427 && width <= 1023) && <AdobeTablet adobe={adobe} />}
                 {width >= 1024 && <AdobeComputer adobe={adobe} />}
             </>
         )
