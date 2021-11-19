@@ -6,27 +6,30 @@ import InDesign from "../../../assets/images/InDesign-icon.png";
 import PremierePro from "../../../assets/images/Premiere-Pro-icon.png";
 import Illustrator from "../../../assets/images/Illustrator_icon.png";
 
-export default () => {
+export default (props) => {
+
+    const { photoshop, illustrator, premiere, indesign } = props;
+
     return (
         <>
             <Grid.Row centered>
                 <Grid.Column width={16}>
-                    <Image as={Link} to="/files/photoshop-examples.zip" target=":blank" download src={Photoshop} size="small" />
+                    <Image style={photoshop} as={Link} to="/files/photoshop-examples.zip" target=":blank" download src={Photoshop} size="small" />
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row centered>
                 <Grid.Column width={16}>
-                    <Image as={Link} to="/files/illustrator-examples.zip" target=":blank" download src={Illustrator} size="small" />
+                    <Image style={illustrator} as={Link} to="/files/illustrator-examples.zip" target=":blank" download src={Illustrator} size="small" />
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row centered>
                 <Grid.Column width={16}>
-                    <Image as={Link} to="/files/indesign-examples.zip" target=":blank" download src={InDesign} size="small" />
+                    <Image style={indesign} as={Link} to="/files/indesign-examples.zip" target=":blank" download src={InDesign} size="small" />
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row centered>
                 <Grid.Column width={16}>
-                    <Image src={PremierePro} size="small" />
+                    <Image style={premiere} src={PremierePro} size="small" />
                 </Grid.Column>
             </Grid.Row>
         </>

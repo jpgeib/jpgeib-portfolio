@@ -5,7 +5,7 @@ import AdobeAppsMobile from "../../../../components/AdobeApps/Mobile";
 class AdobeMobile extends Component {
     render() {
 
-        const { page, headerContainer, header, subheader, container } = this.props.adobe;
+        const { page, headerContainer, header, subheader, container, photoshop, premiere, illustrator, indesign } = this.props.adobe.mobile;
 
         return (
             <div style={page}>
@@ -20,7 +20,12 @@ class AdobeMobile extends Component {
                     </Grid.Row>
                 </Grid>
                 <Grid style={container}>
-                    <AdobeAppsMobile />
+                    <AdobeAppsMobile
+                        photoshop={photoshop}
+                        premiere={premiere}
+                        illustrator={illustrator}
+                        indesign={indesign}
+                    />
                 </Grid>
             </div>
         )
