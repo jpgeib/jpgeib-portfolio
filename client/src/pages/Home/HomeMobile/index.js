@@ -7,10 +7,10 @@ import SocialLinks from "../../../components/SocialLinks";
 
 class HomeMobile extends Component {
     render() {
-        
+
         const { bio, home } = this.props;
         const { page, container, header, profile } = this.props.home.general;
-        
+
         return (
             <>
                 <div style={page}>
@@ -20,25 +20,23 @@ class HomeMobile extends Component {
                         </Grid.Row>
                     </Grid>
                     <Grid container style={container}>
-                        <Grid.Row>
-                            <Grid.Column width={4}>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Image style={profile} src={ProfilePic} size="massive" />
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <ContactInfoMobile contact={home.contact}  />
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <SocialLinks social={home.social} />
-                                    </Grid.Column>
-                                </Grid.Row>
+                        <Grid.Row centered>
+                            <Grid.Column width={16}>
+                                <Image style={profile} src={ProfilePic} size="medium" />
                             </Grid.Column>
-                            <Grid.Column width={12}>
+                        </Grid.Row>
+                        <Grid.Row centered>
+                            <Grid.Column width={16}>
+                                <ContactInfoMobile contact={home.contact} />
+                            </Grid.Column>
+                        </Grid.Row>
+                        <Grid.Row centered>
+                            <Grid.Column width={16}>
+                                <SocialLinks social={home.social} />
+                            </Grid.Column>
+                        </Grid.Row>
+                        <Grid.Row centered>
+                            <Grid.Column width={16}>
                                 <HomeBio text={bio} bio={home.bio} />
                             </Grid.Column>
                         </Grid.Row>
