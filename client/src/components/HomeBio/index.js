@@ -6,7 +6,7 @@ const HomeBio = (props) => {
     const { container, text } = props.bio;
 
     return (
-        <div id="paragraphs">
+        <div>
             <div style={container}>
                 <p style={text}>{paragraph1}</p>
             </div>
