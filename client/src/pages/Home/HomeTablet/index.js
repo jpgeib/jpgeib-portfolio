@@ -7,10 +7,10 @@ import SocialLinks from "../../../components/SocialLinks";
 
 class HomeTablet extends Component {
     render() {
-        
+
         const { bio, home } = this.props;
         const { page, container, header, profile } = this.props.home.general;
-        
+
         return (
             <>
                 <div style={page}>
@@ -21,24 +21,18 @@ class HomeTablet extends Component {
                     </Grid>
                     <Grid container style={container}>
                         <Grid.Row>
-                            <Grid.Column width={4}>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <Image style={profile} src={ProfilePic} size="massive" />
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <ContactInfoTablet contact={home.contact} />
-                                    </Grid.Column>
-                                </Grid.Row>
-                                <Grid.Row>
-                                    <Grid.Column width={16}>
-                                        <SocialLinks social={home.social} />
-                                    </Grid.Column>
-                                </Grid.Row>
+                            <Grid.Column width={5}>
+                                <Image style={profile} src={ProfilePic} size="massive" />
                             </Grid.Column>
-                            <Grid.Column width={12}>
+                            <Grid.Column width={6}>
+                                <ContactInfoTablet contact={home.contact} />
+                            </Grid.Column>
+                            <Grid.Column width={5}>
+                                <SocialLinks social={home.social} />
+                            </Grid.Column>
+                        </Grid.Row>
+                        <Grid.Row>
+                            <Grid.Column width={16}>
                                 <HomeBio text={bio} bio={home.bio} />
                             </Grid.Column>
                         </Grid.Row>
