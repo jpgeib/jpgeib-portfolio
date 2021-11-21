@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        <Route exact path="/" render={() => <Home bio={homeText} width={this.state.windowWidth} home={homeStyle} />} />
+        <Route exact path="/" render={() => <Home text={homeText} width={this.state.windowWidth} home={homeStyle} />} />
         <Route exact path="/adobe" render={() => <AdobePortfolio width={this.state.windowWidth} adobe={adobeStyle} />} />
         <Route exact path="/webdev/projects" render={() => <ProjectSection width={this.state.windowWidth} project={projectStyle} />} />
         <Route exact path="/webdev/skills" render={() => <SkillSection width={this.state.windowWidth} skills={skillStyle} />} />

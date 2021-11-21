@@ -8,36 +8,35 @@ import SocialLinks from "../../../components/SocialLinks";
 class HomeMobile extends Component {
     render() {
 
-        const { bio, home } = this.props;
-        const { page, container, header, profile } = this.props.home.general;
+        const { general, contact, social, bio } = this.props.home.mobile;
 
         return (
             <>
-                <div style={page}>
+                <div style={general.page}>
                     <Grid container>
                         <Grid.Row>
-                            <Header style={header} as="h1">James Geib - Full-Stack Web Developer</Header>
+                            <Header style={general.header} as="h1">James Geib - Full-Stack Web Developer</Header>
                         </Grid.Row>
                     </Grid>
-                    <Grid container style={container}>
+                    <Grid container style={general.container}>
                         <Grid.Row centered>
                             <Grid.Column width={16}>
-                                <Image style={profile} src={ProfilePic} size="medium" />
+                                <Image style={general.profile} src={ProfilePic} size="medium" />
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row centered>
                             <Grid.Column width={16}>
-                                <ContactInfoMobile contact={home.contact} />
+                                <ContactInfoMobile contact={contact} />
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row centered>
                             <Grid.Column width={16}>
-                                <SocialLinks social={home.social} />
+                                <SocialLinks social={social} />
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row centered>
                             <Grid.Column width={16}>
-                                <HomeBio text={bio} bio={home.bio} />
+                                <HomeBio text={bio} bio={bio} />
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
