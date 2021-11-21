@@ -10,8 +10,8 @@ class Home extends Component {
         
         return (
             <>
-                {/* {width <= 426 && <HomeMobile bio={bio} home={home} />} */}
-                {/* {(width >= 427 && width <= 1023) && <HomeTablet bio={bio} home={home} />} */}
+                {width <= 426 && <HomeMobile text={text} home={home} />}
+                {(width >= 427 && width <= 1023) && <HomeTablet text={text} home={home} />}
                 {width >= 1024 && <HomeComputer text={text} home={home} />}
             </>
         );

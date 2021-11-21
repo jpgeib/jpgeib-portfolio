@@ -8,6 +8,7 @@ import SocialLinks from "../../../components/SocialLinks";
 class HomeMobile extends Component {
     render() {
 
+        const { text } = this.props;
         const { general, contact, social, bio } = this.props.home.mobile;
 
         return (
@@ -36,7 +37,7 @@ class HomeMobile extends Component {
                         </Grid.Row>
                         <Grid.Row centered>
                             <Grid.Column width={16}>
-                                <HomeBio text={bio} bio={bio} />
+                                <HomeBio text={text} bio={bio} />
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
