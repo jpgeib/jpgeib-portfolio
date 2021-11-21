@@ -1,7 +1,7 @@
 import React from "react";
 import { Header, Icon } from "semantic-ui-react";
 
-const SocialLinks = (props) => {
+export default (props) => {
 
     const { container, text, icon } = props.social;
 
@@ -13,5 +13,3 @@ const SocialLinks = (props) => {
         </div>
     );
 }
-
-export default SocialLinks;

@@ -3,7 +3,7 @@ import { Grid, Image, Header } from "semantic-ui-react";
 import ProfilePic from "../../../assets/images/james-profile.jpg";
 import HomeBioComputer from "../../../components/HomeBio/Computer";
 import ContactInfoComputer from "../../../components/ContactInfo/Computer";
-import SocialLinks from "../../../components/SocialLinks";
+import SocialLinksComputer from "../../../components/SocialLinks/Computer";
 
 class HomeComputer extends Component {
     render() {
@@ -34,7 +34,7 @@ class HomeComputer extends Component {
                                 </Grid.Row>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <SocialLinks social={social} />
+                                        <SocialLinksComputer social={social} />
                                     </Grid.Column>
                                 </Grid.Row>
                             </Grid.Column>

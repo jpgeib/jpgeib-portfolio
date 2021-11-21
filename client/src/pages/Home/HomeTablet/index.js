@@ -3,7 +3,7 @@ import { Grid, Image, Header } from "semantic-ui-react";
 import ProfilePic from "../../../assets/images/james-profile.jpg";
 import HomeBioTablet from "../../../components/HomeBio/Tablet";
 import ContactInfoTablet from "../../../components/ContactInfo/Tablet";
-import SocialLinks from "../../../components/SocialLinks";
+import SocialLinksTablet from "../../../components/SocialLinks/Tablet";
 
 class HomeTablet extends Component {
     render() {
@@ -28,7 +28,7 @@ class HomeTablet extends Component {
                                 <ContactInfoTablet contact={contact} />
                             </Grid.Column>
                             <Grid.Column width={5}>
-                                <SocialLinks social={social} />
+                                <SocialLinksTablet social={social} />
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
