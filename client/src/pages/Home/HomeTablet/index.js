@@ -9,7 +9,7 @@ class HomeTablet extends Component {
     render() {
 
         const { text } = this.props;
-        const { general, social, bio, contact } = this.props.home.general;
+        const { general, social, bio, contact } = this.props.home.tablet;
 
         return (
             <>
