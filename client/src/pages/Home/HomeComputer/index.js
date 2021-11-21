@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import ProfilePic from "../../../assets/images/james-profile.jpg";
-import HomeBio from "../../../components/HomeBio";
+import HomeBioComputer from "../../../components/HomeBio/Computer";
 import ContactInfoComputer from "../../../components/ContactInfo/Computer";
 import SocialLinks from "../../../components/SocialLinks";
 
@@ -39,7 +39,7 @@ class HomeComputer extends Component {
                                 </Grid.Row>
                             </Grid.Column>
                             <Grid.Column width={12}>
-                                <HomeBio text={text} bio={bio} />
+                                <HomeBioComputer text={text} bio={bio} />
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

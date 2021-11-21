@@ -1,6 +1,6 @@
 import React from "react";
 
-const HomeBio = (props) => {
+export default (props) => {
 
     const {paragraph1, paragraph2, paragraph3 } = props.text;
     const { container, font } = props.bio;
@@ -19,5 +19,3 @@ const HomeBio = (props) => {
         </div>
     );
 };
-
-export default HomeBio;

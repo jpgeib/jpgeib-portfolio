@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import ProfilePic from "../../../assets/images/james-profile.jpg";
-import HomeBio from "../../../components/HomeBio";
+import HomeBioTablet from "../../../components/HomeBio/Tablet";
 import ContactInfoTablet from "../../../components/ContactInfo/Tablet";
 import SocialLinks from "../../../components/SocialLinks";
 
@@ -33,7 +33,7 @@ class HomeTablet extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <HomeBio text={text} bio={bio} />
+                                <HomeBioTablet text={text} bio={bio} />
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>

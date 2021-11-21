@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import ProfilePic from "../../../assets/images/james-profile.jpg";
-import HomeBio from "../../../components/HomeBio";
+import HomeBioMobile from "../../../components/HomeBio/Mobile";
 import ContactInfoMobile from "../../../components/ContactInfo/Mobile";
 import SocialLinks from "../../../components/SocialLinks";
 
@@ -37,7 +37,7 @@ class HomeMobile extends Component {
                         </Grid.Row>
                         <Grid.Row centered>
                             <Grid.Column width={16}>
-                                <HomeBio text={text} bio={bio} />
+                                <HomeBioMobile text={text} bio={bio} />
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
