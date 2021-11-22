@@ -73,7 +73,7 @@ export const homeStyle = {
             },
             profile: {
                 marginTop: "2%",
-                marginLeft: "2%"
+                marginLeft: "13%"
             }
         },
         bio: {
@@ -87,10 +87,9 @@ export const homeStyle = {
             }
         },
         social: {
-            // container: {
-            //     marginTop: "15%",
-            //     marginLeft: "25%"
-            // },
+            container: {
+                marginTop: "5%"
+            },
             text: {
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
@@ -101,19 +100,17 @@ export const homeStyle = {
         },
         contact: {
             header: {
-                // marginTop: "20%",
-                // marginLeft: "25%",
+                marginTop: "5%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
             },
             phone: {
-                // marginLeft: "15%",
+                marginLeft: "-13%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
             },
             email: {
-                // marginLeft: "15%",
-                marginBottom: "30%",
+                marginLeft: "-13%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
             }
@@ -148,7 +145,6 @@ export const homeStyle = {
         social: {
             container: {
                 marginTop: "10%",
-                // marginLeft: "28%",
                 marginBottom: "5%"
             },
             text: {

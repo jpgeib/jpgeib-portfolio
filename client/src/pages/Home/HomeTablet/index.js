@@ -20,15 +20,23 @@ class HomeTablet extends Component {
                         </Grid.Row>
                     </Grid>
                     <Grid container style={general.container}>
-                        <Grid.Row>
-                            <Grid.Column width={5}>
-                                <Image style={general.profile} src={ProfilePic} size="massive" />
+                        <Grid.Row centered>
+                            <Grid.Column width={8}>
+                                <Image style={general.profile} src={ProfilePic} size="medium" />
                             </Grid.Column>
-                            <Grid.Column width={6}>
-                                <ContactInfoTablet contact={contact} />
-                            </Grid.Column>
-                            <Grid.Column width={5}>
-                                <SocialLinksTablet social={social} />
+                            <Grid.Column width={8}>
+                                <Grid>
+                                    <Grid.Row centered>
+                                        <Grid.Column width={10}>
+                                            <ContactInfoTablet contact={contact} />
+                                        </Grid.Column>
+                                    </Grid.Row>
+                                    <Grid.Row centered>
+                                        <Grid.Column width={10}>
+                                            <SocialLinksTablet social={social} />
+                                        </Grid.Column>
+                                    </Grid.Row>
+                                </Grid>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
