@@ -133,7 +133,6 @@ export const homeStyle = {
             },
             profile: {
                 marginTop: "2%",
-                marginLeft: "9%"
             }
         },
         bio: {
@@ -149,7 +148,7 @@ export const homeStyle = {
         social: {
             container: {
                 marginTop: "10%",
-                marginLeft: "28%",
+                // marginLeft: "28%",
                 marginBottom: "5%"
             },
             text: {
@@ -163,17 +162,15 @@ export const homeStyle = {
         contact: {
             header: {
                 marginTop: "10%",
-                marginLeft: "28%",
+                marginLeft: "14%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
             },
             phone: {
-                marginLeft: "21%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
             },
             email: {
-                marginLeft: "21%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
             }

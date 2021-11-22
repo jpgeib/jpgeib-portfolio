@@ -21,17 +21,17 @@ class HomeMobile extends Component {
                     </Grid>
                     <Grid container style={general.container}>
                         <Grid.Row centered>
-                            <Grid.Column width={16}>
+                            <Grid.Column width={14}>
                                 <Image style={general.profile} src={ProfilePic} size="medium" />
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row centered>
-                            <Grid.Column width={16}>
+                            <Grid.Column width={11}>
                                 <ContactInfoMobile contact={contact} />
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row centered>
-                            <Grid.Column width={16}>
+                            <Grid.Column width={8}>
                                 <SocialLinksMobile social={social} />
                             </Grid.Column>
                         </Grid.Row>
