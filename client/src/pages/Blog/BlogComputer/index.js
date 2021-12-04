@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Image, Header } from "semantic-ui-react";
+import { Grid, Image, Header, Divider } from "semantic-ui-react";
 import StyleFolders from "../../../assets/screenshots/style-folder-structure.png";
 import FixingResponsive from "../../../assets/screenshots/fixing-responsive-logic.png";
 
@@ -7,6 +7,7 @@ class BlogComputer extends Component {
     render() {
 
         const { page, headerContainer, header, entry, container } = this.props.computer;
+        const { entry1, entry2 } = this.props.text;
 
         return (
             <div style={page}>
@@ -29,9 +30,15 @@ class BlogComputer extends Component {
                         </Grid.Column>
                         <Grid.Column width={8}>
                             <Header style={entry} as="h2">11/20/21 - 5:10 PM</Header>
-                            <Header style={entry} as="h3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad possimus sequi maxime placeat, suscipit delectus maiores nemo, optio minus ullam quae sunt. Adipisci sapiente possimus porro explicabo neque voluptatum placeat?</Header>
+                            <Header style={entry} as="h3">{entry2.paragraph1}</Header>
                         </Grid.Column>
                     </Grid.Row>
+                    <Grid.Row centered>
+                        <Grid.Column width={16}>
+                            <Header style={entry} as="h3">{entry2.paragraph2}</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Divider inverted />
                     <Grid.Row>
                         <Grid.Column width={1}></Grid.Column>
                         <Grid.Column width={6}>
@@ -40,7 +47,7 @@ class BlogComputer extends Component {
                         <Grid.Column width={1}></Grid.Column>
                         <Grid.Column width={8}>
                             <Header style={entry} as="h2">11/16/21 - 6:53 PM</Header>
-                            <Header style={entry} as="h3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad possimus sequi maxime placeat, suscipit delectus maiores nemo, optio minus ullam quae sunt. Adipisci sapiente possimus porro explicabo neque voluptatum placeat?</Header>
+                            <Header style={entry} as="h3">{entry1}</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

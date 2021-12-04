@@ -6,14 +6,14 @@ import BlogTablet from "./BlogTablet";
 class Blog extends Component {
     render() {
 
-        const { width } = this.props;
+        const { width, text } = this.props;
         const { computer, tablet, mobile } = this.props.blog;
 
         return (
             <>
-                {width <= 426 && <BlogMobile mobile={mobile} />}
-                {(width >= 427 && width <= 1023) && <BlogTablet tablet={tablet} />}
-                {width >= 1024 && <BlogComputer computer={computer} />}
+                {width <= 426 && <BlogMobile mobile={mobile} text={text} />}
+                {(width >= 427 && width <= 1023) && <BlogTablet tablet={tablet} text={text} />}
+                {width >= 1024 && <BlogComputer computer={computer} text={text} />}
             </>
         );
     }
