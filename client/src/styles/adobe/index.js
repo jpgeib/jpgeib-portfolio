@@ -83,22 +83,25 @@ export const adobeStyle = {
             width: "60%",
             margin: "0 auto",
             paddingTop: "2%",
-            paddingBottom: "2%"
+            paddingBottom: "2%",
+            paddingRight: "20%",
+            paddingLefT: "20%"
         },
         photoshop: {
             margin: "0 auto",
-            marginLeft: "17%"
+            marginLeft: "29%"
         },
         illustrator: {
             margin: "0 auto",
-            marginLeft: "17%"
+            marginLeft: "29%"
         },
         indesign: {
             margin: "0 auto",
-            marginLeft: "17%"
+            marginLeft: "29%"
         },
         premiere: {
-            margin: "0 auto"
+            margin: "0 auto",
+            marginLeft: "29%"
         }
     }
 };
