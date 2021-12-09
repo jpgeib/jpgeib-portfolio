@@ -93,7 +93,7 @@ export const skillStyle = {
             },
             react: {
                 icon: {
-                    margin: "0 auto"
+                    margin: "0 auto",
                 },
                 header: {
                     color: "white",
@@ -105,7 +105,7 @@ export const skillStyle = {
             redux: {
                 icon: {
                     marginTop: "12%",
-                    marginLeft: "25%"
+                    marginLeft: "20%"
                 },
                 header: {
                     color: "white",
@@ -246,13 +246,13 @@ export const skillStyle = {
             redux: {
                 icon: {
                     marginTop: "13.5%",
-                    marginLeft: "24%"
+                    marginLeft: "25%"
                 },
                 header: {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                     marginTop: "2%",
-                    marginLeft: "36.5%"
+                    marginLeft: "38%"
                 }
             },
             express: {
@@ -388,7 +388,7 @@ export const skillStyle = {
             redux: {
                 icon: {
                     marginTop: "11.75%",
-                    marginLefT: "20%"
+                    marginLeft: "20%"
                 },
                 header: {
                     color: "white",
