@@ -39,7 +39,7 @@ class App extends Component {
   render() {
 
     const { homeText, blogText } = webText;
-    const { homeStyle, projectStyle, skillStyle, adobeStyle, blogStyle } = webStyle;
+    const { homeStyle, projectStyle, skillStyle, adobeStyle, blogStyle, footerStyle } = webStyle;
 
     return (
       <>
@@ -49,7 +49,7 @@ class App extends Component {
         <Route exact path="/webdev/projects" render={() => <ProjectSection width={this.state.windowWidth} project={projectStyle} />} />
         <Route exact path="/webdev/skills" render={() => <SkillSection width={this.state.windowWidth} skills={skillStyle} />} />
         <Route exact path="/blog" render={() => <Blog width={this.state.windowWidth} text={blogText} blog={blogStyle} />} />
-        <Footer />
+        <Footer footer={footerStyle} />
       </>
     );
   }
