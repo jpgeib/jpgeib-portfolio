@@ -49,7 +49,7 @@ class App extends Component {
         <Route exact path="/webdev/projects" render={() => <ProjectSection width={this.state.windowWidth} project={projectStyle} />} />
         <Route exact path="/webdev/skills" render={() => <SkillSection width={this.state.windowWidth} skills={skillStyle} />} />
         <Route exact path="/blog" render={() => <Blog width={this.state.windowWidth} text={blogText} blog={blogStyle} />} />
-        <Footer footer={footerStyle} />
+        <Footer width={this.state.windowWidth} footer={footerStyle} />
       </>
     );
   }
