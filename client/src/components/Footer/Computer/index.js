@@ -15,12 +15,12 @@ export default (props) => {
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>
-                <Grid.Column width={2}>
+                <Grid.Column width={1}>
                     <a href="https://reactjs.org/" target=":blank">
                         <Image style={react} size="tiny" src={ReactLogoWhite} />
                     </a>
                 </Grid.Column>
-                <Grid.Column width={2}>
+                <Grid.Column width={1}>
                     <a href="https://react.semantic-ui.com/" target=":blank">
                         <Image style={semantic} size="tiny" src={SemanticLogoWhite} />
                     </a>

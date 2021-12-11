@@ -66,7 +66,9 @@ export const homeStyle = {
             },
             container: {
                 marginTop: "2%",
-                backgroundColor: "rgb(180, 74, 70)"
+                backgroundColor: "rgb(180, 74, 70)",
+                overflowY: "auto",
+                maxHeight: "780px"
             },
             header: {
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
@@ -123,7 +125,9 @@ export const homeStyle = {
             },
             container: {
                 marginTop: "2%",
-                backgroundColor: "rgb(180, 74, 70)"
+                backgroundColor: "rgb(180, 74, 70)",
+                overflowY: "auto",
+                maxHeight: "800px"
             },
             header: {
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"

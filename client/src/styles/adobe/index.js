@@ -20,7 +20,8 @@ export const adobeStyle = {
             width: "60%",
             margin: "0 auto",
             paddingTop: "2%",
-            paddingBottom: "2%"
+            paddingBottom: "2%",
+            marginBottom: "9.5%"
         }
     },
     tablet: {
