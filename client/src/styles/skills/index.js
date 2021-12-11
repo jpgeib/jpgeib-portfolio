@@ -94,6 +94,7 @@ export const skillStyle = {
             react: {
                 icon: {
                     margin: "0 auto",
+                    marginLeft: "17%"
                 },
                 header: {
                     color: "white",
@@ -135,7 +136,7 @@ export const skillStyle = {
                     color: "white",
                     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                     marginTop: "7%",
-                    marginLeft: "38%"
+                    marginLeft: "42%"
                 }
             }
         }

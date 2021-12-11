@@ -42,17 +42,17 @@ export const homeStyle = {
         contact: {
             header: {
                 marginTop: "20%",
-                marginLeft: "25%",
+                marginLeft: "24%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
             },
             phone: {
-                marginLeft: "15%",
+                marginLeft: "2.5%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
             },
             email: {
-                marginLeft: "15%",
+                marginLeft: "2.5%",
                 marginBottom: "30%",
                 fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
                 color: "white"
