@@ -10,7 +10,11 @@ const blogText = {
     entry2: {
         paragraph1: `One of the biggest problems I’ve ran into when working in React.js has always been the asynchronous nature of the “this.setState()” function and the React state in general. Sometimes, when I have a function that makes a change to the state, the change won’t appear until reloading the page twice. The reason for this, from what I understand, is that due to this.setState() being asynchronous, it will not be fired off fast enough to appear on the page after a single reload. However, upon implementing these lifecycle methods along with utilizing local storage, I’ve managed to work around the state’s asynchrony.`,
         paragraph2: `So now, when I change the page’s width to various screen sizes, whether it be for mobile, tablet, or computer, the format adjusts to that change instantly, and there is no need to reload again. Full disclosure, I don’t know exactly why it works, but for the sake of time and finishing this site’s updates, I can leave it a mystery for now.`
-    }
+    },
+    entry3: {
+        paragraph1: `I was recently asked to interview for a tech company in Connecticut, and for their technical evaluation, I had to provide a few different solutions to various questions like “Evaluate whether or not a string or integer is a palindrome”.`,
+        paragraph2: `Now, I fully expected questions like that, but what I didn’t realize, was that they wanted these to be solved with C#, not JavaScript, of which the only things I knew about it were that its syntax looked like JavaScript’s, and it’s typically used for game development. (Not sure how I got the interview in the first place, since it wasn’t even listed on my resume/profile). Given the situation, I decided now was a better time than any to add C# to my toolkit, so I completed the course on Codecademy (Good resource for learning the basics of any language/technology) and managed to answer each question to the best of my abilities. I ended up not making it to the next stage of interviews, but regardless, I now have a new, powerful technology in my bag of tricks. Honestly, I even prefer C# over vanilla JavaScript in a lot of ways; the jury is still out on if I like it better than React though, the lessons never showed how it worked in relation to a client-side display, mostly just pure functionality.`
+    } 
 };
 
 export const webText = {
