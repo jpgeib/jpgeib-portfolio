@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
 import StyleFolders from "../../../assets/screenshots/style-folder-structure.png";
 import FixingResponsive from "../../../assets/screenshots/fixing-responsive-logic.png";
+import LearnedCSharp from "../../../assets/screenshots/learned-CSharp.png";
 
 class BlogMobile extends Component {
     render() {
 
         const { page, headerContainer, header, entry, container } = this.props.mobile;
-        const { entry1, entry2 } = this.props.text;
+        const { entry1, entry2, entry3 } = this.props.text;
 
         return (
             <div style={page}>
@@ -24,6 +25,22 @@ class BlogMobile extends Component {
                     </Grid.Row>
                 </Grid>
                 <Grid style={container}>
+                    <Grid.Row>
+                        <Grid.Column width={16}>
+                            <Header style={entry} as="h2">03/03/21 - 1:07 PM</Header>
+                            <Image size="big" src={LearnedCSharp} />
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={16}>
+                            <Header style={entry} as="h3">{entry3.paragraph1}</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={16}>
+                            <Header style={entry} as="h3">{entry3.paragraph2}</Header>
+                        </Grid.Column>
+                    </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <Header style={entry} as="h2">11/20/21 - 5:10 PM</Header>
