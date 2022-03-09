@@ -11,16 +11,11 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.get("/*", function (req, res) {
-    res.sendFile(path.join(__dirname, "client/public/index.html"), function (err) {
-        if (err) {
-            res.status(500).send(err)
-        }
-    });
-});
 
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static("client/build"));
+    const publicPath = path.join(__dirname, "./client/public");
+    app.use(express.static(publicPath));
+    app.use("*", express.static(publicPath));
 }
 
 server.listen(PORT, () => console.log(`Server started on port ${PORT}`));
