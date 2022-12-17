@@ -2,7 +2,7 @@
   "name": "jpgeib-portfolio",
   "version": "1.0.0",
   "description": "",
-  "web": "node index.js",
+  "main": "index.js",
   "engines": {
     "node": "19.x",
     "npm": "8.x"
