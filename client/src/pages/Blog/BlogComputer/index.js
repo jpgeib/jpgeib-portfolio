@@ -30,7 +30,7 @@ class BlogComputer extends Component {
                             <Image size="big" src={LearnedCSharp} />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <Header style={entry} as="h2">03/03/21 - 1:07 PM</Header>
+                            <Header style={entry} as="h2">03/03/22 - 1:07 PM</Header>
                             <Header style={entry} as="h3">{entry3.paragraph1}</Header>
                         </Grid.Column>
                     </Grid.Row>
