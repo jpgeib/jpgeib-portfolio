@@ -10,6 +10,24 @@ class BlogComputer extends Component {
         const { page, headerContainer, header, entry, container } = this.props.computer;
         const { entry1, entry2, entry3 } = this.props.text;
 
+        const blogData = [
+            { 
+                id: 1, 
+                image: LearnedCSharp,
+                styles: {
+                    page,
+                    headerContainer,
+                    header,
+                    entry,
+                    container
+                },
+                text: {
+                    entry1,
+                    entry2,
+                    entry3
+                } 
+            }
+        ];
         return (
             <div style={page}>
                 <Grid style={headerContainer}>
@@ -25,21 +43,26 @@ class BlogComputer extends Component {
                     </Grid.Row>   
                 </Grid>
                 <Grid style={container}>
+                    {blogData.map( (blog, index) => (
+                    <>
                     <Grid.Row>
                         <Grid.Column width={8}>
-                            <Image size="big" src={LearnedCSharp} />
+                            <Image size="big" src={blog.image} />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            <Header style={entry} as="h2">03/03/22 - 1:07 PM</Header>
-                            <Header style={entry} as="h3">{entry3.paragraph1}</Header>
+                            <Header style={blog.styles.entry} as="h2">03/03/22 - 1:07 PM</Header>
+                            <Header style={blog.styles.entry} as="h3">{blog.text.entry3.paragraph1}</Header>
                         </Grid.Column>
                     </Grid.Row>
-                    <Grid.Row>
+                    <Divider inverted />
+                </>
+                ))}
+                    {/* <Grid.Row>
                         <Grid.Column width={16}>
                             <Header style={entry} as="h3">{entry3.paragraph2}</Header>
                         </Grid.Column>
                     </Grid.Row>
-                    <Divider inverted />
+                    
                     <Grid.Row>
                         <Grid.Column width={8}>
                             <Image size="big" src={FixingResponsive} />
@@ -65,7 +88,7 @@ class BlogComputer extends Component {
                             <Header style={entry} as="h2">11/16/21 - 6:53 PM</Header>
                             <Header style={entry} as="h3">{entry1}</Header>
                         </Grid.Column>
-                    </Grid.Row>
+                    </Grid.Row> */}
                 </Grid>
             </div>
         );
