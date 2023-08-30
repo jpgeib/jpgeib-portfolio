@@ -11,9 +11,9 @@ class Blog extends Component {
 
         return (
             <>
-                {width <= 426 && <BlogMobile mobile={mobile} text={text} />}
+                {/* {width <= 426 && <BlogMobile mobile={mobile} text={text} />}
                 {(width >= 427 && width <= 1023) && <BlogTablet tablet={tablet} text={text} />}
-                {width >= 1024 && <BlogComputer computer={computer} text={text} />}
+                {width >= 1024 && <BlogComputer computer={computer} text={text} />} */}
             </>
         );
     }
