@@ -43,7 +43,7 @@ class BlogComputer extends Component {
                     </Grid.Row>   
                 </Grid>
                 <Grid style={container}>
-                    {blogData.map( (blog, index) => (
+                    {blogData.map((blog) => (
                     <>
                     <Grid.Row>
                         <Grid.Column width={8}>

@@ -1,0 +1,27 @@
+#page {
+    margin-top: 3%;
+}
+
+#header-container {
+    margin: 0 15%;
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+#blog-container {
+    background-color: rgb(180, 74, 70);
+    margin: 0 15%;
+    width: 70%;
+    padding: 1%;
+    overflow-y: auto;
+    max-height: 715px;
+}
+
+.header,
+.entry {
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+}
+
+.entry {
+    color: white;
+}
