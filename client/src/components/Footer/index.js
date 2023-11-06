@@ -16,7 +16,6 @@ class Footer extends Component {
         } else if (width >= 1024) {
             columnNum = 1;
         }
-        console.log(columnNum);
         return columnNum;
     }
 
