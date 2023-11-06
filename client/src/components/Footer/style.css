@@ -1,0 +1,39 @@
+#footer {
+    margin-top: 6%;
+    background-color: rgb(180, 74, 70);
+}
+
+#footer-header {
+    color: white;
+    margin-Left: 1%;
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+}
+
+.footer-link {
+    margin-left: 15%;
+}
+
+/* Computer */
+
+@media (min-width: 1024px) {
+    #footer {
+        margin-top: 6%;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 1023px) and (min-width: 427) {
+    #footer {
+        margin-top: 8%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 426px) {
+    #footer {
+        margin-top: 10%;
+    }
+}
+

@@ -22,15 +22,15 @@ class Footer extends Component {
                             <Header id="footer-header" as="h1">Powered by:</Header>
                         </Grid.Column>
                     </Grid.Row>
-                    <Grid.Row>
+                    <Grid.Row id="footer-icons">
                         <Grid.Column width={1}>
                             <a href="https://reactjs.org/" target=":blank">
-                                <Image id="react-link" size="tiny" src={ReactLogoWhite} />
+                                <Image className="footer-link" id="react-link" size="tiny" src={ReactLogoWhite} />
                             </a>
                         </Grid.Column>
                         <Grid.Column width={1}>
                             <a href="https://react.semantic-ui.com/" target=":blank">
-                                <Image id="semantic-link" size="tiny" src={SemanticLogoWhite} />
+                                <Image className="footer-link" id="semantic-link" size="tiny" src={SemanticLogoWhite} />
                             </a>
                         </Grid.Column>
                     </Grid.Row>
