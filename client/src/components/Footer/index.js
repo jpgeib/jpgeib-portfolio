@@ -1,19 +1,40 @@
 import React, { Component } from "react";
-import FooterComputer from "./Computer";
-import FooterTablet from "./Tablet";
-import FooterMobile from "./Mobile";
+import { Image, Grid, Header } from "semantic-ui-react";
+import ReactLogoWhite from "../../assets/images/React-Logo-White.png";
+import SemanticLogoWhite from "../../assets/images/semantic-ui-logo.png";
+
+import "./style.css";
 
 class Footer extends Component {
     render() {
 
         const { width } = this.props;
-        const { computer, tablet, mobile } = this.props.footer;
 
         return (
             <>
-                {width <= 426 && <FooterMobile mobile={mobile} />}
+                {/* {width <= 426 && <FooterMobile mobile={mobile} />}
                 {(width >= 427 && width <= 1023) && <FooterTablet tablet={tablet} />}
-                {width >= 1024 && <FooterComputer computer={computer} />}
+                {width >= 1024 && <FooterComputer computer={computer} />} */}
+
+                <Grid id="footer">
+                    <Grid.Row>
+                        <Grid.Column>
+                            <Header id="footer-header" as="h1">Powered by:</Header>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={1}>
+                            <a href="https://reactjs.org/" target=":blank">
+                                <Image id="react-link" size="tiny" src={ReactLogoWhite} />
+                            </a>
+                        </Grid.Column>
+                        <Grid.Column width={1}>
+                            <a href="https://react.semantic-ui.com/" target=":blank">
+                                <Image id="semantic-link" size="tiny" src={SemanticLogoWhite} />
+                            </a>
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
             </>
         );
     }

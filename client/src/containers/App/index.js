@@ -26,6 +26,7 @@ class App extends Component {
     window.addEventListener("resize", this.handleResize);
     const screenWidth = JSON.parse(window.localStorage.getItem("screenWidth"));
     this.setState(screenWidth);
+    console.log(this.state.windowWidth);
   }
 
   componentDidUpdate() {

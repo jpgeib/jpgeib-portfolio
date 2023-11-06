@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, Grid, Header } from "semantic-ui-react";
 import ReactLogoWhite from "../../../assets/images/React-Logo-White.png";
-import SemanticLogoWhite from "../../../assets/images/semantic-ui-logo.png"
+import SemanticLogoWhite from "../../../assets/images/semantic-ui-logo.png";
 
 export default (props) => {
 
