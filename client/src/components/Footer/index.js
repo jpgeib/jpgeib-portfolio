@@ -6,16 +6,26 @@ import SemanticLogoWhite from "../../assets/images/semantic-ui-logo.png";
 import "./style.css";
 
 class Footer extends Component {
+
+    handleColumnNumber = (width) => {
+        let columnNum;
+        if (width <= 426) {
+            columnNum = 4;
+        } else if (width >= 427 && width <= 1023) {
+            columnNum = 2;
+        } else if (width >= 1024) {
+            columnNum = 1;
+        }
+        console.log(columnNum);
+        return columnNum;
+    }
+
     render() {
 
         const { width } = this.props;
 
         return (
             <>
-                {/* {width <= 426 && <FooterMobile mobile={mobile} />}
-                {(width >= 427 && width <= 1023) && <FooterTablet tablet={tablet} />}
-                {width >= 1024 && <FooterComputer computer={computer} />} */}
-
                 <Grid id="footer">
                     <Grid.Row>
                         <Grid.Column>
@@ -23,12 +33,12 @@ class Footer extends Component {
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row id="footer-icons">
-                        <Grid.Column width={1}>
+                        <Grid.Column width={this.handleColumnNumber(width)}>
                             <a href="https://reactjs.org/" target=":blank">
                                 <Image className="footer-link" id="react-link" size="tiny" src={ReactLogoWhite} />
                             </a>
                         </Grid.Column>
-                        <Grid.Column width={1}>
+                        <Grid.Column width={this.handleColumnNumber(width)}>
                             <a href="https://react.semantic-ui.com/" target=":blank">
                                 <Image className="footer-link" id="semantic-link" size="tiny" src={SemanticLogoWhite} />
                             </a>
