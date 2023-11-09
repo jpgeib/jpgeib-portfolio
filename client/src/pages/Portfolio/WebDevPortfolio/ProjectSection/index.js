@@ -3,6 +3,8 @@ import ProjectSectionMobile from "./ProjectSectionMobile";
 import ProjectSectionTablet from "./ProjectSectionTablet";
 import ProjectSectionComputer from "./ProjectSectionComputer";
 
+import "./style.css";
+
 class ProjectSection extends Component {
     render() {
 
