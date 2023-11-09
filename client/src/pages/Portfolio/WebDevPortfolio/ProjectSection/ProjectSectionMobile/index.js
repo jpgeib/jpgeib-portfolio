@@ -27,7 +27,7 @@ class ProjectSectionMobile extends Component {
                     </Grid.Row>
                 </Grid>
                 <Grid style={general.container}>
-                    <GnormMusicMobile subSection={subSection} />
+                    {/* <GnormMusicMobile subSection={subSection} /> */}
                     <OnlinePortfolioMobile subSection={subSection} />
                     <AllChatV2Mobile subSection={subSection} />
                     <AllChatV1Mobile subSection={subSection} />

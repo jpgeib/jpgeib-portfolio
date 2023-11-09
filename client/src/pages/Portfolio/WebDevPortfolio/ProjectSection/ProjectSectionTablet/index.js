@@ -25,7 +25,7 @@ class ProjectSectionTablet extends Component {
                     </Grid.Row>
                 </Grid>
                 <Grid style={general.container}>
-                    <GnormMusicTablet subSection={subSection} />
+                    {/* <GnormMusicTablet subSection={subSection} /> */}
                     <OnlinePortfolioTablet subSection={subSection} />
                     <AllChatV2Tablet subSection={subSection} />
                     <AllChatV1Tablet subSection={subSection} />

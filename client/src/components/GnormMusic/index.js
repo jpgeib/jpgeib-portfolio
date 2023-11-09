@@ -1,13 +1,13 @@
 import React from "react";
 import { Grid, Header, Image, List } from "semantic-ui-react";
-import GnormMusic from "../../assets/screenshots/gnorm-music.png";
+import GnormMusicImage from "../../assets/screenshots/gnorm-music.png";
 
 const GnormMusic = (props) => {
     return (
         <>
             <Grid.Row>
                     <Grid.Column width={8}>
-                        <Image src={GnormMusic} size="big" />
+                        <Image src={GnormMusicImage} size="big" />
                     </Grid.Column>
                     <Grid.Column width={8}>
                         <Grid className="project-entry-container">

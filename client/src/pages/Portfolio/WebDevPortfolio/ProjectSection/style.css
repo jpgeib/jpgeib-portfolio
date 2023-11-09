@@ -1,0 +1,53 @@
+/* General Styling */
+
+#project-page {
+    margin-top: 3%;
+}
+
+#project-header-container {
+    margin: 0 15%;
+    width: 70%;
+}
+
+#project-header, #project-subheader {
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+}
+
+#project-subheader {
+    margin-bottom: 1%;
+}
+
+#project-container {
+    background-color: rgb(180, 74, 70);
+    margin: 0 15%;
+    width: 70%;
+    padding: 1%;
+    overflow-y: auto;
+    height: 715px;
+}
+
+/* Entry Styling */
+
+.project-entry-container {
+    border: solid white 2px;
+}
+
+.project-entry-header,
+.project-entry-link-header,
+.project-entry-link,
+.project-entry-list-item {
+    color: white;
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+}
+
+.project-entry-header {
+    margin-bottom: 5%;
+}
+
+.project-entry-link-header {}
+
+.project-entry-link {
+    text-decoration-line: underline;
+}
+
+.project-entry-list-item {}
