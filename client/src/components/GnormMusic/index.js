@@ -13,7 +13,7 @@ const GnormMusic = (props) => {
                         <Grid className="project-entry-container">
                             <Grid.Row>
                                 <Grid.Column width={16}>
-                                    <Header id="project-entry-header" as="h2">Gnorm Music LLC Company Site</Header>
+                                    <Header className="project-entry-header" as="h2">Gnorm Music LLC Company Site</Header>
                                 </Grid.Column>
                                 <Grid.Column width={16}>
                                     <Header className="project-entry-link-header" as="h3">Github: <a className="project-entry-link" href="https://github.com/jpgeib/gnorm-music-company-site" target=":blank">https://github.com/jpgeib/gnorm-music-company-site</a></Header>

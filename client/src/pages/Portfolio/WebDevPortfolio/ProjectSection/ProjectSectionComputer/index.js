@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Header } from "semantic-ui-react";
 import GnormMusic from "../../../../../components/GnormMusic";
-import OnlinePortfolioComputer from "../../../../../components/OnlinePortfolio/Computer";
+import OnlinePortfolio from "../../../../../components/OnlinePortfolio";
 import AllChatV2Computer from "../../../../../components/AllChatV2/Computer";
 import AllChatV1Computer from "../../../../../components/AllChat/Computer";
 
@@ -26,7 +26,7 @@ class ProjectSectionComputer extends Component {
                 </Grid>
                 <Grid id="project-container">
                     <GnormMusic />
-                    <OnlinePortfolioComputer subSection={subSection} />
+                    <OnlinePortfolio />
                     <AllChatV2Computer subSection={subSection} />
                     <AllChatV1Computer subSection={subSection} />
                 </Grid>

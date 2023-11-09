@@ -8,23 +8,23 @@ import AllChatV1Tablet from "../../../../../components/AllChat/Tablet";
 class ProjectSectionTablet extends Component {
     render() {
 
-        const { general, subSection } = this.props.tablet;
+        const { subSection } = this.props.tablet;
         
         return (
-            <div style={general.page}>
-                <Grid style={general.headerContainer}>
+            <div id="project-page">
+                <Grid id="project-header-container">
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={general.header} as="h1">Full-Stack Web Development Projects</Header>
+                            <Header id="project-header" as="h1">Full-Stack Web Development Projects</Header>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column width={16}>
-                            <Header style={general.subheader} as="h3">Projects are listed in order of most recent with links provided:</Header>
+                            <Header id="project-subheader" as="h3">Projects are listed in order of most recent with links provided:</Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
-                <Grid style={general.container}>
+                <Grid id="project-container">
                     {/* <GnormMusicTablet subSection={subSection} /> */}
                     <OnlinePortfolioTablet subSection={subSection} />
                     <AllChatV2Tablet subSection={subSection} />

@@ -30,24 +30,21 @@
 
 .project-entry-container {
     border: solid white 2px;
+    margin-bottom: 1%!important;
 }
 
 .project-entry-header,
 .project-entry-link-header,
 .project-entry-link,
 .project-entry-list-item {
-    color: white;
-    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    color: white!important;
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"!important;
 }
 
 .project-entry-header {
-    margin-bottom: 5%;
+    margin-bottom: 5%!important;
 }
-
-.project-entry-link-header {}
 
 .project-entry-link {
     text-decoration-line: underline;
 }
-
-.project-entry-list-item {}
