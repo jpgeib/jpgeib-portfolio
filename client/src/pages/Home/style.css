@@ -1,0 +1,38 @@
+#home-page {
+    margin-top: 3%;
+}
+
+#home-container {
+    margin-top: 2%;
+    background-color: rgb(180, 74, 70);
+    overflow-y: auto;
+}
+
+#home-header {
+    font-family: Futura;
+}
+
+#home-profile {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+/* Tablet */
+
+@media (max-width: 1023px) and (min-width: 427) { 
+    #home-container {
+        max-height: 780px;
+    }
+
+    #home-profile {
+        margin-left: 13%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 426px) { 
+    #home-container {
+        max-height: 800px;
+    }
+}

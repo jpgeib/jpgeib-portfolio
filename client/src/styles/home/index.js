@@ -1,21 +1,5 @@
 export const homeStyle = {
     computer: {
-        general: {
-            page: {
-                marginTop: "3%"
-            },
-            container: {
-                marginTop: "2%",
-                backgroundColor: "rgb(180, 74, 70)"
-            },
-            header: {
-                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
-            },
-            profile: {
-                marginTop: "2%",
-                marginLeft: "2%"
-            }
-        },
         bio: {
             container: {
                 marginBottom: "3%"
@@ -60,24 +44,6 @@ export const homeStyle = {
         }
     },
     tablet: {
-        general: {
-            page: {
-                marginTop: "3%"
-            },
-            container: {
-                marginTop: "2%",
-                backgroundColor: "rgb(180, 74, 70)",
-                overflowY: "auto",
-                maxHeight: "780px"
-            },
-            header: {
-                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
-            },
-            profile: {
-                marginTop: "2%",
-                marginLeft: "13%"
-            }
-        },
         bio: {
             container: {
                 marginBottom: "3%"
@@ -119,23 +85,6 @@ export const homeStyle = {
         }
     },
     mobile: {
-        general: {
-            page: {
-                marginTop: "3%"
-            },
-            container: {
-                marginTop: "2%",
-                backgroundColor: "rgb(180, 74, 70)",
-                overflowY: "auto",
-                maxHeight: "800px"
-            },
-            header: {
-                fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
-            },
-            profile: {
-                marginTop: "2%",
-            }
-        },
         bio: {
             container: {
                 marginBottom: "3%"

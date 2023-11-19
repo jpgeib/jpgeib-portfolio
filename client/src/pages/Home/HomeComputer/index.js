@@ -13,18 +13,18 @@ class HomeComputer extends Component {
         
         return (
             <>
-                <div style={general.page}>
+                <div id="home-page">
                     <Grid container>
                         <Grid.Row>
-                            <Header style={general.header} as="h1">James Geib - Full-Stack Web Developer</Header>
+                            <Header id="home-header" as="h1">James Geib - Full-Stack Web Developer</Header>
                         </Grid.Row>
                     </Grid>
-                    <Grid container style={general.container}>
+                    <Grid container id="home-container">
                         <Grid.Row>
                             <Grid.Column width={4}>
                                 <Grid.Row>
                                     <Grid.Column width={16}>
-                                        <Image style={general.profile} src={ProfilePic} size="massive" />
+                                        <Image id="home-profile" src={ProfilePic} size="massive" />
                                     </Grid.Column>
                                 </Grid.Row>
                                 <Grid.Row>
