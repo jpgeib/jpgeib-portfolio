@@ -6,8 +6,8 @@ import "./style.css";
 
 export default (props) => (
     <Menu id="navbar" secondary>
-        <Menu.Item as={Link} content="Home" to="/" />
-        <Dropdown item text="Portfolio">
+        <Menu.Item className="nav-item" as={Link} content="Home" to="/" />
+        <Dropdown className="nav-item" item text="Portfolio">
             <Dropdown.Menu>
                 <Dropdown.Item>
                     <Dropdown text="Web Development">

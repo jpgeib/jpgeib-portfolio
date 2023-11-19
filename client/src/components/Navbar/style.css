@@ -1,5 +1,17 @@
 #navbar {
-    background-color: transparent;
-    margin: 0 5%;
-    width: 90%;
+    background-color: rgb(180, 74, 70);
+    padding: 0 5%;
+    width: 100%;
+    font-family: Futura;
+}
+
+.nav-item {
+    color: white!important;
+    font-weight: 500!important;
+    font-size: 20px;
+}
+
+.menu>.item:hover {
+    background-color:  rgb(180, 74, 70)!important;
+    color: white!important;
 }
