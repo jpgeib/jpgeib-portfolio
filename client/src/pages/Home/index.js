@@ -10,6 +10,9 @@ import "./style.css";
 class Home extends Component {
 
     handleColumnNumber = (width) => {
+        const computerCols = [4, 16, 16, 16, 12];
+        const tabletCols = [8, 8, 10, 10, 16];
+        const mobileCols = [];
         let columnNum;
         if (width <= 426) {
             columnNum = 4;
@@ -27,9 +30,6 @@ class Home extends Component {
         
         return (
             <>
-                {/* {width <= 426 && <HomeMobile text={text} home={home} />}
-                {(width >= 427 && width <= 1023) && <HomeTablet text={text} home={home} />}
-                {width >= 1024 && <HomeComputer text={text} home={home} />} */}
                 <>
                 <div id="home-page">
                     <Grid container>
